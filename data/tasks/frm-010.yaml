@@ -1,0 +1,94 @@
+id: frm-010
+domain: finance
+pattern: form
+difficulty: 1
+trap:
+- a11y
+prompt: Create a two-column intake form that treasury operators use to register a
+  new wire transfer. Collect a display name, an email, a numeric identifier, and a
+  notes field. Show inline validation on the identifier. Primary action submits; a
+  secondary action cancels. Put a compact info icon next to the identifier field with
+  no visible text.
+scales:
+- S
+- M
+- L
+expected_components:
+- Form
+- TextInput
+- TextArea
+- NumberInput
+- Button
+- ButtonSet
+- Grid
+- Column
+expected_tokens:
+- background
+- button-primary
+- button-secondary
+- container-04
+- layer-01
+- spacing-05
+- spacing-06
+- support-error
+- support-success
+- support-warning
+- text-helper
+- text-primary
+- text-secondary
+forbidden: []
+checkpoints:
+- id: no-raw-hex
+  rule_class: R1
+  text: No raw hex, rgb(), or hsl() colors; values bind to tokens.
+  critical: false
+- id: expected-tokens
+  rule_class: R1
+  text: Expected tokens for this task are present.
+  critical: false
+- id: text-role
+  rule_class: R1
+  text: Body and helper copy use text-primary / text-secondary (or text-helper), not
+    a single color for both.
+  critical: false
+- id: catalog-only
+  rule_class: R2
+  text: Only catalog components from the presented pack are imported.
+  critical: true
+- id: compiles
+  rule_class: R2
+  text: TypeScript compiles against @carbon/react.
+  critical: false
+- id: grid-composition
+  rule_class: R2
+  text: Layout uses Grid with Column children.
+  critical: false
+- id: one-primary
+  rule_class: R3
+  text: Exactly one primary button (submit); cancel is secondary.
+  critical: true
+- id: validation-inline
+  rule_class: R3
+  text: Identifier validation is inline on the field, not a modal.
+  critical: false
+- id: no-critical-axe
+  rule_class: R4
+  text: No critical or serious axe-core violations at 1440 or 375.
+  critical: true
+- id: labels
+  rule_class: R4
+  text: Every text input and icon-only control has an accessible name.
+  critical: false
+- id: grid-used
+  rule_class: R6
+  text: A responsive grid (or equivalent pack layout primitive) is used.
+  critical: false
+- id: no-overlap-375
+  rule_class: R6
+  text: No overlapping boxes and no horizontal overflow at 375px.
+  critical: false
+- id: icon-labelled
+  rule_class: R4
+  text: Icon-only controls have iconDescription or aria-label.
+  critical: true
+gold: null

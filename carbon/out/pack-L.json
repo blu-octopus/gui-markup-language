@@ -1,0 +1,8103 @@
+{
+  "id": "L",
+  "description": "full Carbon v11 extract",
+  "source": {
+    "tokens": {
+      "@carbon/themes": "11.84.0",
+      "@carbon/layout": "11.62.0",
+      "@carbon/type": "11.70.0"
+    },
+    "components": {
+      "@carbon/react": "1.119.0"
+    },
+    "lifecycle": {
+      "file": "carbon/sources/v11-migration.md",
+      "upstream": "https://github.com/carbon-design-system/carbon/blob/main/docs/migration/v11.md",
+      "note": "v10 packages reached end of support 2024-09-30"
+    }
+  },
+  "counts": {
+    "tokens": 414,
+    "components": 220
+  },
+  "tokens": [
+    {
+      "name": "ai-aura-end",
+      "scss": "$ai-aura-end",
+      "css": "--cds-ai-aura-end",
+      "category": "color",
+      "role": "ai",
+      "status": "active",
+      "value": "rgba(255, 255, 255, 0)"
+    },
+    {
+      "name": "ai-aura-hover-background",
+      "scss": "$ai-aura-hover-background",
+      "css": "--cds-ai-aura-hover-background",
+      "category": "color",
+      "role": "ai",
+      "status": "active",
+      "value": "#edf5ff"
+    },
+    {
+      "name": "ai-aura-hover-end",
+      "scss": "$ai-aura-hover-end",
+      "css": "--cds-ai-aura-hover-end",
+      "category": "color",
+      "role": "ai",
+      "status": "active",
+      "value": "rgba(255, 255, 255, 0)"
+    },
+    {
+      "name": "ai-aura-hover-start",
+      "scss": "$ai-aura-hover-start",
+      "css": "--cds-ai-aura-hover-start",
+      "category": "color",
+      "role": "ai",
+      "status": "active",
+      "value": "rgba(69, 137, 255, 0.32)"
+    },
+    {
+      "name": "ai-aura-start",
+      "scss": "$ai-aura-start",
+      "css": "--cds-ai-aura-start",
+      "category": "color",
+      "role": "ai",
+      "status": "active",
+      "value": "rgba(69, 137, 255, 0.1)"
+    },
+    {
+      "name": "ai-aura-start-sm",
+      "scss": "$ai-aura-start-sm",
+      "css": "--cds-ai-aura-start-sm",
+      "category": "color",
+      "role": "ai",
+      "status": "active",
+      "value": "rgba(69, 137, 255, 0.16)"
+    },
+    {
+      "name": "ai-border-end",
+      "scss": "$ai-border-end",
+      "css": "--cds-ai-border-end",
+      "category": "color",
+      "role": "ai",
+      "status": "active",
+      "value": "#78a9ff"
+    },
+    {
+      "name": "ai-border-start",
+      "scss": "$ai-border-start",
+      "css": "--cds-ai-border-start",
+      "category": "color",
+      "role": "ai",
+      "status": "active",
+      "value": "rgba(166, 200, 255, 0.64)"
+    },
+    {
+      "name": "ai-border-strong",
+      "scss": "$ai-border-strong",
+      "css": "--cds-ai-border-strong",
+      "category": "color",
+      "role": "ai",
+      "status": "active",
+      "value": "#4589ff"
+    },
+    {
+      "name": "ai-drop-shadow",
+      "scss": "$ai-drop-shadow",
+      "css": "--cds-ai-drop-shadow",
+      "category": "color",
+      "role": "ai",
+      "status": "active",
+      "value": "rgba(15, 98, 254, 0.1)"
+    },
+    {
+      "name": "ai-inner-shadow",
+      "scss": "$ai-inner-shadow",
+      "css": "--cds-ai-inner-shadow",
+      "category": "color",
+      "role": "ai",
+      "status": "active",
+      "value": "rgba(69, 137, 255, 0.1)"
+    },
+    {
+      "name": "ai-overlay",
+      "scss": "$ai-overlay",
+      "css": "--cds-ai-overlay",
+      "category": "color",
+      "role": "ai",
+      "status": "active",
+      "value": "rgba(0, 17, 65, 0.5)"
+    },
+    {
+      "name": "ai-popover-background",
+      "scss": "$ai-popover-background",
+      "css": "--cds-ai-popover-background",
+      "category": "color",
+      "role": "ai",
+      "status": "active",
+      "value": "#ffffff"
+    },
+    {
+      "name": "ai-popover-caret-bottom",
+      "scss": "$ai-popover-caret-bottom",
+      "css": "--cds-ai-popover-caret-bottom",
+      "category": "color",
+      "role": "ai",
+      "status": "active",
+      "value": "#78a9ff"
+    },
+    {
+      "name": "ai-popover-caret-bottom-background",
+      "scss": "$ai-popover-caret-bottom-background",
+      "css": "--cds-ai-popover-caret-bottom-background",
+      "category": "color",
+      "role": "ai",
+      "status": "active",
+      "value": "#eaf1ff"
+    },
+    {
+      "name": "ai-popover-caret-bottom-background-actions",
+      "scss": "$ai-popover-caret-bottom-background-actions",
+      "css": "--cds-ai-popover-caret-bottom-background-actions",
+      "category": "color",
+      "role": "ai",
+      "status": "active",
+      "value": "#e9effa"
+    },
+    {
+      "name": "ai-popover-caret-center",
+      "scss": "$ai-popover-caret-center",
+      "css": "--cds-ai-popover-caret-center",
+      "category": "color",
+      "role": "ai",
+      "status": "active",
+      "value": "#a0c3ff"
+    },
+    {
+      "name": "ai-popover-shadow-outer-01",
+      "scss": "$ai-popover-shadow-outer-01",
+      "css": "--cds-ai-popover-shadow-outer-01",
+      "category": "color",
+      "role": "ai",
+      "status": "active",
+      "value": "rgba(0, 67, 206, 0.06)"
+    },
+    {
+      "name": "ai-popover-shadow-outer-02",
+      "scss": "$ai-popover-shadow-outer-02",
+      "css": "--cds-ai-popover-shadow-outer-02",
+      "category": "color",
+      "role": "ai",
+      "status": "active",
+      "value": "rgba(0, 0, 0, 0.04)"
+    },
+    {
+      "name": "ai-skeleton-background",
+      "scss": "$ai-skeleton-background",
+      "css": "--cds-ai-skeleton-background",
+      "category": "color",
+      "role": "ai",
+      "status": "active",
+      "value": "#d0e2ff"
+    },
+    {
+      "name": "ai-skeleton-element-background",
+      "scss": "$ai-skeleton-element-background",
+      "css": "--cds-ai-skeleton-element-background",
+      "category": "color",
+      "role": "ai",
+      "status": "active",
+      "value": "#4589ff"
+    },
+    {
+      "name": "background",
+      "scss": "$background",
+      "css": "--cds-background",
+      "category": "color",
+      "role": "background",
+      "status": "active",
+      "value": "#ffffff"
+    },
+    {
+      "name": "background-active",
+      "scss": "$background-active",
+      "css": "--cds-background-active",
+      "category": "color",
+      "role": "background",
+      "status": "active",
+      "value": "rgba(141, 141, 141, 0.5)"
+    },
+    {
+      "name": "background-brand",
+      "scss": "$background-brand",
+      "css": "--cds-background-brand",
+      "category": "color",
+      "role": "background",
+      "status": "active",
+      "value": "#0f62fe"
+    },
+    {
+      "name": "background-hover",
+      "scss": "$background-hover",
+      "css": "--cds-background-hover",
+      "category": "color",
+      "role": "background",
+      "status": "active",
+      "value": "rgba(141, 141, 141, 0.12)"
+    },
+    {
+      "name": "background-inverse",
+      "scss": "$background-inverse",
+      "css": "--cds-background-inverse",
+      "category": "color",
+      "role": "background",
+      "status": "active",
+      "value": "#393939"
+    },
+    {
+      "name": "background-inverse-hover",
+      "scss": "$background-inverse-hover",
+      "css": "--cds-background-inverse-hover",
+      "category": "color",
+      "role": "background",
+      "status": "active",
+      "value": "#474747"
+    },
+    {
+      "name": "background-selected",
+      "scss": "$background-selected",
+      "css": "--cds-background-selected",
+      "category": "color",
+      "role": "background",
+      "status": "active",
+      "value": "rgba(141, 141, 141, 0.2)"
+    },
+    {
+      "name": "background-selected-hover",
+      "scss": "$background-selected-hover",
+      "css": "--cds-background-selected-hover",
+      "category": "color",
+      "role": "background",
+      "status": "active",
+      "value": "rgba(141, 141, 141, 0.32)"
+    },
+    {
+      "name": "border-disabled",
+      "scss": "$border-disabled",
+      "css": "--cds-border-disabled",
+      "category": "color",
+      "role": "border",
+      "status": "active",
+      "value": "#c6c6c6"
+    },
+    {
+      "name": "border-interactive",
+      "scss": "$border-interactive",
+      "css": "--cds-border-interactive",
+      "category": "color",
+      "role": "border",
+      "status": "active",
+      "value": "#0f62fe"
+    },
+    {
+      "name": "border-inverse",
+      "scss": "$border-inverse",
+      "css": "--cds-border-inverse",
+      "category": "color",
+      "role": "border",
+      "status": "active",
+      "value": "#161616"
+    },
+    {
+      "name": "border-strong-01",
+      "scss": "$border-strong-01",
+      "css": "--cds-border-strong-01",
+      "category": "color",
+      "role": "border-strong",
+      "status": "active",
+      "value": "#8d8d8d"
+    },
+    {
+      "name": "border-strong-02",
+      "scss": "$border-strong-02",
+      "css": "--cds-border-strong-02",
+      "category": "color",
+      "role": "border-strong",
+      "status": "active",
+      "value": "#8d8d8d"
+    },
+    {
+      "name": "border-strong-03",
+      "scss": "$border-strong-03",
+      "css": "--cds-border-strong-03",
+      "category": "color",
+      "role": "border-strong",
+      "status": "active",
+      "value": "#8d8d8d"
+    },
+    {
+      "name": "border-subtle-00",
+      "scss": "$border-subtle-00",
+      "css": "--cds-border-subtle-00",
+      "category": "color",
+      "role": "border-subtle",
+      "status": "active",
+      "value": "#e0e0e0"
+    },
+    {
+      "name": "border-subtle-01",
+      "scss": "$border-subtle-01",
+      "css": "--cds-border-subtle-01",
+      "category": "color",
+      "role": "border-subtle",
+      "status": "active",
+      "value": "#c6c6c6"
+    },
+    {
+      "name": "border-subtle-02",
+      "scss": "$border-subtle-02",
+      "css": "--cds-border-subtle-02",
+      "category": "color",
+      "role": "border-subtle",
+      "status": "active",
+      "value": "#e0e0e0"
+    },
+    {
+      "name": "border-subtle-03",
+      "scss": "$border-subtle-03",
+      "css": "--cds-border-subtle-03",
+      "category": "color",
+      "role": "border-subtle",
+      "status": "active",
+      "value": "#c6c6c6"
+    },
+    {
+      "name": "border-subtle-selected-01",
+      "scss": "$border-subtle-selected-01",
+      "css": "--cds-border-subtle-selected-01",
+      "category": "color",
+      "role": "border-subtle",
+      "status": "active",
+      "value": "#c6c6c6"
+    },
+    {
+      "name": "border-subtle-selected-02",
+      "scss": "$border-subtle-selected-02",
+      "css": "--cds-border-subtle-selected-02",
+      "category": "color",
+      "role": "border-subtle",
+      "status": "active",
+      "value": "#c6c6c6"
+    },
+    {
+      "name": "border-subtle-selected-03",
+      "scss": "$border-subtle-selected-03",
+      "css": "--cds-border-subtle-selected-03",
+      "category": "color",
+      "role": "border-subtle",
+      "status": "active",
+      "value": "#c6c6c6"
+    },
+    {
+      "name": "border-tile-01",
+      "scss": "$border-tile-01",
+      "css": "--cds-border-tile-01",
+      "category": "color",
+      "role": "border-tile",
+      "status": "active",
+      "value": "#c6c6c6"
+    },
+    {
+      "name": "border-tile-02",
+      "scss": "$border-tile-02",
+      "css": "--cds-border-tile-02",
+      "category": "color",
+      "role": "border-tile",
+      "status": "active",
+      "value": "#a8a8a8"
+    },
+    {
+      "name": "border-tile-03",
+      "scss": "$border-tile-03",
+      "css": "--cds-border-tile-03",
+      "category": "color",
+      "role": "border-tile",
+      "status": "active",
+      "value": "#c6c6c6"
+    },
+    {
+      "name": "chat-avatar-agent",
+      "scss": "$chat-avatar-agent",
+      "css": "--cds-chat-avatar-agent",
+      "category": "color",
+      "role": "chat",
+      "status": "active",
+      "value": "#393939"
+    },
+    {
+      "name": "chat-avatar-bot",
+      "scss": "$chat-avatar-bot",
+      "css": "--cds-chat-avatar-bot",
+      "category": "color",
+      "role": "chat",
+      "status": "active",
+      "value": "#6f6f6f"
+    },
+    {
+      "name": "chat-avatar-user",
+      "scss": "$chat-avatar-user",
+      "css": "--cds-chat-avatar-user",
+      "category": "color",
+      "role": "chat",
+      "status": "active",
+      "value": "#0f62fe"
+    },
+    {
+      "name": "chat-bubble-agent",
+      "scss": "$chat-bubble-agent",
+      "css": "--cds-chat-bubble-agent",
+      "category": "color",
+      "role": "chat",
+      "status": "active",
+      "value": "#ffffff"
+    },
+    {
+      "name": "chat-bubble-agent-text",
+      "scss": "$chat-bubble-agent-text",
+      "css": "--cds-chat-bubble-agent-text",
+      "category": "color",
+      "role": "chat",
+      "status": "active",
+      "value": "#161616"
+    },
+    {
+      "name": "chat-bubble-border",
+      "scss": "$chat-bubble-border",
+      "css": "--cds-chat-bubble-border",
+      "category": "color",
+      "role": "chat",
+      "status": "active",
+      "value": "#e0e0e0"
+    },
+    {
+      "name": "chat-bubble-user",
+      "scss": "$chat-bubble-user",
+      "css": "--cds-chat-bubble-user",
+      "category": "color",
+      "role": "chat",
+      "status": "active",
+      "value": "#e0e0e0"
+    },
+    {
+      "name": "chat-bubble-user-text",
+      "scss": "$chat-bubble-user-text",
+      "css": "--cds-chat-bubble-user-text",
+      "category": "color",
+      "role": "chat",
+      "status": "active",
+      "value": "#161616"
+    },
+    {
+      "name": "chat-button",
+      "scss": "$chat-button",
+      "css": "--cds-chat-button",
+      "category": "color",
+      "role": "chat",
+      "status": "active",
+      "value": "#0f62fe"
+    },
+    {
+      "name": "chat-button-active",
+      "scss": "$chat-button-active",
+      "css": "--cds-chat-button-active",
+      "category": "color",
+      "role": "chat",
+      "status": "active",
+      "value": "rgba(141, 141, 141, 0.5)"
+    },
+    {
+      "name": "chat-button-hover",
+      "scss": "$chat-button-hover",
+      "css": "--cds-chat-button-hover",
+      "category": "color",
+      "role": "chat",
+      "status": "active",
+      "value": "rgba(141, 141, 141, 0.12)"
+    },
+    {
+      "name": "chat-button-selected",
+      "scss": "$chat-button-selected",
+      "css": "--cds-chat-button-selected",
+      "category": "color",
+      "role": "chat",
+      "status": "active",
+      "value": "rgba(141, 141, 141, 0.2)"
+    },
+    {
+      "name": "chat-button-text-hover",
+      "scss": "$chat-button-text-hover",
+      "css": "--cds-chat-button-text-hover",
+      "category": "color",
+      "role": "chat",
+      "status": "active",
+      "value": "#0043ce"
+    },
+    {
+      "name": "chat-button-text-selected",
+      "scss": "$chat-button-text-selected",
+      "css": "--cds-chat-button-text-selected",
+      "category": "color",
+      "role": "chat",
+      "status": "active",
+      "value": "#525252"
+    },
+    {
+      "name": "chat-header-background",
+      "scss": "$chat-header-background",
+      "css": "--cds-chat-header-background",
+      "category": "color",
+      "role": "chat",
+      "status": "active",
+      "value": "#ffffff"
+    },
+    {
+      "name": "chat-header-text",
+      "scss": "$chat-header-text",
+      "css": "--cds-chat-header-text",
+      "category": "color",
+      "role": "chat",
+      "status": "active",
+      "value": "#161616"
+    },
+    {
+      "name": "chat-prompt-background",
+      "scss": "$chat-prompt-background",
+      "css": "--cds-chat-prompt-background",
+      "category": "color",
+      "role": "chat",
+      "status": "active",
+      "value": "#ffffff"
+    },
+    {
+      "name": "chat-prompt-border-end",
+      "scss": "$chat-prompt-border-end",
+      "css": "--cds-chat-prompt-border-end",
+      "category": "color",
+      "role": "chat",
+      "status": "active",
+      "value": "rgba(244, 244, 244, 0)"
+    },
+    {
+      "name": "chat-prompt-border-start",
+      "scss": "$chat-prompt-border-start",
+      "css": "--cds-chat-prompt-border-start",
+      "category": "color",
+      "role": "chat",
+      "status": "active",
+      "value": "#f4f4f4"
+    },
+    {
+      "name": "chat-prompt-text",
+      "scss": "$chat-prompt-text",
+      "css": "--cds-chat-prompt-text",
+      "category": "color",
+      "role": "chat",
+      "status": "active",
+      "value": "#161616"
+    },
+    {
+      "name": "chat-shell-background",
+      "scss": "$chat-shell-background",
+      "css": "--cds-chat-shell-background",
+      "category": "color",
+      "role": "chat",
+      "status": "active",
+      "value": "#ffffff"
+    },
+    {
+      "name": "color-scheme",
+      "scss": "$color-scheme",
+      "css": "--cds-color-scheme",
+      "category": "misc",
+      "role": "misc",
+      "status": "active",
+      "value": "light"
+    },
+    {
+      "name": "field-01",
+      "scss": "$field-01",
+      "css": "--cds-field-01",
+      "category": "color",
+      "role": "field",
+      "status": "active",
+      "value": "#f4f4f4"
+    },
+    {
+      "name": "field-02",
+      "scss": "$field-02",
+      "css": "--cds-field-02",
+      "category": "color",
+      "role": "field",
+      "status": "active",
+      "value": "#ffffff"
+    },
+    {
+      "name": "field-03",
+      "scss": "$field-03",
+      "css": "--cds-field-03",
+      "category": "color",
+      "role": "field",
+      "status": "active",
+      "value": "#f4f4f4"
+    },
+    {
+      "name": "field-hover-01",
+      "scss": "$field-hover-01",
+      "css": "--cds-field-hover-01",
+      "category": "color",
+      "role": "field",
+      "status": "active",
+      "value": "#e8e8e8"
+    },
+    {
+      "name": "field-hover-02",
+      "scss": "$field-hover-02",
+      "css": "--cds-field-hover-02",
+      "category": "color",
+      "role": "field",
+      "status": "active",
+      "value": "#e8e8e8"
+    },
+    {
+      "name": "field-hover-03",
+      "scss": "$field-hover-03",
+      "css": "--cds-field-hover-03",
+      "category": "color",
+      "role": "field",
+      "status": "active",
+      "value": "#e8e8e8"
+    },
+    {
+      "name": "focus",
+      "scss": "$focus",
+      "css": "--cds-focus",
+      "category": "color",
+      "role": "focus",
+      "status": "active",
+      "value": "#0f62fe"
+    },
+    {
+      "name": "focus-inset",
+      "scss": "$focus-inset",
+      "css": "--cds-focus-inset",
+      "category": "color",
+      "role": "focus",
+      "status": "active",
+      "value": "#ffffff"
+    },
+    {
+      "name": "focus-inverse",
+      "scss": "$focus-inverse",
+      "css": "--cds-focus-inverse",
+      "category": "color",
+      "role": "focus",
+      "status": "active",
+      "value": "#ffffff"
+    },
+    {
+      "name": "highlight",
+      "scss": "$highlight",
+      "css": "--cds-highlight",
+      "category": "color",
+      "role": "highlight",
+      "status": "active",
+      "value": "#d0e2ff"
+    },
+    {
+      "name": "icon-disabled",
+      "scss": "$icon-disabled",
+      "css": "--cds-icon-disabled",
+      "category": "color",
+      "role": "icon",
+      "status": "active",
+      "value": "rgba(22, 22, 22, 0.25)"
+    },
+    {
+      "name": "icon-interactive",
+      "scss": "$icon-interactive",
+      "css": "--cds-icon-interactive",
+      "category": "color",
+      "role": "icon",
+      "status": "active",
+      "value": "#0f62fe"
+    },
+    {
+      "name": "icon-inverse",
+      "scss": "$icon-inverse",
+      "css": "--cds-icon-inverse",
+      "category": "color",
+      "role": "icon",
+      "status": "active",
+      "value": "#ffffff"
+    },
+    {
+      "name": "icon-on-color",
+      "scss": "$icon-on-color",
+      "css": "--cds-icon-on-color",
+      "category": "color",
+      "role": "icon-on-color",
+      "status": "active",
+      "value": "#ffffff"
+    },
+    {
+      "name": "icon-on-color-disabled",
+      "scss": "$icon-on-color-disabled",
+      "css": "--cds-icon-on-color-disabled",
+      "category": "color",
+      "role": "icon-on-color",
+      "status": "active",
+      "value": "#8d8d8d"
+    },
+    {
+      "name": "icon-primary",
+      "scss": "$icon-primary",
+      "css": "--cds-icon-primary",
+      "category": "color",
+      "role": "icon",
+      "status": "active",
+      "value": "#161616"
+    },
+    {
+      "name": "icon-secondary",
+      "scss": "$icon-secondary",
+      "css": "--cds-icon-secondary",
+      "category": "color",
+      "role": "icon",
+      "status": "active",
+      "value": "#525252"
+    },
+    {
+      "name": "interactive",
+      "scss": "$interactive",
+      "css": "--cds-interactive",
+      "category": "color",
+      "role": "interactive",
+      "status": "active",
+      "value": "#0f62fe"
+    },
+    {
+      "name": "layer-01",
+      "scss": "$layer-01",
+      "css": "--cds-layer-01",
+      "category": "color",
+      "role": "layer",
+      "status": "active",
+      "value": "#f4f4f4"
+    },
+    {
+      "name": "layer-02",
+      "scss": "$layer-02",
+      "css": "--cds-layer-02",
+      "category": "color",
+      "role": "layer",
+      "status": "active",
+      "value": "#ffffff"
+    },
+    {
+      "name": "layer-03",
+      "scss": "$layer-03",
+      "css": "--cds-layer-03",
+      "category": "color",
+      "role": "layer",
+      "status": "active",
+      "value": "#f4f4f4"
+    },
+    {
+      "name": "layer-accent-01",
+      "scss": "$layer-accent-01",
+      "css": "--cds-layer-accent-01",
+      "category": "color",
+      "role": "layer-accent",
+      "status": "active",
+      "value": "#e0e0e0"
+    },
+    {
+      "name": "layer-accent-02",
+      "scss": "$layer-accent-02",
+      "css": "--cds-layer-accent-02",
+      "category": "color",
+      "role": "layer-accent",
+      "status": "active",
+      "value": "#e0e0e0"
+    },
+    {
+      "name": "layer-accent-03",
+      "scss": "$layer-accent-03",
+      "css": "--cds-layer-accent-03",
+      "category": "color",
+      "role": "layer-accent",
+      "status": "active",
+      "value": "#e0e0e0"
+    },
+    {
+      "name": "layer-accent-active-01",
+      "scss": "$layer-accent-active-01",
+      "css": "--cds-layer-accent-active-01",
+      "category": "color",
+      "role": "layer-accent",
+      "status": "active",
+      "value": "#a8a8a8"
+    },
+    {
+      "name": "layer-accent-active-02",
+      "scss": "$layer-accent-active-02",
+      "css": "--cds-layer-accent-active-02",
+      "category": "color",
+      "role": "layer-accent",
+      "status": "active",
+      "value": "#a8a8a8"
+    },
+    {
+      "name": "layer-accent-active-03",
+      "scss": "$layer-accent-active-03",
+      "css": "--cds-layer-accent-active-03",
+      "category": "color",
+      "role": "layer-accent",
+      "status": "active",
+      "value": "#a8a8a8"
+    },
+    {
+      "name": "layer-accent-hover-01",
+      "scss": "$layer-accent-hover-01",
+      "css": "--cds-layer-accent-hover-01",
+      "category": "color",
+      "role": "layer-accent",
+      "status": "active",
+      "value": "#d1d1d1"
+    },
+    {
+      "name": "layer-accent-hover-02",
+      "scss": "$layer-accent-hover-02",
+      "css": "--cds-layer-accent-hover-02",
+      "category": "color",
+      "role": "layer-accent",
+      "status": "active",
+      "value": "#d1d1d1"
+    },
+    {
+      "name": "layer-accent-hover-03",
+      "scss": "$layer-accent-hover-03",
+      "css": "--cds-layer-accent-hover-03",
+      "category": "color",
+      "role": "layer-accent",
+      "status": "active",
+      "value": "#d1d1d1"
+    },
+    {
+      "name": "layer-active-01",
+      "scss": "$layer-active-01",
+      "css": "--cds-layer-active-01",
+      "category": "color",
+      "role": "layer",
+      "status": "active",
+      "value": "#c6c6c6"
+    },
+    {
+      "name": "layer-active-02",
+      "scss": "$layer-active-02",
+      "css": "--cds-layer-active-02",
+      "category": "color",
+      "role": "layer",
+      "status": "active",
+      "value": "#c6c6c6"
+    },
+    {
+      "name": "layer-active-03",
+      "scss": "$layer-active-03",
+      "css": "--cds-layer-active-03",
+      "category": "color",
+      "role": "layer",
+      "status": "active",
+      "value": "#c6c6c6"
+    },
+    {
+      "name": "layer-background-01",
+      "scss": "$layer-background-01",
+      "css": "--cds-layer-background-01",
+      "category": "color",
+      "role": "layer",
+      "status": "active",
+      "value": "#ffffff"
+    },
+    {
+      "name": "layer-background-02",
+      "scss": "$layer-background-02",
+      "css": "--cds-layer-background-02",
+      "category": "color",
+      "role": "layer",
+      "status": "active",
+      "value": "#f4f4f4"
+    },
+    {
+      "name": "layer-background-03",
+      "scss": "$layer-background-03",
+      "css": "--cds-layer-background-03",
+      "category": "color",
+      "role": "layer",
+      "status": "active",
+      "value": "#ffffff"
+    },
+    {
+      "name": "layer-hover-01",
+      "scss": "$layer-hover-01",
+      "css": "--cds-layer-hover-01",
+      "category": "color",
+      "role": "layer",
+      "status": "active",
+      "value": "#e8e8e8"
+    },
+    {
+      "name": "layer-hover-02",
+      "scss": "$layer-hover-02",
+      "css": "--cds-layer-hover-02",
+      "category": "color",
+      "role": "layer",
+      "status": "active",
+      "value": "#e8e8e8"
+    },
+    {
+      "name": "layer-hover-03",
+      "scss": "$layer-hover-03",
+      "css": "--cds-layer-hover-03",
+      "category": "color",
+      "role": "layer",
+      "status": "active",
+      "value": "#e8e8e8"
+    },
+    {
+      "name": "layer-selected-01",
+      "scss": "$layer-selected-01",
+      "css": "--cds-layer-selected-01",
+      "category": "color",
+      "role": "layer-selected",
+      "status": "active",
+      "value": "#e0e0e0"
+    },
+    {
+      "name": "layer-selected-02",
+      "scss": "$layer-selected-02",
+      "css": "--cds-layer-selected-02",
+      "category": "color",
+      "role": "layer-selected",
+      "status": "active",
+      "value": "#e0e0e0"
+    },
+    {
+      "name": "layer-selected-03",
+      "scss": "$layer-selected-03",
+      "css": "--cds-layer-selected-03",
+      "category": "color",
+      "role": "layer-selected",
+      "status": "active",
+      "value": "#e0e0e0"
+    },
+    {
+      "name": "layer-selected-disabled",
+      "scss": "$layer-selected-disabled",
+      "css": "--cds-layer-selected-disabled",
+      "category": "color",
+      "role": "layer-selected",
+      "status": "active",
+      "value": "#8d8d8d"
+    },
+    {
+      "name": "layer-selected-hover-01",
+      "scss": "$layer-selected-hover-01",
+      "css": "--cds-layer-selected-hover-01",
+      "category": "color",
+      "role": "layer-selected",
+      "status": "active",
+      "value": "#d1d1d1"
+    },
+    {
+      "name": "layer-selected-hover-02",
+      "scss": "$layer-selected-hover-02",
+      "css": "--cds-layer-selected-hover-02",
+      "category": "color",
+      "role": "layer-selected",
+      "status": "active",
+      "value": "#d1d1d1"
+    },
+    {
+      "name": "layer-selected-hover-03",
+      "scss": "$layer-selected-hover-03",
+      "css": "--cds-layer-selected-hover-03",
+      "category": "color",
+      "role": "layer-selected",
+      "status": "active",
+      "value": "#d1d1d1"
+    },
+    {
+      "name": "layer-selected-inverse",
+      "scss": "$layer-selected-inverse",
+      "css": "--cds-layer-selected-inverse",
+      "category": "color",
+      "role": "layer-selected",
+      "status": "active",
+      "value": "#161616"
+    },
+    {
+      "name": "link-inverse",
+      "scss": "$link-inverse",
+      "css": "--cds-link-inverse",
+      "category": "color",
+      "role": "link",
+      "status": "active",
+      "value": "#78a9ff"
+    },
+    {
+      "name": "link-inverse-active",
+      "scss": "$link-inverse-active",
+      "css": "--cds-link-inverse-active",
+      "category": "color",
+      "role": "link",
+      "status": "active",
+      "value": "#f4f4f4"
+    },
+    {
+      "name": "link-inverse-hover",
+      "scss": "$link-inverse-hover",
+      "css": "--cds-link-inverse-hover",
+      "category": "color",
+      "role": "link",
+      "status": "active",
+      "value": "#a6c8ff"
+    },
+    {
+      "name": "link-inverse-visited",
+      "scss": "$link-inverse-visited",
+      "css": "--cds-link-inverse-visited",
+      "category": "color",
+      "role": "link",
+      "status": "active",
+      "value": "#be95ff"
+    },
+    {
+      "name": "link-primary",
+      "scss": "$link-primary",
+      "css": "--cds-link-primary",
+      "category": "color",
+      "role": "link",
+      "status": "active",
+      "value": "#0f62fe"
+    },
+    {
+      "name": "link-primary-hover",
+      "scss": "$link-primary-hover",
+      "css": "--cds-link-primary-hover",
+      "category": "color",
+      "role": "link",
+      "status": "active",
+      "value": "#0043ce"
+    },
+    {
+      "name": "link-secondary",
+      "scss": "$link-secondary",
+      "css": "--cds-link-secondary",
+      "category": "color",
+      "role": "link",
+      "status": "active",
+      "value": "#0043ce"
+    },
+    {
+      "name": "link-visited",
+      "scss": "$link-visited",
+      "css": "--cds-link-visited",
+      "category": "color",
+      "role": "link",
+      "status": "active",
+      "value": "#8a3ffc"
+    },
+    {
+      "name": "overlay",
+      "scss": "$overlay",
+      "css": "--cds-overlay",
+      "category": "color",
+      "role": "overlay",
+      "status": "active",
+      "value": "rgba(0, 0, 0, 0.6)"
+    },
+    {
+      "name": "shadow",
+      "scss": "$shadow",
+      "css": "--cds-shadow",
+      "category": "color",
+      "role": "shadow",
+      "status": "active",
+      "value": "rgba(0, 0, 0, 0.3)"
+    },
+    {
+      "name": "skeleton-background",
+      "scss": "$skeleton-background",
+      "css": "--cds-skeleton-background",
+      "category": "color",
+      "role": "skeleton",
+      "status": "active",
+      "value": "#e8e8e8"
+    },
+    {
+      "name": "skeleton-element",
+      "scss": "$skeleton-element",
+      "css": "--cds-skeleton-element",
+      "category": "color",
+      "role": "skeleton",
+      "status": "active",
+      "value": "#c6c6c6"
+    },
+    {
+      "name": "support-caution-major",
+      "scss": "$support-caution-major",
+      "css": "--cds-support-caution-major",
+      "category": "color",
+      "role": "support",
+      "status": "active",
+      "value": "#ff832b"
+    },
+    {
+      "name": "support-caution-minor",
+      "scss": "$support-caution-minor",
+      "css": "--cds-support-caution-minor",
+      "category": "color",
+      "role": "support",
+      "status": "active",
+      "value": "#f1c21b"
+    },
+    {
+      "name": "support-caution-undefined",
+      "scss": "$support-caution-undefined",
+      "css": "--cds-support-caution-undefined",
+      "category": "color",
+      "role": "support",
+      "status": "active",
+      "value": "#8a3ffc"
+    },
+    {
+      "name": "support-error",
+      "scss": "$support-error",
+      "css": "--cds-support-error",
+      "category": "color",
+      "role": "support",
+      "status": "active",
+      "value": "#da1e28"
+    },
+    {
+      "name": "support-error-inverse",
+      "scss": "$support-error-inverse",
+      "css": "--cds-support-error-inverse",
+      "category": "color",
+      "role": "support",
+      "status": "active",
+      "value": "#fa4d56"
+    },
+    {
+      "name": "support-info",
+      "scss": "$support-info",
+      "css": "--cds-support-info",
+      "category": "color",
+      "role": "support",
+      "status": "active",
+      "value": "#0043ce"
+    },
+    {
+      "name": "support-info-inverse",
+      "scss": "$support-info-inverse",
+      "css": "--cds-support-info-inverse",
+      "category": "color",
+      "role": "support",
+      "status": "active",
+      "value": "#4589ff"
+    },
+    {
+      "name": "support-success",
+      "scss": "$support-success",
+      "css": "--cds-support-success",
+      "category": "color",
+      "role": "support",
+      "status": "active",
+      "value": "#24a148"
+    },
+    {
+      "name": "support-success-inverse",
+      "scss": "$support-success-inverse",
+      "css": "--cds-support-success-inverse",
+      "category": "color",
+      "role": "support",
+      "status": "active",
+      "value": "#42be65"
+    },
+    {
+      "name": "support-warning",
+      "scss": "$support-warning",
+      "css": "--cds-support-warning",
+      "category": "color",
+      "role": "support",
+      "status": "active",
+      "value": "#f1c21b"
+    },
+    {
+      "name": "support-warning-inverse",
+      "scss": "$support-warning-inverse",
+      "css": "--cds-support-warning-inverse",
+      "category": "color",
+      "role": "support",
+      "status": "active",
+      "value": "#f1c21b"
+    },
+    {
+      "name": "syntax-angle-bracket",
+      "scss": "$syntax-angle-bracket",
+      "css": "--cds-syntax-angle-bracket",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#697077"
+    },
+    {
+      "name": "syntax-annotation",
+      "scss": "$syntax-annotation",
+      "css": "--cds-syntax-annotation",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#007d79"
+    },
+    {
+      "name": "syntax-arithmetic-operator",
+      "scss": "$syntax-arithmetic-operator",
+      "css": "--cds-syntax-arithmetic-operator",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#343a3f"
+    },
+    {
+      "name": "syntax-atom",
+      "scss": "$syntax-atom",
+      "css": "--cds-syntax-atom",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#161616"
+    },
+    {
+      "name": "syntax-attribute",
+      "scss": "$syntax-attribute",
+      "css": "--cds-syntax-attribute",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#00539a"
+    },
+    {
+      "name": "syntax-attribute-name",
+      "scss": "$syntax-attribute-name",
+      "css": "--cds-syntax-attribute-name",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#00539a"
+    },
+    {
+      "name": "syntax-attribute-value",
+      "scss": "$syntax-attribute-value",
+      "css": "--cds-syntax-attribute-value",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#161616"
+    },
+    {
+      "name": "syntax-bitwise-operator",
+      "scss": "$syntax-bitwise-operator",
+      "css": "--cds-syntax-bitwise-operator",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#343a3f"
+    },
+    {
+      "name": "syntax-block-comment",
+      "scss": "$syntax-block-comment",
+      "css": "--cds-syntax-block-comment",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#198038"
+    },
+    {
+      "name": "syntax-bool",
+      "scss": "$syntax-bool",
+      "css": "--cds-syntax-bool",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#161616"
+    },
+    {
+      "name": "syntax-brace",
+      "scss": "$syntax-brace",
+      "css": "--cds-syntax-brace",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#343a3f"
+    },
+    {
+      "name": "syntax-bracket",
+      "scss": "$syntax-bracket",
+      "css": "--cds-syntax-bracket",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#343a3f"
+    },
+    {
+      "name": "syntax-character",
+      "scss": "$syntax-character",
+      "css": "--cds-syntax-character",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#161616"
+    },
+    {
+      "name": "syntax-class-name",
+      "scss": "$syntax-class-name",
+      "css": "--cds-syntax-class-name",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#007d79"
+    },
+    {
+      "name": "syntax-color",
+      "scss": "$syntax-color",
+      "css": "--cds-syntax-color",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#161616"
+    },
+    {
+      "name": "syntax-comment",
+      "scss": "$syntax-comment",
+      "css": "--cds-syntax-comment",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#198038"
+    },
+    {
+      "name": "syntax-compare-operator",
+      "scss": "$syntax-compare-operator",
+      "css": "--cds-syntax-compare-operator",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#343a3f"
+    },
+    {
+      "name": "syntax-constant",
+      "scss": "$syntax-constant",
+      "css": "--cds-syntax-constant",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#0f62fe"
+    },
+    {
+      "name": "syntax-content",
+      "scss": "$syntax-content",
+      "css": "--cds-syntax-content",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#161616"
+    },
+    {
+      "name": "syntax-content-separator",
+      "scss": "$syntax-content-separator",
+      "css": "--cds-syntax-content-separator",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#343a3f"
+    },
+    {
+      "name": "syntax-control-keyword",
+      "scss": "$syntax-control-keyword",
+      "css": "--cds-syntax-control-keyword",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#6929c4"
+    },
+    {
+      "name": "syntax-control-operator",
+      "scss": "$syntax-control-operator",
+      "css": "--cds-syntax-control-operator",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#6929c4"
+    },
+    {
+      "name": "syntax-definition",
+      "scss": "$syntax-definition",
+      "css": "--cds-syntax-definition",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#00539a"
+    },
+    {
+      "name": "syntax-definition-keyword",
+      "scss": "$syntax-definition-keyword",
+      "css": "--cds-syntax-definition-keyword",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#00539a"
+    },
+    {
+      "name": "syntax-definition-operator",
+      "scss": "$syntax-definition-operator",
+      "css": "--cds-syntax-definition-operator",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#00539a"
+    },
+    {
+      "name": "syntax-deleted",
+      "scss": "$syntax-deleted",
+      "css": "--cds-syntax-deleted",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#ffd7d9"
+    },
+    {
+      "name": "syntax-deref-operator",
+      "scss": "$syntax-deref-operator",
+      "css": "--cds-syntax-deref-operator",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#343a3f"
+    },
+    {
+      "name": "syntax-doc-comment",
+      "scss": "$syntax-doc-comment",
+      "css": "--cds-syntax-doc-comment",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#198038"
+    },
+    {
+      "name": "syntax-doc-string",
+      "scss": "$syntax-doc-string",
+      "css": "--cds-syntax-doc-string",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#161616"
+    },
+    {
+      "name": "syntax-document-meta",
+      "scss": "$syntax-document-meta",
+      "css": "--cds-syntax-document-meta",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#198038"
+    },
+    {
+      "name": "syntax-emphasis",
+      "scss": "$syntax-emphasis",
+      "css": "--cds-syntax-emphasis",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#161616"
+    },
+    {
+      "name": "syntax-escape",
+      "scss": "$syntax-escape",
+      "css": "--cds-syntax-escape",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#343a3f"
+    },
+    {
+      "name": "syntax-float",
+      "scss": "$syntax-float",
+      "css": "--cds-syntax-float",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#198038"
+    },
+    {
+      "name": "syntax-function",
+      "scss": "$syntax-function",
+      "css": "--cds-syntax-function",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#8e6a00"
+    },
+    {
+      "name": "syntax-heading",
+      "scss": "$syntax-heading",
+      "css": "--cds-syntax-heading",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#00539a"
+    },
+    {
+      "name": "syntax-heading-1",
+      "scss": "$syntax-heading-1",
+      "css": "--cds-syntax-heading-1",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#00539a"
+    },
+    {
+      "name": "syntax-heading-2",
+      "scss": "$syntax-heading-2",
+      "css": "--cds-syntax-heading-2",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#00539a"
+    },
+    {
+      "name": "syntax-heading-3",
+      "scss": "$syntax-heading-3",
+      "css": "--cds-syntax-heading-3",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#00539a"
+    },
+    {
+      "name": "syntax-heading-4",
+      "scss": "$syntax-heading-4",
+      "css": "--cds-syntax-heading-4",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#00539a"
+    },
+    {
+      "name": "syntax-heading-5",
+      "scss": "$syntax-heading-5",
+      "css": "--cds-syntax-heading-5",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#00539a"
+    },
+    {
+      "name": "syntax-heading-6",
+      "scss": "$syntax-heading-6",
+      "css": "--cds-syntax-heading-6",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#00539a"
+    },
+    {
+      "name": "syntax-inserted",
+      "scss": "$syntax-inserted",
+      "css": "--cds-syntax-inserted",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#a7f0ba"
+    },
+    {
+      "name": "syntax-integer",
+      "scss": "$syntax-integer",
+      "css": "--cds-syntax-integer",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#198038"
+    },
+    {
+      "name": "syntax-invalid",
+      "scss": "$syntax-invalid",
+      "css": "--cds-syntax-invalid",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#da1e28"
+    },
+    {
+      "name": "syntax-keyword",
+      "scss": "$syntax-keyword",
+      "css": "--cds-syntax-keyword",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#0f62fe"
+    },
+    {
+      "name": "syntax-label-name",
+      "scss": "$syntax-label-name",
+      "css": "--cds-syntax-label-name",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#0f62fe"
+    },
+    {
+      "name": "syntax-line-comment",
+      "scss": "$syntax-line-comment",
+      "css": "--cds-syntax-line-comment",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#198038"
+    },
+    {
+      "name": "syntax-link",
+      "scss": "$syntax-link",
+      "css": "--cds-syntax-link",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#0f62fe"
+    },
+    {
+      "name": "syntax-list",
+      "scss": "$syntax-list",
+      "css": "--cds-syntax-list",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#161616"
+    },
+    {
+      "name": "syntax-literal",
+      "scss": "$syntax-literal",
+      "css": "--cds-syntax-literal",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#161616"
+    },
+    {
+      "name": "syntax-local",
+      "scss": "$syntax-local",
+      "css": "--cds-syntax-local",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#0f62fe"
+    },
+    {
+      "name": "syntax-logic-operator",
+      "scss": "$syntax-logic-operator",
+      "css": "--cds-syntax-logic-operator",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#343a3f"
+    },
+    {
+      "name": "syntax-macro-name",
+      "scss": "$syntax-macro-name",
+      "css": "--cds-syntax-macro-name",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#161616"
+    },
+    {
+      "name": "syntax-meta",
+      "scss": "$syntax-meta",
+      "css": "--cds-syntax-meta",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#198038"
+    },
+    {
+      "name": "syntax-modifier",
+      "scss": "$syntax-modifier",
+      "css": "--cds-syntax-modifier",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#0f62fe"
+    },
+    {
+      "name": "syntax-module-keyword",
+      "scss": "$syntax-module-keyword",
+      "css": "--cds-syntax-module-keyword",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#6929c4"
+    },
+    {
+      "name": "syntax-monospace",
+      "scss": "$syntax-monospace",
+      "css": "--cds-syntax-monospace",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#161616"
+    },
+    {
+      "name": "syntax-name",
+      "scss": "$syntax-name",
+      "css": "--cds-syntax-name",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#0f62fe"
+    },
+    {
+      "name": "syntax-namespace",
+      "scss": "$syntax-namespace",
+      "css": "--cds-syntax-namespace",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#007d79"
+    },
+    {
+      "name": "syntax-null",
+      "scss": "$syntax-null",
+      "css": "--cds-syntax-null",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#161616"
+    },
+    {
+      "name": "syntax-number",
+      "scss": "$syntax-number",
+      "css": "--cds-syntax-number",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#198038"
+    },
+    {
+      "name": "syntax-operator",
+      "scss": "$syntax-operator",
+      "css": "--cds-syntax-operator",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#343a3f"
+    },
+    {
+      "name": "syntax-operator-keyword",
+      "scss": "$syntax-operator-keyword",
+      "css": "--cds-syntax-operator-keyword",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#0f62fe"
+    },
+    {
+      "name": "syntax-paren",
+      "scss": "$syntax-paren",
+      "css": "--cds-syntax-paren",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#343a3f"
+    },
+    {
+      "name": "syntax-processing-instruction",
+      "scss": "$syntax-processing-instruction",
+      "css": "--cds-syntax-processing-instruction",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#161616"
+    },
+    {
+      "name": "syntax-property-name",
+      "scss": "$syntax-property-name",
+      "css": "--cds-syntax-property-name",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#00539a"
+    },
+    {
+      "name": "syntax-punctuation",
+      "scss": "$syntax-punctuation",
+      "css": "--cds-syntax-punctuation",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#343a3f"
+    },
+    {
+      "name": "syntax-quote",
+      "scss": "$syntax-quote",
+      "css": "--cds-syntax-quote",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#198038"
+    },
+    {
+      "name": "syntax-regexp",
+      "scss": "$syntax-regexp",
+      "css": "--cds-syntax-regexp",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#6929c4"
+    },
+    {
+      "name": "syntax-self",
+      "scss": "$syntax-self",
+      "css": "--cds-syntax-self",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#007d79"
+    },
+    {
+      "name": "syntax-separator",
+      "scss": "$syntax-separator",
+      "css": "--cds-syntax-separator",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#343a3f"
+    },
+    {
+      "name": "syntax-special",
+      "scss": "$syntax-special",
+      "css": "--cds-syntax-special",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#0f62fe"
+    },
+    {
+      "name": "syntax-special-string",
+      "scss": "$syntax-special-string",
+      "css": "--cds-syntax-special-string",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#8a3ffc"
+    },
+    {
+      "name": "syntax-square-bracket",
+      "scss": "$syntax-square-bracket",
+      "css": "--cds-syntax-square-bracket",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#343a3f"
+    },
+    {
+      "name": "syntax-standard",
+      "scss": "$syntax-standard",
+      "css": "--cds-syntax-standard",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#0f62fe"
+    },
+    {
+      "name": "syntax-strikethrough",
+      "scss": "$syntax-strikethrough",
+      "css": "--cds-syntax-strikethrough",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#161616"
+    },
+    {
+      "name": "syntax-string",
+      "scss": "$syntax-string",
+      "css": "--cds-syntax-string",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#161616"
+    },
+    {
+      "name": "syntax-strong",
+      "scss": "$syntax-strong",
+      "css": "--cds-syntax-strong",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#161616"
+    },
+    {
+      "name": "syntax-tag",
+      "scss": "$syntax-tag",
+      "css": "--cds-syntax-tag",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#007d79"
+    },
+    {
+      "name": "syntax-tag-name",
+      "scss": "$syntax-tag-name",
+      "css": "--cds-syntax-tag-name",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#007d79"
+    },
+    {
+      "name": "syntax-type",
+      "scss": "$syntax-type",
+      "css": "--cds-syntax-type",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#007d79"
+    },
+    {
+      "name": "syntax-type-name",
+      "scss": "$syntax-type-name",
+      "css": "--cds-syntax-type-name",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#007d79"
+    },
+    {
+      "name": "syntax-type-operator",
+      "scss": "$syntax-type-operator",
+      "css": "--cds-syntax-type-operator",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#007d79"
+    },
+    {
+      "name": "syntax-unit",
+      "scss": "$syntax-unit",
+      "css": "--cds-syntax-unit",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#198038"
+    },
+    {
+      "name": "syntax-update-operator",
+      "scss": "$syntax-update-operator",
+      "css": "--cds-syntax-update-operator",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#343a3f"
+    },
+    {
+      "name": "syntax-url",
+      "scss": "$syntax-url",
+      "css": "--cds-syntax-url",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#343a3f"
+    },
+    {
+      "name": "syntax-variable",
+      "scss": "$syntax-variable",
+      "css": "--cds-syntax-variable",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#0f62fe"
+    },
+    {
+      "name": "syntax-variable-name",
+      "scss": "$syntax-variable-name",
+      "css": "--cds-syntax-variable-name",
+      "category": "color",
+      "role": "misc",
+      "status": "active",
+      "value": "#0f62fe"
+    },
+    {
+      "name": "text-disabled",
+      "scss": "$text-disabled",
+      "css": "--cds-text-disabled",
+      "category": "color",
+      "role": "text",
+      "status": "active",
+      "value": "rgba(22, 22, 22, 0.25)"
+    },
+    {
+      "name": "text-error",
+      "scss": "$text-error",
+      "css": "--cds-text-error",
+      "category": "color",
+      "role": "text",
+      "status": "active",
+      "value": "#da1e28"
+    },
+    {
+      "name": "text-helper",
+      "scss": "$text-helper",
+      "css": "--cds-text-helper",
+      "category": "color",
+      "role": "text",
+      "status": "active",
+      "value": "#6f6f6f"
+    },
+    {
+      "name": "text-inverse",
+      "scss": "$text-inverse",
+      "css": "--cds-text-inverse",
+      "category": "color",
+      "role": "text",
+      "status": "active",
+      "value": "#ffffff"
+    },
+    {
+      "name": "text-on-color",
+      "scss": "$text-on-color",
+      "css": "--cds-text-on-color",
+      "category": "color",
+      "role": "text-on-color",
+      "status": "active",
+      "value": "#ffffff"
+    },
+    {
+      "name": "text-on-color-disabled",
+      "scss": "$text-on-color-disabled",
+      "css": "--cds-text-on-color-disabled",
+      "category": "color",
+      "role": "text-on-color",
+      "status": "active",
+      "value": "#8d8d8d"
+    },
+    {
+      "name": "text-placeholder",
+      "scss": "$text-placeholder",
+      "css": "--cds-text-placeholder",
+      "category": "color",
+      "role": "text",
+      "status": "active",
+      "value": "rgba(22, 22, 22, 0.4)"
+    },
+    {
+      "name": "text-primary",
+      "scss": "$text-primary",
+      "css": "--cds-text-primary",
+      "category": "color",
+      "role": "text",
+      "status": "active",
+      "value": "#161616"
+    },
+    {
+      "name": "text-secondary",
+      "scss": "$text-secondary",
+      "css": "--cds-text-secondary",
+      "category": "color",
+      "role": "text",
+      "status": "active",
+      "value": "#525252"
+    },
+    {
+      "name": "toggle-off",
+      "scss": "$toggle-off",
+      "css": "--cds-toggle-off",
+      "category": "color",
+      "role": "toggle",
+      "status": "active",
+      "value": "#8d8d8d"
+    },
+    {
+      "name": "button-danger-active",
+      "scss": "$button-danger-active",
+      "css": "--cds-button-danger-active",
+      "category": "component",
+      "role": "button-danger",
+      "status": "active"
+    },
+    {
+      "name": "button-danger-hover",
+      "scss": "$button-danger-hover",
+      "css": "--cds-button-danger-hover",
+      "category": "component",
+      "role": "button-danger",
+      "status": "active"
+    },
+    {
+      "name": "button-danger-primary",
+      "scss": "$button-danger-primary",
+      "css": "--cds-button-danger-primary",
+      "category": "component",
+      "role": "button-danger",
+      "status": "active"
+    },
+    {
+      "name": "button-danger-secondary",
+      "scss": "$button-danger-secondary",
+      "css": "--cds-button-danger-secondary",
+      "category": "component",
+      "role": "button-danger",
+      "status": "active"
+    },
+    {
+      "name": "button-disabled",
+      "scss": "$button-disabled",
+      "css": "--cds-button-disabled",
+      "category": "component",
+      "role": "button",
+      "status": "active"
+    },
+    {
+      "name": "button-primary",
+      "scss": "$button-primary",
+      "css": "--cds-button-primary",
+      "category": "component",
+      "role": "button-primary",
+      "status": "active"
+    },
+    {
+      "name": "button-primary-active",
+      "scss": "$button-primary-active",
+      "css": "--cds-button-primary-active",
+      "category": "component",
+      "role": "button-primary",
+      "status": "active"
+    },
+    {
+      "name": "button-primary-hover",
+      "scss": "$button-primary-hover",
+      "css": "--cds-button-primary-hover",
+      "category": "component",
+      "role": "button-primary",
+      "status": "active"
+    },
+    {
+      "name": "button-secondary",
+      "scss": "$button-secondary",
+      "css": "--cds-button-secondary",
+      "category": "component",
+      "role": "button-secondary",
+      "status": "active"
+    },
+    {
+      "name": "button-secondary-active",
+      "scss": "$button-secondary-active",
+      "css": "--cds-button-secondary-active",
+      "category": "component",
+      "role": "button-secondary",
+      "status": "active"
+    },
+    {
+      "name": "button-secondary-hover",
+      "scss": "$button-secondary-hover",
+      "css": "--cds-button-secondary-hover",
+      "category": "component",
+      "role": "button-secondary",
+      "status": "active"
+    },
+    {
+      "name": "button-separator",
+      "scss": "$button-separator",
+      "css": "--cds-button-separator",
+      "category": "component",
+      "role": "button",
+      "status": "active"
+    },
+    {
+      "name": "button-tertiary",
+      "scss": "$button-tertiary",
+      "css": "--cds-button-tertiary",
+      "category": "component",
+      "role": "button-tertiary",
+      "status": "active"
+    },
+    {
+      "name": "button-tertiary-active",
+      "scss": "$button-tertiary-active",
+      "css": "--cds-button-tertiary-active",
+      "category": "component",
+      "role": "button-tertiary",
+      "status": "active"
+    },
+    {
+      "name": "button-tertiary-hover",
+      "scss": "$button-tertiary-hover",
+      "css": "--cds-button-tertiary-hover",
+      "category": "component",
+      "role": "button-tertiary",
+      "status": "active"
+    },
+    {
+      "name": "tag-background-blue",
+      "scss": "$tag-background-blue",
+      "css": "--cds-tag-background-blue",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-background-cool-gray",
+      "scss": "$tag-background-cool-gray",
+      "css": "--cds-tag-background-cool-gray",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-background-cyan",
+      "scss": "$tag-background-cyan",
+      "css": "--cds-tag-background-cyan",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-background-gray",
+      "scss": "$tag-background-gray",
+      "css": "--cds-tag-background-gray",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-background-green",
+      "scss": "$tag-background-green",
+      "css": "--cds-tag-background-green",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-background-magenta",
+      "scss": "$tag-background-magenta",
+      "css": "--cds-tag-background-magenta",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-background-purple",
+      "scss": "$tag-background-purple",
+      "css": "--cds-tag-background-purple",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-background-red",
+      "scss": "$tag-background-red",
+      "css": "--cds-tag-background-red",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-background-teal",
+      "scss": "$tag-background-teal",
+      "css": "--cds-tag-background-teal",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-background-warm-gray",
+      "scss": "$tag-background-warm-gray",
+      "css": "--cds-tag-background-warm-gray",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-border-blue",
+      "scss": "$tag-border-blue",
+      "css": "--cds-tag-border-blue",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-border-cool-gray",
+      "scss": "$tag-border-cool-gray",
+      "css": "--cds-tag-border-cool-gray",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-border-cyan",
+      "scss": "$tag-border-cyan",
+      "css": "--cds-tag-border-cyan",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-border-gray",
+      "scss": "$tag-border-gray",
+      "css": "--cds-tag-border-gray",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-border-green",
+      "scss": "$tag-border-green",
+      "css": "--cds-tag-border-green",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-border-magenta",
+      "scss": "$tag-border-magenta",
+      "css": "--cds-tag-border-magenta",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-border-purple",
+      "scss": "$tag-border-purple",
+      "css": "--cds-tag-border-purple",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-border-red",
+      "scss": "$tag-border-red",
+      "css": "--cds-tag-border-red",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-border-teal",
+      "scss": "$tag-border-teal",
+      "css": "--cds-tag-border-teal",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-border-warm-gray",
+      "scss": "$tag-border-warm-gray",
+      "css": "--cds-tag-border-warm-gray",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-color-blue",
+      "scss": "$tag-color-blue",
+      "css": "--cds-tag-color-blue",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-color-cool-gray",
+      "scss": "$tag-color-cool-gray",
+      "css": "--cds-tag-color-cool-gray",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-color-cyan",
+      "scss": "$tag-color-cyan",
+      "css": "--cds-tag-color-cyan",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-color-gray",
+      "scss": "$tag-color-gray",
+      "css": "--cds-tag-color-gray",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-color-green",
+      "scss": "$tag-color-green",
+      "css": "--cds-tag-color-green",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-color-magenta",
+      "scss": "$tag-color-magenta",
+      "css": "--cds-tag-color-magenta",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-color-purple",
+      "scss": "$tag-color-purple",
+      "css": "--cds-tag-color-purple",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-color-red",
+      "scss": "$tag-color-red",
+      "css": "--cds-tag-color-red",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-color-teal",
+      "scss": "$tag-color-teal",
+      "css": "--cds-tag-color-teal",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-color-warm-gray",
+      "scss": "$tag-color-warm-gray",
+      "css": "--cds-tag-color-warm-gray",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-hover-blue",
+      "scss": "$tag-hover-blue",
+      "css": "--cds-tag-hover-blue",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-hover-cool-gray",
+      "scss": "$tag-hover-cool-gray",
+      "css": "--cds-tag-hover-cool-gray",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-hover-cyan",
+      "scss": "$tag-hover-cyan",
+      "css": "--cds-tag-hover-cyan",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-hover-gray",
+      "scss": "$tag-hover-gray",
+      "css": "--cds-tag-hover-gray",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-hover-green",
+      "scss": "$tag-hover-green",
+      "css": "--cds-tag-hover-green",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-hover-magenta",
+      "scss": "$tag-hover-magenta",
+      "css": "--cds-tag-hover-magenta",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-hover-purple",
+      "scss": "$tag-hover-purple",
+      "css": "--cds-tag-hover-purple",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-hover-red",
+      "scss": "$tag-hover-red",
+      "css": "--cds-tag-hover-red",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-hover-teal",
+      "scss": "$tag-hover-teal",
+      "css": "--cds-tag-hover-teal",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "tag-hover-warm-gray",
+      "scss": "$tag-hover-warm-gray",
+      "css": "--cds-tag-hover-warm-gray",
+      "category": "component",
+      "role": "tag",
+      "status": "active"
+    },
+    {
+      "name": "notification-action-hover",
+      "scss": "$notification-action-hover",
+      "css": "--cds-notification-action-hover",
+      "category": "component",
+      "role": "notification",
+      "status": "active"
+    },
+    {
+      "name": "notification-action-tertiary-inverse",
+      "scss": "$notification-action-tertiary-inverse",
+      "css": "--cds-notification-action-tertiary-inverse",
+      "category": "component",
+      "role": "notification",
+      "status": "active"
+    },
+    {
+      "name": "notification-action-tertiary-inverse-active",
+      "scss": "$notification-action-tertiary-inverse-active",
+      "css": "--cds-notification-action-tertiary-inverse-active",
+      "category": "component",
+      "role": "notification",
+      "status": "active"
+    },
+    {
+      "name": "notification-action-tertiary-inverse-hover",
+      "scss": "$notification-action-tertiary-inverse-hover",
+      "css": "--cds-notification-action-tertiary-inverse-hover",
+      "category": "component",
+      "role": "notification",
+      "status": "active"
+    },
+    {
+      "name": "notification-action-tertiary-inverse-text",
+      "scss": "$notification-action-tertiary-inverse-text",
+      "css": "--cds-notification-action-tertiary-inverse-text",
+      "category": "component",
+      "role": "notification",
+      "status": "active"
+    },
+    {
+      "name": "notification-action-tertiary-inverse-text-on-color-disabled",
+      "scss": "$notification-action-tertiary-inverse-text-on-color-disabled",
+      "css": "--cds-notification-action-tertiary-inverse-text-on-color-disabled",
+      "category": "component",
+      "role": "notification",
+      "status": "active"
+    },
+    {
+      "name": "notification-background-error",
+      "scss": "$notification-background-error",
+      "css": "--cds-notification-background-error",
+      "category": "component",
+      "role": "notification",
+      "status": "active"
+    },
+    {
+      "name": "notification-background-info",
+      "scss": "$notification-background-info",
+      "css": "--cds-notification-background-info",
+      "category": "component",
+      "role": "notification",
+      "status": "active"
+    },
+    {
+      "name": "notification-background-success",
+      "scss": "$notification-background-success",
+      "css": "--cds-notification-background-success",
+      "category": "component",
+      "role": "notification",
+      "status": "active"
+    },
+    {
+      "name": "notification-background-warning",
+      "scss": "$notification-background-warning",
+      "css": "--cds-notification-background-warning",
+      "category": "component",
+      "role": "notification",
+      "status": "active"
+    },
+    {
+      "name": "status-accessibility-background",
+      "scss": "$status-accessibility-background",
+      "css": "--cds-status-accessibility-background",
+      "category": "component",
+      "role": "status",
+      "status": "active"
+    },
+    {
+      "name": "status-blue",
+      "scss": "$status-blue",
+      "css": "--cds-status-blue",
+      "category": "component",
+      "role": "status",
+      "status": "active"
+    },
+    {
+      "name": "status-gray",
+      "scss": "$status-gray",
+      "css": "--cds-status-gray",
+      "category": "component",
+      "role": "status",
+      "status": "active"
+    },
+    {
+      "name": "status-green",
+      "scss": "$status-green",
+      "css": "--cds-status-green",
+      "category": "component",
+      "role": "status",
+      "status": "active"
+    },
+    {
+      "name": "status-orange",
+      "scss": "$status-orange",
+      "css": "--cds-status-orange",
+      "category": "component",
+      "role": "status",
+      "status": "active"
+    },
+    {
+      "name": "status-orange-outline",
+      "scss": "$status-orange-outline",
+      "css": "--cds-status-orange-outline",
+      "category": "component",
+      "role": "status",
+      "status": "active"
+    },
+    {
+      "name": "status-purple",
+      "scss": "$status-purple",
+      "css": "--cds-status-purple",
+      "category": "component",
+      "role": "status",
+      "status": "active"
+    },
+    {
+      "name": "status-red",
+      "scss": "$status-red",
+      "css": "--cds-status-red",
+      "category": "component",
+      "role": "status",
+      "status": "active"
+    },
+    {
+      "name": "status-yellow",
+      "scss": "$status-yellow",
+      "css": "--cds-status-yellow",
+      "category": "component",
+      "role": "status",
+      "status": "active"
+    },
+    {
+      "name": "status-yellow-outline",
+      "scss": "$status-yellow-outline",
+      "css": "--cds-status-yellow-outline",
+      "category": "component",
+      "role": "status",
+      "status": "active"
+    },
+    {
+      "name": "content-switcher-background",
+      "scss": "$content-switcher-background",
+      "css": "--cds-content-switcher-background",
+      "category": "component",
+      "role": "content",
+      "status": "active"
+    },
+    {
+      "name": "content-switcher-background-hover",
+      "scss": "$content-switcher-background-hover",
+      "css": "--cds-content-switcher-background-hover",
+      "category": "component",
+      "role": "content",
+      "status": "active"
+    },
+    {
+      "name": "content-switcher-selected",
+      "scss": "$content-switcher-selected",
+      "css": "--cds-content-switcher-selected",
+      "category": "component",
+      "role": "content",
+      "status": "active"
+    },
+    {
+      "name": "spacing-01",
+      "scss": "$spacing-01",
+      "css": "--cds-spacing-01",
+      "category": "layout",
+      "role": "spacing",
+      "status": "active",
+      "value": "0.125rem"
+    },
+    {
+      "name": "spacing-02",
+      "scss": "$spacing-02",
+      "css": "--cds-spacing-02",
+      "category": "layout",
+      "role": "spacing",
+      "status": "active",
+      "value": "0.25rem"
+    },
+    {
+      "name": "spacing-03",
+      "scss": "$spacing-03",
+      "css": "--cds-spacing-03",
+      "category": "layout",
+      "role": "spacing",
+      "status": "active",
+      "value": "0.5rem"
+    },
+    {
+      "name": "spacing-04",
+      "scss": "$spacing-04",
+      "css": "--cds-spacing-04",
+      "category": "layout",
+      "role": "spacing",
+      "status": "active",
+      "value": "0.75rem"
+    },
+    {
+      "name": "spacing-05",
+      "scss": "$spacing-05",
+      "css": "--cds-spacing-05",
+      "category": "layout",
+      "role": "spacing",
+      "status": "active",
+      "value": "1rem"
+    },
+    {
+      "name": "spacing-06",
+      "scss": "$spacing-06",
+      "css": "--cds-spacing-06",
+      "category": "layout",
+      "role": "spacing",
+      "status": "active",
+      "value": "1.5rem"
+    },
+    {
+      "name": "spacing-07",
+      "scss": "$spacing-07",
+      "css": "--cds-spacing-07",
+      "category": "layout",
+      "role": "spacing",
+      "status": "active",
+      "value": "2rem"
+    },
+    {
+      "name": "spacing-08",
+      "scss": "$spacing-08",
+      "css": "--cds-spacing-08",
+      "category": "layout",
+      "role": "spacing",
+      "status": "active",
+      "value": "2.5rem"
+    },
+    {
+      "name": "spacing-09",
+      "scss": "$spacing-09",
+      "css": "--cds-spacing-09",
+      "category": "layout",
+      "role": "spacing",
+      "status": "active",
+      "value": "3rem"
+    },
+    {
+      "name": "spacing-10",
+      "scss": "$spacing-10",
+      "css": "--cds-spacing-10",
+      "category": "layout",
+      "role": "spacing",
+      "status": "active",
+      "value": "4rem"
+    },
+    {
+      "name": "spacing-11",
+      "scss": "$spacing-11",
+      "css": "--cds-spacing-11",
+      "category": "layout",
+      "role": "spacing",
+      "status": "active",
+      "value": "5rem"
+    },
+    {
+      "name": "spacing-12",
+      "scss": "$spacing-12",
+      "css": "--cds-spacing-12",
+      "category": "layout",
+      "role": "spacing",
+      "status": "active",
+      "value": "6rem"
+    },
+    {
+      "name": "spacing-13",
+      "scss": "$spacing-13",
+      "css": "--cds-spacing-13",
+      "category": "layout",
+      "role": "spacing",
+      "status": "active",
+      "value": "10rem"
+    },
+    {
+      "name": "fluid-spacing-01",
+      "scss": "$fluid-spacing-01",
+      "css": "--cds-fluid-spacing-01",
+      "category": "layout",
+      "role": "fluid-spacing",
+      "status": "active",
+      "value": 0
+    },
+    {
+      "name": "fluid-spacing-02",
+      "scss": "$fluid-spacing-02",
+      "css": "--cds-fluid-spacing-02",
+      "category": "layout",
+      "role": "fluid-spacing",
+      "status": "active",
+      "value": "2vw"
+    },
+    {
+      "name": "fluid-spacing-03",
+      "scss": "$fluid-spacing-03",
+      "css": "--cds-fluid-spacing-03",
+      "category": "layout",
+      "role": "fluid-spacing",
+      "status": "active",
+      "value": "5vw"
+    },
+    {
+      "name": "fluid-spacing-04",
+      "scss": "$fluid-spacing-04",
+      "css": "--cds-fluid-spacing-04",
+      "category": "layout",
+      "role": "fluid-spacing",
+      "status": "active",
+      "value": "10vw"
+    },
+    {
+      "name": "layout-01",
+      "scss": "$layout-01",
+      "css": "--cds-layout-01",
+      "category": "layout",
+      "role": "layout",
+      "status": "active",
+      "value": "1rem"
+    },
+    {
+      "name": "layout-02",
+      "scss": "$layout-02",
+      "css": "--cds-layout-02",
+      "category": "layout",
+      "role": "layout",
+      "status": "active",
+      "value": "1.5rem"
+    },
+    {
+      "name": "layout-03",
+      "scss": "$layout-03",
+      "css": "--cds-layout-03",
+      "category": "layout",
+      "role": "layout",
+      "status": "active",
+      "value": "2rem"
+    },
+    {
+      "name": "layout-04",
+      "scss": "$layout-04",
+      "css": "--cds-layout-04",
+      "category": "layout",
+      "role": "layout",
+      "status": "active",
+      "value": "3rem"
+    },
+    {
+      "name": "layout-05",
+      "scss": "$layout-05",
+      "css": "--cds-layout-05",
+      "category": "layout",
+      "role": "layout",
+      "status": "active",
+      "value": "4rem"
+    },
+    {
+      "name": "layout-06",
+      "scss": "$layout-06",
+      "css": "--cds-layout-06",
+      "category": "layout",
+      "role": "layout",
+      "status": "active",
+      "value": "6rem"
+    },
+    {
+      "name": "layout-07",
+      "scss": "$layout-07",
+      "css": "--cds-layout-07",
+      "category": "layout",
+      "role": "layout",
+      "status": "active",
+      "value": "10rem"
+    },
+    {
+      "name": "container-01",
+      "scss": "$container-01",
+      "css": "--cds-container-01",
+      "category": "layout",
+      "role": "container",
+      "status": "active",
+      "value": "1.5rem"
+    },
+    {
+      "name": "container-02",
+      "scss": "$container-02",
+      "css": "--cds-container-02",
+      "category": "layout",
+      "role": "container",
+      "status": "active",
+      "value": "2rem"
+    },
+    {
+      "name": "container-03",
+      "scss": "$container-03",
+      "css": "--cds-container-03",
+      "category": "layout",
+      "role": "container",
+      "status": "active",
+      "value": "2.5rem"
+    },
+    {
+      "name": "container-04",
+      "scss": "$container-04",
+      "css": "--cds-container-04",
+      "category": "layout",
+      "role": "container",
+      "status": "active",
+      "value": "3rem"
+    },
+    {
+      "name": "container-05",
+      "scss": "$container-05",
+      "css": "--cds-container-05",
+      "category": "layout",
+      "role": "container",
+      "status": "active",
+      "value": "4rem"
+    },
+    {
+      "name": "icon-size-01",
+      "scss": "$icon-size-01",
+      "css": "--cds-icon-size-01",
+      "category": "layout",
+      "role": "icon-size",
+      "status": "active",
+      "value": "1rem"
+    },
+    {
+      "name": "icon-size-02",
+      "scss": "$icon-size-02",
+      "css": "--cds-icon-size-02",
+      "category": "layout",
+      "role": "icon-size",
+      "status": "active",
+      "value": "1.25rem"
+    },
+    {
+      "name": "border-radius-00",
+      "scss": "$border-radius-00",
+      "css": "--cds-border-radius-00",
+      "category": "layout",
+      "role": "border-radius",
+      "status": "active",
+      "value": "0px"
+    },
+    {
+      "name": "border-radius-02",
+      "scss": "$border-radius-02",
+      "css": "--cds-border-radius-02",
+      "category": "layout",
+      "role": "border-radius",
+      "status": "active",
+      "value": "0.125rem"
+    },
+    {
+      "name": "border-radius-04",
+      "scss": "$border-radius-04",
+      "css": "--cds-border-radius-04",
+      "category": "layout",
+      "role": "border-radius",
+      "status": "active",
+      "value": "0.25rem"
+    },
+    {
+      "name": "border-radius-08",
+      "scss": "$border-radius-08",
+      "css": "--cds-border-radius-08",
+      "category": "layout",
+      "role": "border-radius",
+      "status": "active",
+      "value": "0.5rem"
+    },
+    {
+      "name": "border-radius-16",
+      "scss": "$border-radius-16",
+      "css": "--cds-border-radius-16",
+      "category": "layout",
+      "role": "border-radius",
+      "status": "active",
+      "value": "1rem"
+    },
+    {
+      "name": "border-radius-24",
+      "scss": "$border-radius-24",
+      "css": "--cds-border-radius-24",
+      "category": "layout",
+      "role": "border-radius",
+      "status": "active",
+      "value": "1.5rem"
+    },
+    {
+      "name": "border-radius-max",
+      "scss": "$border-radius-max",
+      "css": "--cds-border-radius-max",
+      "category": "layout",
+      "role": "border-radius",
+      "status": "active",
+      "value": "999999px"
+    },
+    {
+      "name": "breakpoint-sm",
+      "scss": "$sm",
+      "css": null,
+      "category": "breakpoint",
+      "role": "breakpoint",
+      "status": "active",
+      "value": {
+        "width": "20rem",
+        "columns": 4,
+        "margin": "0"
+      }
+    },
+    {
+      "name": "breakpoint-md",
+      "scss": "$md",
+      "css": null,
+      "category": "breakpoint",
+      "role": "breakpoint",
+      "status": "active",
+      "value": {
+        "width": "42rem",
+        "columns": 8,
+        "margin": "1rem"
+      }
+    },
+    {
+      "name": "breakpoint-lg",
+      "scss": "$lg",
+      "css": null,
+      "category": "breakpoint",
+      "role": "breakpoint",
+      "status": "active",
+      "value": {
+        "width": "66rem",
+        "columns": 16,
+        "margin": "1rem"
+      }
+    },
+    {
+      "name": "breakpoint-xlg",
+      "scss": "$xlg",
+      "css": null,
+      "category": "breakpoint",
+      "role": "breakpoint",
+      "status": "active",
+      "value": {
+        "width": "82rem",
+        "columns": 16,
+        "margin": "1rem"
+      }
+    },
+    {
+      "name": "breakpoint-max",
+      "scss": "$max",
+      "css": null,
+      "category": "breakpoint",
+      "role": "breakpoint",
+      "status": "active",
+      "value": {
+        "width": "99rem",
+        "columns": 16,
+        "margin": "1.5rem"
+      }
+    },
+    {
+      "name": "body-01",
+      "scss": "$body-01",
+      "css": "--cds-body-01",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "0.875rem",
+        "fontWeight": 400,
+        "lineHeight": 1.42857,
+        "letterSpacing": "0.16px"
+      }
+    },
+    {
+      "name": "body-02",
+      "scss": "$body-02",
+      "css": "--cds-body-02",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "1rem",
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "name": "body-compact-01",
+      "scss": "$body-compact-01",
+      "css": "--cds-body-compact-01",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "0.875rem",
+        "fontWeight": 400,
+        "lineHeight": 1.28572,
+        "letterSpacing": "0.16px"
+      }
+    },
+    {
+      "name": "body-compact-02",
+      "scss": "$body-compact-02",
+      "css": "--cds-body-compact-02",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "1rem",
+        "fontWeight": 400,
+        "lineHeight": 1.375,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "name": "body-long-01",
+      "scss": "$body-long-01",
+      "css": "--cds-body-long-01",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "0.875rem",
+        "fontWeight": 400,
+        "lineHeight": 1.42857,
+        "letterSpacing": "0.16px"
+      }
+    },
+    {
+      "name": "body-long-02",
+      "scss": "$body-long-02",
+      "css": "--cds-body-long-02",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "1rem",
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "name": "body-short-01",
+      "scss": "$body-short-01",
+      "css": "--cds-body-short-01",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "0.875rem",
+        "fontWeight": 400,
+        "lineHeight": 1.28572,
+        "letterSpacing": "0.16px"
+      }
+    },
+    {
+      "name": "body-short-02",
+      "scss": "$body-short-02",
+      "css": "--cds-body-short-02",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "1rem",
+        "fontWeight": 400,
+        "lineHeight": 1.375,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "name": "caption-01",
+      "scss": "$caption-01",
+      "css": "--cds-caption-01",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "0.75rem",
+        "fontWeight": 400,
+        "lineHeight": 1.33333,
+        "letterSpacing": "0.32px"
+      }
+    },
+    {
+      "name": "caption-02",
+      "scss": "$caption-02",
+      "css": "--cds-caption-02",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "0.875rem",
+        "fontWeight": 400,
+        "lineHeight": 1.28572,
+        "letterSpacing": "0.32px"
+      }
+    },
+    {
+      "name": "code-01",
+      "scss": "$code-01",
+      "css": "--cds-code-01",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontFamily": "'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace",
+        "fontSize": "0.75rem",
+        "fontWeight": 400,
+        "lineHeight": 1.33333,
+        "letterSpacing": "0.32px"
+      }
+    },
+    {
+      "name": "code-02",
+      "scss": "$code-02",
+      "css": "--cds-code-02",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontFamily": "'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace",
+        "fontSize": "0.875rem",
+        "fontWeight": 400,
+        "lineHeight": 1.42857,
+        "letterSpacing": "0.32px"
+      }
+    },
+    {
+      "name": "display-01",
+      "scss": "$display-01",
+      "css": "--cds-display-01",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "2.625rem",
+        "fontWeight": 300,
+        "lineHeight": 1.19,
+        "letterSpacing": 0,
+        "breakpoints": {
+          "md": {
+            "fontSize": "2.625rem"
+          },
+          "lg": {
+            "fontSize": "3.375rem"
+          },
+          "xlg": {
+            "fontSize": "3.75rem",
+            "lineHeight": 1.17
+          },
+          "max": {
+            "fontSize": "4.75rem",
+            "lineHeight": 1.13
+          }
+        }
+      }
+    },
+    {
+      "name": "display-02",
+      "scss": "$display-02",
+      "css": "--cds-display-02",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "2.625rem",
+        "fontWeight": 600,
+        "lineHeight": 1.19,
+        "letterSpacing": 0,
+        "breakpoints": {
+          "md": {
+            "fontSize": "2.625rem"
+          },
+          "lg": {
+            "fontSize": "3.375rem"
+          },
+          "xlg": {
+            "fontSize": "3.75rem",
+            "lineHeight": 1.16
+          },
+          "max": {
+            "fontSize": "4.75rem",
+            "lineHeight": 1.13
+          }
+        }
+      }
+    },
+    {
+      "name": "display-03",
+      "scss": "$display-03",
+      "css": "--cds-display-03",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "2.625rem",
+        "fontWeight": 300,
+        "lineHeight": 1.19,
+        "letterSpacing": 0,
+        "breakpoints": {
+          "md": {
+            "fontSize": "3.375rem",
+            "lineHeight": 1.18
+          },
+          "lg": {
+            "fontSize": "3.75rem",
+            "lineHeight": 1.16,
+            "letterSpacing": "-0.64px"
+          },
+          "xlg": {
+            "fontSize": "4.75rem",
+            "lineHeight": 1.13
+          },
+          "max": {
+            "fontSize": "5.25rem",
+            "lineHeight": 1.11,
+            "letterSpacing": "-0.96px"
+          }
+        }
+      }
+    },
+    {
+      "name": "display-04",
+      "scss": "$display-04",
+      "css": "--cds-display-04",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "2.625rem",
+        "fontWeight": 300,
+        "lineHeight": 1.19,
+        "letterSpacing": 0,
+        "breakpoints": {
+          "md": {
+            "fontSize": "4.25rem",
+            "lineHeight": 1.15
+          },
+          "lg": {
+            "fontSize": "5.75rem",
+            "lineHeight": 1.11,
+            "letterSpacing": "-0.64px"
+          },
+          "xlg": {
+            "fontSize": "7.625rem",
+            "lineHeight": 1.07,
+            "letterSpacing": "-0.64px"
+          },
+          "max": {
+            "fontSize": "9.75rem",
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.96px"
+          }
+        }
+      }
+    },
+    {
+      "name": "expressive-heading-01",
+      "scss": "$expressive-heading-01",
+      "css": "--cds-expressive-heading-01",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "0.875rem",
+        "fontWeight": 600,
+        "lineHeight": 1.25,
+        "letterSpacing": "0.16px"
+      }
+    },
+    {
+      "name": "expressive-heading-02",
+      "scss": "$expressive-heading-02",
+      "css": "--cds-expressive-heading-02",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "1rem",
+        "fontWeight": 600,
+        "lineHeight": 1.5,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "name": "expressive-heading-03",
+      "scss": "$expressive-heading-03",
+      "css": "--cds-expressive-heading-03",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "1.25rem",
+        "fontWeight": 400,
+        "lineHeight": 1.4,
+        "letterSpacing": 0,
+        "breakpoints": {
+          "xlg": {
+            "fontSize": "1.25rem",
+            "lineHeight": 1.4
+          },
+          "max": {
+            "fontSize": "1.5rem",
+            "lineHeight": 1.334
+          }
+        }
+      }
+    },
+    {
+      "name": "expressive-heading-04",
+      "scss": "$expressive-heading-04",
+      "css": "--cds-expressive-heading-04",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "1.75rem",
+        "fontWeight": 400,
+        "lineHeight": 1.28572,
+        "letterSpacing": 0,
+        "breakpoints": {
+          "xlg": {
+            "fontSize": "2rem",
+            "fontWeight": 400,
+            "lineHeight": 1.25
+          },
+          "max": {
+            "fontSize": "2rem",
+            "fontWeight": 400
+          }
+        }
+      }
+    },
+    {
+      "name": "expressive-heading-05",
+      "scss": "$expressive-heading-05",
+      "css": "--cds-expressive-heading-05",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "2rem",
+        "fontWeight": 400,
+        "lineHeight": 1.25,
+        "letterSpacing": 0,
+        "breakpoints": {
+          "md": {
+            "fontSize": "2.25rem",
+            "fontWeight": 300,
+            "lineHeight": 1.22,
+            "letterSpacing": 0
+          },
+          "lg": {
+            "fontSize": "2.625rem",
+            "lineHeight": 1.19,
+            "letterSpacing": 0
+          },
+          "xlg": {
+            "fontSize": "3rem",
+            "lineHeight": 1.17,
+            "letterSpacing": 0
+          },
+          "max": {
+            "fontSize": "3.75rem",
+            "letterSpacing": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "expressive-heading-06",
+      "scss": "$expressive-heading-06",
+      "css": "--cds-expressive-heading-06",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "2rem",
+        "fontWeight": 600,
+        "lineHeight": 1.25,
+        "letterSpacing": 0,
+        "breakpoints": {
+          "md": {
+            "fontSize": "2.25rem",
+            "fontWeight": 600,
+            "lineHeight": 1.22,
+            "letterSpacing": 0
+          },
+          "lg": {
+            "fontSize": "2.625rem",
+            "fontWeight": 600,
+            "lineHeight": 1.19,
+            "letterSpacing": 0
+          },
+          "xlg": {
+            "fontSize": "3rem",
+            "fontWeight": 600,
+            "lineHeight": 1.17,
+            "letterSpacing": 0
+          },
+          "max": {
+            "fontSize": "3.75rem",
+            "fontWeight": 600,
+            "letterSpacing": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "expressive-paragraph-01",
+      "scss": "$expressive-paragraph-01",
+      "css": "--cds-expressive-paragraph-01",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "1.5rem",
+        "fontWeight": 300,
+        "lineHeight": 1.334,
+        "letterSpacing": 0,
+        "breakpoints": {
+          "lg": {
+            "fontSize": "1.75rem",
+            "lineHeight": 1.28572
+          },
+          "max": {
+            "fontSize": "2rem",
+            "lineHeight": 1.25
+          }
+        }
+      }
+    },
+    {
+      "name": "fluid-display-01",
+      "scss": "$fluid-display-01",
+      "css": "--cds-fluid-display-01",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "2.625rem",
+        "fontWeight": 300,
+        "lineHeight": 1.19,
+        "letterSpacing": 0,
+        "breakpoints": {
+          "md": {
+            "fontSize": "2.625rem"
+          },
+          "lg": {
+            "fontSize": "3.375rem"
+          },
+          "xlg": {
+            "fontSize": "3.75rem",
+            "lineHeight": 1.17
+          },
+          "max": {
+            "fontSize": "4.75rem",
+            "lineHeight": 1.13
+          }
+        }
+      }
+    },
+    {
+      "name": "fluid-display-02",
+      "scss": "$fluid-display-02",
+      "css": "--cds-fluid-display-02",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "2.625rem",
+        "fontWeight": 600,
+        "lineHeight": 1.19,
+        "letterSpacing": 0,
+        "breakpoints": {
+          "md": {
+            "fontSize": "2.625rem"
+          },
+          "lg": {
+            "fontSize": "3.375rem"
+          },
+          "xlg": {
+            "fontSize": "3.75rem",
+            "lineHeight": 1.16
+          },
+          "max": {
+            "fontSize": "4.75rem",
+            "lineHeight": 1.13
+          }
+        }
+      }
+    },
+    {
+      "name": "fluid-display-03",
+      "scss": "$fluid-display-03",
+      "css": "--cds-fluid-display-03",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "2.625rem",
+        "fontWeight": 300,
+        "lineHeight": 1.19,
+        "letterSpacing": 0,
+        "breakpoints": {
+          "md": {
+            "fontSize": "3.375rem",
+            "lineHeight": 1.18
+          },
+          "lg": {
+            "fontSize": "3.75rem",
+            "lineHeight": 1.16,
+            "letterSpacing": "-0.64px"
+          },
+          "xlg": {
+            "fontSize": "4.75rem",
+            "lineHeight": 1.13
+          },
+          "max": {
+            "fontSize": "5.25rem",
+            "lineHeight": 1.11,
+            "letterSpacing": "-0.96px"
+          }
+        }
+      }
+    },
+    {
+      "name": "fluid-display-04",
+      "scss": "$fluid-display-04",
+      "css": "--cds-fluid-display-04",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "2.625rem",
+        "fontWeight": 300,
+        "lineHeight": 1.19,
+        "letterSpacing": 0,
+        "breakpoints": {
+          "md": {
+            "fontSize": "4.25rem",
+            "lineHeight": 1.15
+          },
+          "lg": {
+            "fontSize": "5.75rem",
+            "lineHeight": 1.11,
+            "letterSpacing": "-0.64px"
+          },
+          "xlg": {
+            "fontSize": "7.625rem",
+            "lineHeight": 1.07,
+            "letterSpacing": "-0.64px"
+          },
+          "max": {
+            "fontSize": "9.75rem",
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.96px"
+          }
+        }
+      }
+    },
+    {
+      "name": "fluid-heading-03",
+      "scss": "$fluid-heading-03",
+      "css": "--cds-fluid-heading-03",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "1.25rem",
+        "fontWeight": 400,
+        "lineHeight": 1.4,
+        "letterSpacing": 0,
+        "breakpoints": {
+          "xlg": {
+            "fontSize": "1.25rem",
+            "lineHeight": 1.4
+          },
+          "max": {
+            "fontSize": "1.5rem",
+            "lineHeight": 1.334
+          }
+        }
+      }
+    },
+    {
+      "name": "fluid-heading-04",
+      "scss": "$fluid-heading-04",
+      "css": "--cds-fluid-heading-04",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "1.75rem",
+        "fontWeight": 400,
+        "lineHeight": 1.28572,
+        "letterSpacing": 0,
+        "breakpoints": {
+          "xlg": {
+            "fontSize": "2rem",
+            "fontWeight": 400,
+            "lineHeight": 1.25
+          },
+          "max": {
+            "fontSize": "2rem",
+            "fontWeight": 400
+          }
+        }
+      }
+    },
+    {
+      "name": "fluid-heading-05",
+      "scss": "$fluid-heading-05",
+      "css": "--cds-fluid-heading-05",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "2rem",
+        "fontWeight": 400,
+        "lineHeight": 1.25,
+        "letterSpacing": 0,
+        "breakpoints": {
+          "md": {
+            "fontSize": "2.25rem",
+            "fontWeight": 300,
+            "lineHeight": 1.22,
+            "letterSpacing": 0
+          },
+          "lg": {
+            "fontSize": "2.625rem",
+            "lineHeight": 1.19,
+            "letterSpacing": 0
+          },
+          "xlg": {
+            "fontSize": "3rem",
+            "lineHeight": 1.17,
+            "letterSpacing": 0
+          },
+          "max": {
+            "fontSize": "3.75rem",
+            "letterSpacing": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "fluid-heading-06",
+      "scss": "$fluid-heading-06",
+      "css": "--cds-fluid-heading-06",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "2rem",
+        "fontWeight": 600,
+        "lineHeight": 1.25,
+        "letterSpacing": 0,
+        "breakpoints": {
+          "md": {
+            "fontSize": "2.25rem",
+            "fontWeight": 600,
+            "lineHeight": 1.22,
+            "letterSpacing": 0
+          },
+          "lg": {
+            "fontSize": "2.625rem",
+            "fontWeight": 600,
+            "lineHeight": 1.19,
+            "letterSpacing": 0
+          },
+          "xlg": {
+            "fontSize": "3rem",
+            "fontWeight": 600,
+            "lineHeight": 1.17,
+            "letterSpacing": 0
+          },
+          "max": {
+            "fontSize": "3.75rem",
+            "fontWeight": 600,
+            "letterSpacing": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "fluid-paragraph-01",
+      "scss": "$fluid-paragraph-01",
+      "css": "--cds-fluid-paragraph-01",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "1.5rem",
+        "fontWeight": 300,
+        "lineHeight": 1.334,
+        "letterSpacing": 0,
+        "breakpoints": {
+          "lg": {
+            "fontSize": "1.75rem",
+            "lineHeight": 1.28572
+          },
+          "max": {
+            "fontSize": "2rem",
+            "lineHeight": 1.25
+          }
+        }
+      }
+    },
+    {
+      "name": "fluid-quotation-01",
+      "scss": "$fluid-quotation-01",
+      "css": "--cds-fluid-quotation-01",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontFamily": "'IBM Plex Serif', 'Georgia', Times, serif",
+        "fontSize": "1.25rem",
+        "fontWeight": 400,
+        "lineHeight": 1.3,
+        "letterSpacing": 0,
+        "breakpoints": {
+          "md": {
+            "fontSize": "1.25rem",
+            "fontWeight": 400,
+            "letterSpacing": 0
+          },
+          "lg": {
+            "fontSize": "1.5rem",
+            "fontWeight": 400,
+            "lineHeight": 1.334,
+            "letterSpacing": 0
+          },
+          "xlg": {
+            "fontSize": "1.75rem",
+            "fontWeight": 400,
+            "lineHeight": 1.28572,
+            "letterSpacing": 0
+          },
+          "max": {
+            "fontSize": "2rem",
+            "fontWeight": 400,
+            "lineHeight": 1.25,
+            "letterSpacing": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "fluid-quotation-02",
+      "scss": "$fluid-quotation-02",
+      "css": "--cds-fluid-quotation-02",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontFamily": "'IBM Plex Serif', 'Georgia', Times, serif",
+        "fontSize": "2rem",
+        "fontWeight": 300,
+        "lineHeight": 1.25,
+        "letterSpacing": 0,
+        "breakpoints": {
+          "md": {
+            "fontSize": "2.25rem",
+            "lineHeight": 1.22
+          },
+          "lg": {
+            "fontSize": "2.625rem",
+            "lineHeight": 1.19
+          },
+          "xlg": {
+            "fontSize": "3rem",
+            "lineHeight": 1.17
+          },
+          "max": {
+            "fontSize": "3.75rem"
+          }
+        }
+      }
+    },
+    {
+      "name": "heading-01",
+      "scss": "$heading-01",
+      "css": "--cds-heading-01",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "0.875rem",
+        "fontWeight": 600,
+        "lineHeight": 1.42857,
+        "letterSpacing": "0.16px"
+      }
+    },
+    {
+      "name": "heading-02",
+      "scss": "$heading-02",
+      "css": "--cds-heading-02",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "1rem",
+        "fontWeight": 600,
+        "lineHeight": 1.5,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "name": "heading-03",
+      "scss": "$heading-03",
+      "css": "--cds-heading-03",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "1.25rem",
+        "fontWeight": 400,
+        "lineHeight": 1.4,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "name": "heading-04",
+      "scss": "$heading-04",
+      "css": "--cds-heading-04",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "1.75rem",
+        "fontWeight": 400,
+        "lineHeight": 1.28572,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "name": "heading-05",
+      "scss": "$heading-05",
+      "css": "--cds-heading-05",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "2rem",
+        "fontWeight": 400,
+        "lineHeight": 1.25,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "name": "heading-06",
+      "scss": "$heading-06",
+      "css": "--cds-heading-06",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "2.625rem",
+        "fontWeight": 300,
+        "lineHeight": 1.199,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "name": "heading-07",
+      "scss": "$heading-07",
+      "css": "--cds-heading-07",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "3.375rem",
+        "fontWeight": 300,
+        "lineHeight": 1.199,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "name": "heading-compact-01",
+      "scss": "$heading-compact-01",
+      "css": "--cds-heading-compact-01",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "0.875rem",
+        "fontWeight": 600,
+        "lineHeight": 1.28572,
+        "letterSpacing": "0.16px"
+      }
+    },
+    {
+      "name": "heading-compact-02",
+      "scss": "$heading-compact-02",
+      "css": "--cds-heading-compact-02",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "1rem",
+        "fontWeight": 600,
+        "lineHeight": 1.375,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "name": "helper-text-01",
+      "scss": "$helper-text-01",
+      "css": "--cds-helper-text-01",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "0.75rem",
+        "lineHeight": 1.33333,
+        "letterSpacing": "0.32px"
+      }
+    },
+    {
+      "name": "helper-text-02",
+      "scss": "$helper-text-02",
+      "css": "--cds-helper-text-02",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "0.875rem",
+        "lineHeight": 1.28572,
+        "letterSpacing": "0.16px"
+      }
+    },
+    {
+      "name": "label-01",
+      "scss": "$label-01",
+      "css": "--cds-label-01",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "0.75rem",
+        "fontWeight": 400,
+        "lineHeight": 1.33333,
+        "letterSpacing": "0.32px"
+      }
+    },
+    {
+      "name": "label-02",
+      "scss": "$label-02",
+      "css": "--cds-label-02",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "0.875rem",
+        "fontWeight": 400,
+        "lineHeight": 1.28572,
+        "letterSpacing": "0.16px"
+      }
+    },
+    {
+      "name": "legal-01",
+      "scss": "$legal-01",
+      "css": "--cds-legal-01",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "0.75rem",
+        "fontWeight": 400,
+        "lineHeight": 1.33333,
+        "letterSpacing": "0.32px"
+      }
+    },
+    {
+      "name": "legal-02",
+      "scss": "$legal-02",
+      "css": "--cds-legal-02",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "0.875rem",
+        "fontWeight": 400,
+        "lineHeight": 1.28572,
+        "letterSpacing": "0.16px"
+      }
+    },
+    {
+      "name": "productive-heading-01",
+      "scss": "$productive-heading-01",
+      "css": "--cds-productive-heading-01",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "0.875rem",
+        "fontWeight": 600,
+        "lineHeight": 1.28572,
+        "letterSpacing": "0.16px"
+      }
+    },
+    {
+      "name": "productive-heading-02",
+      "scss": "$productive-heading-02",
+      "css": "--cds-productive-heading-02",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "1rem",
+        "fontWeight": 600,
+        "lineHeight": 1.375,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "name": "productive-heading-03",
+      "scss": "$productive-heading-03",
+      "css": "--cds-productive-heading-03",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "1.25rem",
+        "fontWeight": 400,
+        "lineHeight": 1.4,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "name": "productive-heading-04",
+      "scss": "$productive-heading-04",
+      "css": "--cds-productive-heading-04",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "1.75rem",
+        "fontWeight": 400,
+        "lineHeight": 1.28572,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "name": "productive-heading-05",
+      "scss": "$productive-heading-05",
+      "css": "--cds-productive-heading-05",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "2rem",
+        "fontWeight": 400,
+        "lineHeight": 1.25,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "name": "productive-heading-06",
+      "scss": "$productive-heading-06",
+      "css": "--cds-productive-heading-06",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "2.625rem",
+        "fontWeight": 300,
+        "lineHeight": 1.199,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "name": "productive-heading-07",
+      "scss": "$productive-heading-07",
+      "css": "--cds-productive-heading-07",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontSize": "3.375rem",
+        "fontWeight": 300,
+        "lineHeight": 1.199,
+        "letterSpacing": 0
+      }
+    },
+    {
+      "name": "quotation-01",
+      "scss": "$quotation-01",
+      "css": "--cds-quotation-01",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontFamily": "'IBM Plex Serif', 'Georgia', Times, serif",
+        "fontSize": "1.25rem",
+        "fontWeight": 400,
+        "lineHeight": 1.3,
+        "letterSpacing": 0,
+        "breakpoints": {
+          "md": {
+            "fontSize": "1.25rem",
+            "fontWeight": 400,
+            "letterSpacing": 0
+          },
+          "lg": {
+            "fontSize": "1.5rem",
+            "fontWeight": 400,
+            "lineHeight": 1.334,
+            "letterSpacing": 0
+          },
+          "xlg": {
+            "fontSize": "1.75rem",
+            "fontWeight": 400,
+            "lineHeight": 1.28572,
+            "letterSpacing": 0
+          },
+          "max": {
+            "fontSize": "2rem",
+            "fontWeight": 400,
+            "lineHeight": 1.25,
+            "letterSpacing": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "quotation-02",
+      "scss": "$quotation-02",
+      "css": "--cds-quotation-02",
+      "category": "type",
+      "role": "type",
+      "status": "active",
+      "value": {
+        "fontFamily": "'IBM Plex Serif', 'Georgia', Times, serif",
+        "fontSize": "2rem",
+        "fontWeight": 300,
+        "lineHeight": 1.25,
+        "letterSpacing": 0,
+        "breakpoints": {
+          "md": {
+            "fontSize": "2.25rem",
+            "lineHeight": 1.22
+          },
+          "lg": {
+            "fontSize": "2.625rem",
+            "lineHeight": 1.19
+          },
+          "xlg": {
+            "fontSize": "3rem",
+            "lineHeight": 1.17
+          },
+          "max": {
+            "fontSize": "3.75rem"
+          }
+        }
+      }
+    }
+  ],
+  "components": [
+    {
+      "name": "Accordion",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "AccordionItem",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "ActionableNotification",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "actionButtonLabel",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "aria-label",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "caption",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "closeOnEscape",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "hasFocus",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "hideCloseButton",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "inline",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "kind",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "error",
+            "info",
+            "info-square",
+            "success",
+            "warning",
+            "warning-alt"
+          ]
+        },
+        {
+          "name": "lowContrast",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "onActionButtonClick",
+          "type": "ComponentProps<typeof NotificationActionButton>",
+          "required": false
+        },
+        {
+          "name": "onClose",
+          "type": "NotificationCloseHandler",
+          "required": false
+        },
+        {
+          "name": "onCloseButtonClick",
+          "type": "(event: MouseEvent) => void",
+          "required": false
+        },
+        {
+          "name": "role",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "alert",
+            "log",
+            "status"
+          ]
+        },
+        {
+          "name": "statusIconDescription",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "subtitle",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "AILabel",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "AILabelActions",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "AILabelContent",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "AISkeletonIcon",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "AISkeletonPlaceholder",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "AISkeletonText",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "AspectRatio",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "Breadcrumb",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "BreadcrumbItem",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "Button",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "ButtonSet",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "Callout",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "actionButtonLabel",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "kind",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "error",
+            "info",
+            "info-square",
+            "success",
+            "warning",
+            "warning-alt"
+          ]
+        },
+        {
+          "name": "lowContrast",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "onActionButtonClick",
+          "type": "ComponentProps<typeof NotificationActionButton>",
+          "required": false
+        },
+        {
+          "name": "statusIconDescription",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "subtitle",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "titleId",
+          "type": "string",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "Checkbox",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "CheckboxGroup",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "ClassPrefix",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "ClickableTile",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "CodeSnippet",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "Column",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "ColumnHang",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "ComboBox",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "ComboButton",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "ComposedModal",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "ComposedModalPresence",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "ContainedList",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "ContainedListItem",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "Content",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "ContentSwitcher",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "children",
+          "type": "any",
+          "required": false
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "light",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "lowContrast",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "onChange",
+          "type": "(params: SwitchEventHandlersParams) => void",
+          "required": true
+        },
+        {
+          "name": "selectedIndex",
+          "type": "number",
+          "required": false
+        },
+        {
+          "name": "selectionMode",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "automatic",
+            "manual"
+          ]
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "sm",
+            "md",
+            "lg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ControlledPasswordInput",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "Copy",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "CopyButton",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "align",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "top-left",
+            "top-right",
+            "bottom-left",
+            "bottom-right",
+            "left-bottom",
+            "left-top",
+            "right-bottom",
+            "right-top",
+            "top",
+            "bottom",
+            "left",
+            "right",
+            "top-start",
+            "top-end",
+            "bottom-start",
+            "bottom-end",
+            "left-end",
+            "left-start",
+            "right-end",
+            "right-start"
+          ]
+        },
+        {
+          "name": "autoAlign",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "feedback",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "feedbackTimeout",
+          "type": "number",
+          "required": false
+        },
+        {
+          "name": "iconDescription",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "onClick",
+          "type": "MouseEventHandler<HTMLButtonElement>",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "DangerButton",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "DataTable",
+      "status": "active",
+      "description": "DataTable components are used to represent a collection of resources,\ndisplaying a subset of their fields in columns, or headers. We prioritize\ndirect updates to the state of what we're rendering, so internally we\nnormalize the given data and then denormalize it at render time. Each part of\nthe DataTable is accessible through look-up by ID, and updating the state of\na single entity cascades updates to the consumer.",
+      "props": [
+        {
+          "name": "experimentalAutoAlign",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "filterRows",
+          "type": "(options: { cellsById: Record<string, DataTableCell<ColTypes>>; getCellId: (rowId: string, header: string) => string; headers: DataTableHeader[]; inputValue: string; rowIds: string[]; }) => string[]",
+          "required": false
+        },
+        {
+          "name": "headers",
+          "type": "DataTableHeader[]",
+          "required": true
+        },
+        {
+          "name": "isSortable",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "locale",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "overflowMenuOnHover",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "radio",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "render",
+          "type": "(renderProps: DataTableRenderProps<RowType, ColTypes>) => ReactElement",
+          "required": false
+        },
+        {
+          "name": "rows",
+          "type": "Omit<DataTableRow<ColTypes>, \"cells\">[]",
+          "required": true
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl"
+          ]
+        },
+        {
+          "name": "sortRow",
+          "type": "SortRowFn",
+          "required": false
+        },
+        {
+          "name": "stickyHeader",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "useStaticWidth",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "useZebraStyles",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "translateWithId",
+          "type": "(messageId: \"carbon.table.row.expand\" | \"carbon.table.row.collapse\" | \"carbon.table.all.expand\" | \"carbon.table.all.collapse\" | \"carbon.table.all.select\" | \"carbon.table.all.unselect\" | \"carbon.table.row.select\" | \"carbon.table.row.unselect\", args?: Record<...>) => string",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "DatePicker",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "DatePickerInput",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "DefinitionTooltip",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "DismissibleTag",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "Dropdown",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "ErrorBoundary",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "ExpandableSearch",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "ExpandableTile",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "FeatureFlags",
+      "status": "active",
+      "description": "Supports an object of feature flag values with the `flags` prop, merging them\nalong with the current `FeatureFlagContext` to provide consumers to check if\na feature flag is enabled or disabled in a given React tree",
+      "props": [
+        {
+          "name": "flags",
+          "type": "Record<string, boolean>",
+          "required": false
+        },
+        {
+          "name": "enableV12Release",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "enableV12TileDefaultIcons",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "enableV12TileRadioIcons",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "enableV12Overflowmenu",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "enableTreeviewControllable",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "enableExperimentalFocusWrapWithoutSentinels",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "enableFocusWrapWithoutSentinels",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "enableDialogElement",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "enableV12DynamicFloatingStyles",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "enableV12Autoalign",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "enableEnhancedFileUploader",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "enablePresence",
+          "type": "boolean",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "Filename",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "aria-describedby",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "iconDescription",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "disabled",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "invalid",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "edit",
+            "complete",
+            "uploading"
+          ]
+        },
+        {
+          "name": "tabIndex",
+          "type": "number",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "FileUploader",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "FileUploaderButton",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "accept",
+          "type": "string[]",
+          "required": false
+        },
+        {
+          "name": "buttonKind",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "primary",
+            "secondary",
+            "danger",
+            "ghost",
+            "danger--primary",
+            "danger--ghost",
+            "danger--tertiary",
+            "tertiary"
+          ]
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "disableLabelChanges",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "disabled",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "labelText",
+          "type": "React.ReactNode",
+          "required": false
+        },
+        {
+          "name": "multiple",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "onChange",
+          "type": "(event: React.ChangeEvent<HTMLInputElement>) => void",
+          "required": false
+        },
+        {
+          "name": "onClick",
+          "type": "(event: React.MouseEvent<HTMLButtonElement>) => void",
+          "required": false
+        },
+        {
+          "name": "role",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "sm",
+            "small",
+            "field",
+            "md",
+            "lg"
+          ]
+        },
+        {
+          "name": "tabIndex",
+          "type": "string | number",
+          "required": false
+        },
+        {
+          "name": "innerRef",
+          "type": "React.RefObject<HTMLLabelElement>",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "FileUploaderDropContainer",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "accept",
+          "type": "string[]",
+          "required": false
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "disabled",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "labelText",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "maxFileSize",
+          "type": "number",
+          "required": false
+        },
+        {
+          "name": "multiple",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "onAddFiles",
+          "type": "(event: React.SyntheticEvent<HTMLElement>, content: { addedFiles: AddedFile[]; }) => void",
+          "required": false
+        },
+        {
+          "name": "onClick",
+          "type": "() => void",
+          "required": false
+        },
+        {
+          "name": "pattern",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "required",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "innerRef",
+          "type": "React.Ref<HTMLButtonElement>",
+          "required": false
+        },
+        {
+          "name": "role",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "tabIndex",
+          "type": "string | number",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "FileUploaderItem",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "disabled",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "errorBody",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "errorSubject",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "iconDescription",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "invalid",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "onAddFiles",
+          "type": "(event: React.ChangeEvent<HTMLInputElement>) => void",
+          "required": false
+        },
+        {
+          "name": "onDelete",
+          "type": "(event: React.SyntheticEvent<HTMLElement>, opts: { uuid: string; }) => void",
+          "required": false
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "sm",
+            "md",
+            "lg"
+          ]
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "uploading",
+            "edit",
+            "complete"
+          ]
+        },
+        {
+          "name": "uuid",
+          "type": "string",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "FilterableMultiSelect",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "aria-label",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "ariaLabel",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "autoAlign",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "clearSelectionDescription",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "clearSelectionText",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "decorator",
+          "type": "ReactNode",
+          "required": false
+        },
+        {
+          "name": "direction",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        {
+          "name": "disabled",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "downshiftProps",
+          "type": "UseMultipleSelectionProps<ItemType>",
+          "required": false
+        },
+        {
+          "name": "filterItems",
+          "type": "(items: readonly ItemType[], extra: { inputValue: string; itemToString: (item: ItemType) => string; }) => ItemType[]",
+          "required": false
+        },
+        {
+          "name": "hideLabel",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "helperText",
+          "type": "ReactNode",
+          "required": false
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "initialSelectedItems",
+          "type": "ItemType[]",
+          "required": false
+        },
+        {
+          "name": "invalid",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "invalidText",
+          "type": "ReactNode",
+          "required": false
+        },
+        {
+          "name": "itemToElement",
+          "type": "(item: ItemType) => ReactNode",
+          "required": false
+        },
+        {
+          "name": "itemToString",
+          "type": "(item: ItemType) => string",
+          "required": false
+        },
+        {
+          "name": "items",
+          "type": "ItemType[]",
+          "required": true
+        },
+        {
+          "name": "light",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "locale",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "onChange",
+          "type": "(changes: { selectedItems: ItemType[]; }) => void",
+          "required": false
+        },
+        {
+          "name": "onInputValueChange",
+          "type": "(changes: UseComboboxInputValueChange<ItemType>) => void",
+          "required": false
+        },
+        {
+          "name": "onMenuChange",
+          "type": "(open: boolean) => void",
+          "required": false
+        },
+        {
+          "name": "open",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "placeholder",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "readOnly",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "selectionFeedback",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "top",
+            "fixed",
+            "top-after-reopen"
+          ]
+        },
+        {
+          "name": "selectedItems",
+          "type": "ItemType[]",
+          "required": false
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "xs",
+            "sm",
+            "md",
+            "lg"
+          ]
+        },
+        {
+          "name": "slug",
+          "type": "ReactNode",
+          "required": false
+        },
+        {
+          "name": "titleText",
+          "type": "ReactNode",
+          "required": false
+        },
+        {
+          "name": "type",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "default",
+            "inline"
+          ]
+        },
+        {
+          "name": "useTitleInItem",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "warn",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "warnText",
+          "type": "ReactNode",
+          "required": false
+        },
+        {
+          "name": "inputProps",
+          "type": "React.InputHTMLAttributes<HTMLInputElement>",
+          "required": false
+        },
+        {
+          "name": "compareItems",
+          "type": "CompareItems",
+          "required": false
+        },
+        {
+          "name": "sortItems",
+          "type": "(items: readonly ItemType[], options: SortItemsOptions<ItemType>) => ItemType[]",
+          "required": false
+        },
+        {
+          "name": "translateWithId",
+          "type": "(messageId: any, args?: Record<string, unknown>) => string",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "FlexGrid",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "FluidComboBox",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "FluidDatePicker",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "FluidDatePickerInput",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "FluidDropdown",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "FluidForm",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "FluidMultiSelect",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "FluidNumberInput",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "FluidPasswordInput",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "FluidSearch",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "FluidSelect",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "FluidTextArea",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "FluidTextInput",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "FluidTimePicker",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "FluidTimePickerSelect",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "Form",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "FormGroup",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "FormItem",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "children",
+          "type": "React.ReactNode",
+          "required": false
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "FormLabel",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "children",
+          "type": "React.ReactNode",
+          "required": false
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "GlobalTheme",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "Grid",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "GridSettings",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "children",
+          "type": "React.ReactNode",
+          "required": false
+        },
+        {
+          "name": "mode",
+          "type": "enum",
+          "required": true,
+          "values": [
+            "flexbox",
+            "css-grid"
+          ]
+        },
+        {
+          "name": "subgrid",
+          "type": "boolean",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "Header",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "HeaderContainer",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "isSideNavExpanded",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "render",
+          "type": "React.ComponentType<P>",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "HeaderGlobalAction",
+      "status": "active",
+      "description": "HeaderGlobalAction is used as a part of the `HeaderGlobalBar`. It is\nessentially an Icon Button with an additional state to indicate whether it is\n\"active\". The active state comes from when a user clicks on the global action\nwhich should trigger a panel to appear.\n\nNote: children passed to this component should be an Icon.",
+      "props": []
+    },
+    {
+      "name": "HeaderGlobalBar",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "HeaderMenu",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "HeaderMenuButton",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "aria-label",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "aria-labelledby",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "renderMenuIcon",
+          "type": "JSX.Element",
+          "required": false
+        },
+        {
+          "name": "renderCloseIcon",
+          "type": "JSX.Element",
+          "required": false
+        },
+        {
+          "name": "isActive",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "isCollapsible",
+          "type": "boolean",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "HeaderMenuItem",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "HeaderName",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "element",
+          "type": "any",
+          "required": false
+        },
+        {
+          "name": "as",
+          "type": "any",
+          "required": false
+        },
+        {
+          "name": "isSideNavExpanded",
+          "type": "any",
+          "required": false
+        },
+        {
+          "name": "prefix",
+          "type": "string",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "HeaderNavigation",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "HeaderPanel",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "HeaderSideNavItems",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "hasDivider",
+          "type": "boolean",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "Heading",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "HStack",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "IconButton",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "IconSwitch",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "IconTab",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "IdPrefix",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "InlineCheckbox",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "InlineLoading",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "InlineNotification",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "aria-label",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "hideCloseButton",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "kind",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "error",
+            "info",
+            "info-square",
+            "success",
+            "warning",
+            "warning-alt"
+          ]
+        },
+        {
+          "name": "lowContrast",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "onClose",
+          "type": "NotificationCloseHandler",
+          "required": false
+        },
+        {
+          "name": "onCloseButtonClick",
+          "type": "(event: MouseEvent) => void",
+          "required": false
+        },
+        {
+          "name": "role",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "alert",
+            "log",
+            "status"
+          ]
+        },
+        {
+          "name": "statusIconDescription",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "subtitle",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "Layer",
+      "status": "active",
+      "description": "A custom hook that will return information about the current layer. A common\nfield to pull from this is the `level` for the layer that the component that\ncalls this hook is currently in",
+      "props": []
+    },
+    {
+      "name": "Link",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "ListItem",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "Loading",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "active",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "small",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "withOverlay",
+          "type": "boolean",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "Menu",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "MenuButton",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "MenuItem",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "MenuItemDivider",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "MenuItemGroup",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "MenuItemRadioGroup",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "MenuItemSelectable",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "Modal",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "ModalBody",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "ModalFooter",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "ModalHeader",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "ModalPresence",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "ModalWrapper",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "MultiSelect",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "NotificationActionButton",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "inline",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "onClick",
+          "type": "ComponentProps<ButtonComponent>",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "NotificationButton",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "aria-label",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "ariaLabel",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "notificationType",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "toast",
+            "inline",
+            "actionable"
+          ]
+        },
+        {
+          "name": "renderIcon",
+          "type": "React.ElementType",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "NumberInput",
+      "status": "active",
+      "description": "Converts a string with any Unicode numeral system to a JavaScript number.\nHandles all numeral systems supported by Intl.NumberFormat.",
+      "props": []
+    },
+    {
+      "name": "OperationalTag",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "OrderedList",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "nested",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "native",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "isExpressive",
+          "type": "boolean",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "OverflowMenu",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "OverflowMenuItem",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "Pagination",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "PaginationNav",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "PasswordInput",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "Popover",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "PopoverContent",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "PrimaryButton",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "ProgressBar",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "helperText",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "hideLabel",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "max",
+          "type": "number",
+          "required": false
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "small",
+            "big"
+          ]
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "active",
+            "finished",
+            "error"
+          ]
+        },
+        {
+          "name": "type",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "default",
+            "inline",
+            "indented"
+          ]
+        },
+        {
+          "name": "value",
+          "type": "number",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "ProgressIndicator",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "children",
+          "type": "React.ReactNode",
+          "required": false
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "currentIndex",
+          "type": "number",
+          "required": false
+        },
+        {
+          "name": "onChange",
+          "type": "(data: number) => void",
+          "required": false
+        },
+        {
+          "name": "spaceEqually",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "vertical",
+          "type": "boolean",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "ProgressStep",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "children",
+          "type": "React.ReactNode",
+          "required": false
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "currentIndex",
+          "type": "number",
+          "required": false
+        },
+        {
+          "name": "onChange",
+          "type": "(data: number) => void",
+          "required": false
+        },
+        {
+          "name": "spaceEqually",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "vertical",
+          "type": "boolean",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "RadioButton",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "RadioButtonGroup",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "RadioTile",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "Row",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "Search",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "SecondaryButton",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "Section",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "Select",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "SelectableTag",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "SelectableTile",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "SelectItem",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "SelectItemGroup",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "SideNav",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "SideNavDetails",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "SideNavDivider",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "SideNavFooter",
+      "status": "active",
+      "description": "SideNavFooter is used for rendering the button at the bottom of the side\nnavigation that is a part of the UI Shell. It is responsible for handling the\nuser interaction to expand or collapse the side navigation.",
+      "props": [
+        {
+          "name": "assistiveText",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "expanded",
+          "type": "boolean",
+          "required": true
+        },
+        {
+          "name": "onToggle",
+          "type": "(event: React.MouseEvent<HTMLButtonElement>) => void",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "SideNavHeader",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "SideNavIcon",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "SideNavItem",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "SideNavItems",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "SideNavLink",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "SideNavLinkText",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "SideNavMenu",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "SideNavMenuItem",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "SideNavSwitcher",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "SkeletonIcon",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "SkeletonPlaceholder",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "SkeletonText",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "SkipToContent",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "Slider",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "Stack",
+      "status": "active",
+      "description": "The Stack component is a useful layout utility in a component-based model.\nThis allows components to not use margin and instead delegate the\nresponsibility of positioning and layout to parent components.\n\nIn the case of the Stack component, it uses the spacing scale from the\nDesign Language in order to determine how much space there should be between\nitems rendered by the Stack component. It also supports a custom `gap` prop\nwhich will allow a user to provide a custom value for the gap of the layout.\n\nThis component supports both horizontal and vertical orientations.\n\nInspiration for this component:\n\n- https://paste.twilio.design/layout/stack/\n- https://github.com/Workday/canvas-kit/blob/f2f599654876700f483a1d8c5de82a41315c76f1/modules/labs-react/layout/lib/Stack.tsx",
+      "props": []
+    },
+    {
+      "name": "StaticNotification",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "actionButtonLabel",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "kind",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "error",
+            "info",
+            "info-square",
+            "success",
+            "warning",
+            "warning-alt"
+          ]
+        },
+        {
+          "name": "lowContrast",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "onActionButtonClick",
+          "type": "ComponentProps<typeof NotificationActionButton>",
+          "required": false
+        },
+        {
+          "name": "statusIconDescription",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "subtitle",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "titleId",
+          "type": "string",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "StructuredListBody",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "head",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "onKeyDown",
+          "type": "(event: KeyboardEvent) => void",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "StructuredListCell",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "head",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "noWrap",
+          "type": "boolean",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "StructuredListHead",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "StructuredListInput",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "onChange",
+          "type": "(event: ChangeEvent<HTMLInputElement>) => void",
+          "required": false
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "StructuredListRow",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "head",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "onClick",
+          "type": "(event: MouseEvent) => void",
+          "required": false
+        },
+        {
+          "name": "onKeyDown",
+          "type": "(event: KeyboardEvent) => void",
+          "required": false
+        },
+        {
+          "name": "selection",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "StructuredListWrapper",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "aria-label",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "isCondensed",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "isFlush",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "selection",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "selectedInitialRow",
+          "type": "string",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "Switch",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "Switcher",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "SwitcherDivider",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "SwitcherItem",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "Tab",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TabContent",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "Table",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TableActionList",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TableBatchAction",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TableBatchActions",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TableBody",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TableCell",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TableContainer",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TableDecoratorRow",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TableExpandedRow",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TableExpandHeader",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TableExpandRow",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TableHead",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TableHeader",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TableRow",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TableSelectAll",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TableSelectRow",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TableSlugRow",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TableToolbar",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TableToolbarAction",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TableToolbarContent",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TableToolbarMenu",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TableToolbarSearch",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TabList",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "activation",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "automatic",
+            "manual"
+          ]
+        },
+        {
+          "name": "aria-label",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "contained",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "fullWidth",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "iconSize",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "default",
+            "lg"
+          ]
+        },
+        {
+          "name": "leftOverflowButtonProps",
+          "type": "HTMLAttributes<HTMLButtonElement>",
+          "required": false
+        },
+        {
+          "name": "light",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "rightOverflowButtonProps",
+          "type": "HTMLAttributes<HTMLButtonElement>",
+          "required": false
+        },
+        {
+          "name": "scrollDebounceWait",
+          "type": "number",
+          "required": false
+        },
+        {
+          "name": "scrollIntoView",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "lg",
+            "sm",
+            "md"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TabListVertical",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "activation",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "automatic",
+            "manual"
+          ]
+        },
+        {
+          "name": "aria-label",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "scrollIntoView",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "lg",
+            "sm",
+            "md"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TabPanel",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TabPanels",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "Tabs",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false
+        },
+        {
+          "name": "defaultSelectedIndex",
+          "type": "number",
+          "required": false
+        },
+        {
+          "name": "dismissable",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "onChange",
+          "type": "(state: { selectedIndex: number; }) => void",
+          "required": false
+        },
+        {
+          "name": "onTabCloseRequest",
+          "type": "(tabIndex: number) => void",
+          "required": false
+        },
+        {
+          "name": "selectedIndex",
+          "type": "number",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "TabsVertical",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false
+        },
+        {
+          "name": "defaultSelectedIndex",
+          "type": "number",
+          "required": false
+        },
+        {
+          "name": "height",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "onChange",
+          "type": "(state: { selectedIndex: number; }) => void",
+          "required": false
+        },
+        {
+          "name": "selectedIndex",
+          "type": "number",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "Tag",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TextArea",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TextInput",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "Theme",
+      "status": "active",
+      "description": "Specify the theme to be applied to a page, or a region in a page",
+      "props": [
+        {
+          "name": "theme",
+          "type": "any",
+          "required": false
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "as",
+          "type": "ElementType",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "Tile",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TileAboveTheFoldContent",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TileBelowTheFoldContent",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TileGroup",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "defaultSelected",
+          "type": "string | number",
+          "required": false
+        },
+        {
+          "name": "disabled",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "legend",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "onChange",
+          "type": "(selection: T, name: string, evt: unknown) => void",
+          "required": false
+        },
+        {
+          "name": "valueSelected",
+          "type": "string | number",
+          "required": false
+        },
+        {
+          "name": "required",
+          "type": "boolean",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "TimePicker",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TimePickerSelect",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "ToastNotification",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "aria-label",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "caption",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "hideCloseButton",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "kind",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "error",
+            "info",
+            "info-square",
+            "success",
+            "warning",
+            "warning-alt"
+          ]
+        },
+        {
+          "name": "lowContrast",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "onClose",
+          "type": "NotificationCloseHandler",
+          "required": false
+        },
+        {
+          "name": "onCloseButtonClick",
+          "type": "(event: MouseEvent) => void",
+          "required": false
+        },
+        {
+          "name": "role",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "alert",
+            "log",
+            "status"
+          ]
+        },
+        {
+          "name": "statusIconDescription",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "subtitle",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "timeout",
+          "type": "number",
+          "required": false
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "Toggle",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "aria-labelledby",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "labelA",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "labelB",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "labelText",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "hideLabel",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "onClick",
+          "type": "any",
+          "required": false
+        },
+        {
+          "name": "onToggle",
+          "type": "(checked: boolean) => void",
+          "required": false
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "sm",
+            "md"
+          ]
+        },
+        {
+          "name": "readOnly",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "defaultToggled",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "toggled",
+          "type": "boolean",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "Toggletip",
+      "status": "active",
+      "description": "Used as a container for the button and content of a toggletip. This component\nis responsible for coordinating between interactions with the button and the\nvisibility of the content",
+      "props": []
+    },
+    {
+      "name": "ToggletipActions",
+      "status": "active",
+      "description": "`ToggletipActions` is a container for one or two actions present at the base\nof a toggletip. It is used for layout of these items.",
+      "props": [
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "ToggletipButton",
+      "status": "active",
+      "description": "`ToggletipButton` controls the visibility of the Toggletip through mouse\nclicks and keyboard interactions.",
+      "props": []
+    },
+    {
+      "name": "ToggletipContent",
+      "status": "active",
+      "description": "`ToggletipContent` is a wrapper around `PopoverContent`. It places the\n`children` passed in as a prop inside of `PopoverContent` so that they will\nbe rendered inside of the popover for this component.",
+      "props": []
+    },
+    {
+      "name": "ToggletipLabel",
+      "status": "active",
+      "description": "Used to render the label for a Toggletip",
+      "props": [
+        {
+          "name": "as",
+          "type": "ElementType",
+          "required": false
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "Tooltip",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TreeNode",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "TreeView",
+      "status": "active",
+      "description": "",
+      "props": []
+    },
+    {
+      "name": "UnorderedList",
+      "status": "active",
+      "description": "",
+      "props": [
+        {
+          "name": "nested",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "isExpressive",
+          "type": "boolean",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "VStack",
+      "status": "active",
+      "description": "",
+      "props": []
+    }
+  ],
+  "lifecycle": {
+    "forbiddenV10Names": [
+      "active-danger",
+      "active-light-ui",
+      "active-primary",
+      "active-secondary",
+      "active-tertiary",
+      "active-ui",
+      "danger",
+      "danger-01",
+      "danger-02",
+      "decorative-01",
+      "disabled-01",
+      "disabled-02",
+      "disabled-03",
+      "hover-danger",
+      "hover-light-ui",
+      "hover-primary",
+      "hover-primary-text",
+      "hover-secondary",
+      "hover-selected-ui",
+      "hover-tertiary",
+      "hover-ui",
+      "icon-01",
+      "icon-02",
+      "icon-03",
+      "interactive-01",
+      "interactive-02",
+      "interactive-03",
+      "interactive-04",
+      "inverse-01",
+      "inverse-02",
+      "inverse-focus-ui",
+      "inverse-hover-ui",
+      "inverse-link",
+      "inverse-support-01",
+      "inverse-support-02",
+      "inverse-support-03",
+      "inverse-support-04",
+      "link-01",
+      "link-02",
+      "overlay-01",
+      "selected-light-ui",
+      "selected-ui",
+      "skeleton-01",
+      "skeleton-02",
+      "support-01",
+      "support-02",
+      "support-03",
+      "support-04",
+      "text-01",
+      "text-02",
+      "text-03",
+      "text-04",
+      "text-05",
+      "hover-row",
+      "ui-01",
+      "ui-02",
+      "ui-03",
+      "ui-04",
+      "ui-05",
+      "ui-background",
+      "visited-link",
+      "brand-01",
+      "brand-02",
+      "brand-03",
+      "caption-01",
+      "caption-02",
+      "body-short-01",
+      "body-short-02",
+      "body-long-01",
+      "body-long-02",
+      "productive-heading-01",
+      "productive-heading-02",
+      "expressive-heading-01",
+      "expressive-heading-02",
+      "productive-heading-03",
+      "productive-heading-04",
+      "productive-heading-05",
+      "productive-heading-06",
+      "productive-heading-07",
+      "expressive-heading-03",
+      "expressive-heading-04",
+      "expressive-heading-05",
+      "expressive-heading-06",
+      "expressive-paragraph-01",
+      "quotation-01",
+      "quotation-02",
+      "display-01",
+      "display-02",
+      "display-03",
+      "display-04"
+    ],
+    "renameMap": {
+      "active-danger": [
+        "button-danger-active"
+      ],
+      "active-light-ui": [
+        "layer-active-02"
+      ],
+      "active-primary": [
+        "button-primary-active"
+      ],
+      "active-secondary": [
+        "button-secondary-active"
+      ],
+      "active-tertiary": [
+        "button-tertiary-active"
+      ],
+      "active-ui": [
+        "layer-active-01",
+        "background-active",
+        "layer-accent-active-01",
+        "border-subtle-selected-01"
+      ],
+      "button-separator": [
+        "button-separator"
+      ],
+      "danger": [
+        "button-danger-primary"
+      ],
+      "danger-01": [
+        "button-danger-primary"
+      ],
+      "danger-02": [
+        "button-danger-secondary"
+      ],
+      "decorative-01": [
+        "border-subtle-02"
+      ],
+      "disabled-02": [
+        "text-disabled",
+        "icon-disabled",
+        "button-disabled",
+        "border-disabled"
+      ],
+      "disabled-03": [
+        "icon-on-color-disabled",
+        "layer-selected-disabled",
+        "text-on-color-disabled"
+      ],
+      "field-01": [
+        "field-01"
+      ],
+      "field-02": [
+        "field-02"
+      ],
+      "focus": [
+        "focus"
+      ],
+      "highlight": [
+        "highlight"
+      ],
+      "hover-danger": [
+        "button-danger-hover"
+      ],
+      "hover-light-ui": [
+        "layer-hover-02"
+      ],
+      "hover-primary": [
+        "button-primary-hover"
+      ],
+      "hover-primary-text": [
+        "link-primary-hover"
+      ],
+      "hover-secondary": [
+        "button-secondary-hover"
+      ],
+      "hover-selected-ui": [
+        "background-selected-hover",
+        "layer-accent-hover-01",
+        "layer-selected-hover-01"
+      ],
+      "hover-tertiary": [
+        "button-tertiary-hover"
+      ],
+      "hover-ui": [
+        "background-hover",
+        "layer-hover-01",
+        "field-hover-01",
+        "field-hover-02"
+      ],
+      "icon-01": [
+        "icon-primary"
+      ],
+      "icon-02": [
+        "icon-secondary"
+      ],
+      "icon-03": [
+        "icon-on-color"
+      ],
+      "interactive-01": [
+        "button-primary",
+        "background-brand"
+      ],
+      "interactive-02": [
+        "button-secondary"
+      ],
+      "interactive-03": [
+        "button-tertiary"
+      ],
+      "interactive-04": [
+        "border-interactive",
+        "interactive"
+      ],
+      "inverse-01": [
+        "icon-inverse",
+        "focus-inset",
+        "text-inverse"
+      ],
+      "inverse-02": [
+        "background-inverse"
+      ],
+      "inverse-focus-ui": [
+        "focus-inverse"
+      ],
+      "inverse-hover-ui": [
+        "background-inverse-hover"
+      ],
+      "inverse-link": [
+        "link-inverse"
+      ],
+      "inverse-support-01": [
+        "support-error-inverse"
+      ],
+      "inverse-support-02": [
+        "support-success-inverse"
+      ],
+      "inverse-support-03": [
+        "support-warning-inverse"
+      ],
+      "inverse-support-04": [
+        "support-info-inverse"
+      ],
+      "link-01": [
+        "link-primary"
+      ],
+      "link-02": [
+        "link-secondary"
+      ],
+      "overlay-01": [
+        "overlay"
+      ],
+      "selected-light-ui": [
+        "layer-selected-02"
+      ],
+      "selected-ui": [
+        "layer-selected-01",
+        "background-selected"
+      ],
+      "skeleton-01": [
+        "skeleton-background"
+      ],
+      "skeleton-02": [
+        "skeleton-element"
+      ],
+      "support-01": [
+        "support-error"
+      ],
+      "support-02": [
+        "support-success"
+      ],
+      "support-03": [
+        "support-warning"
+      ],
+      "support-04": [
+        "support-info"
+      ],
+      "text-01": [
+        "text-primary"
+      ],
+      "text-02": [
+        "text-secondary"
+      ],
+      "text-03": [
+        "text-placeholder"
+      ],
+      "text-04": [
+        "text-on-color"
+      ],
+      "text-05": [
+        "text-helper"
+      ],
+      "text-error": [
+        "text-error"
+      ],
+      "hover-row": [
+        "layer-hover-01"
+      ],
+      "ui-01": [
+        "layer-01"
+      ],
+      "ui-02": [
+        "layer-02"
+      ],
+      "ui-03": [
+        "layer-accent-01",
+        "border-subtle-01"
+      ],
+      "ui-04": [
+        "toggle-off",
+        "border-strong-01"
+      ],
+      "ui-05": [
+        "border-inverse",
+        "layer-selected-inverse"
+      ],
+      "ui-background": [
+        "background"
+      ],
+      "visited-link": [
+        "link-visited"
+      ],
+      "code-01": [
+        "code-01"
+      ],
+      "code-02": [
+        "code-02"
+      ],
+      "label-01": [
+        "label-01"
+      ],
+      "label-02": [
+        "label-02"
+      ],
+      "helper-text-01": [
+        "helper-text-01"
+      ],
+      "helper-text-02": [
+        "helper-text-02"
+      ],
+      "body-short-01": [
+        "body-compact-01"
+      ],
+      "body-short-02": [
+        "body-compact-02"
+      ],
+      "body-long-01": [
+        "body-01"
+      ],
+      "body-long-02": [
+        "body-02"
+      ],
+      "productive-heading-01": [
+        "heading-compact-01"
+      ],
+      "productive-heading-02": [
+        "heading-compact-02"
+      ],
+      "expressive-heading-01": [
+        "heading-01"
+      ],
+      "expressive-heading-02": [
+        "heading-02"
+      ],
+      "productive-heading-03": [
+        "heading-03"
+      ],
+      "productive-heading-04": [
+        "heading-04"
+      ],
+      "productive-heading-05": [
+        "heading-05"
+      ],
+      "productive-heading-06": [
+        "heading-06"
+      ],
+      "productive-heading-07": [
+        "heading-07"
+      ],
+      "expressive-heading-03": [
+        "fluid-heading-03"
+      ],
+      "expressive-heading-04": [
+        "fluid-heading-04"
+      ],
+      "expressive-heading-05": [
+        "fluid-heading-05"
+      ],
+      "expressive-heading-06": [
+        "fluid-heading-06"
+      ],
+      "expressive-paragraph-01": [
+        "fluid-paragraph-01"
+      ],
+      "quotation-01": [
+        "fluid-quotation-01"
+      ],
+      "quotation-02": [
+        "fluid-quotation-02"
+      ],
+      "display-01": [
+        "fluid-display-01"
+      ],
+      "display-02": [
+        "fluid-display-02"
+      ],
+      "display-03": [
+        "fluid-display-03"
+      ],
+      "display-04": [
+        "fluid-display-04"
+      ]
+    },
+    "removedComponents": [
+      "Icon",
+      "ModalWrapper",
+      "SearchFilterButton",
+      "SearchLayoutButton",
+      "ToggleSkeleton",
+      "ToggleSmallSkeleton",
+      "Toolbar",
+      "ToolbarDivider",
+      "ToolbarItem",
+      "ToolbarOption",
+      "ToolbarSearch",
+      "ToolbarTitle"
+    ]
+  }
+}

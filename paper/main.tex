@@ -1,0 +1,78 @@
+\documentclass[journal]{IEEEtran}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{cite}
+
+\title{GUIML: A Rule-Typed Representation and Benchmark for Design-System-Governed UI Generation}
+\author{Daphne Cheng~\IEEEmembership{Student Member,~IEEE,} and Vijay K. Madisetti~\IEEEmembership{Fellow,~IEEE}}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Design systems are formal rule systems. Large language models generate user interfaces from learned prototypes. Published evaluations report that component registries reach approximately 95\% compliance on component-level checklists, which suggests the governance problem is nearly solved. We show that this headline hides a rule-class-dependent failure profile. We introduce a six-class taxonomy of design-system rules (lexical, structural, semantic-usage, accessibility, lifecycle, layout), and release GUIML-Bench: 80 intent-level tasks on IBM Carbon v11, three design-system scales, lifecycle traps drawn from Carbon's own v10$\to$v11 migration table, and mechanical plus human-validated graders. Across prose, context-dump, and registry baselines, lexical and structural rules are largely solved by retrieval, while semantic-usage and lifecycle rules remain near the no-context floor, and all strategies degrade as the presented system grows. GUIML, a rule-typed graph representation with lifecycle edges and a deterministic linter, closes the remaining gap on lifecycle traps and flattens the scale curve. Artifacts are public.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Generative UI, design systems, intermediate representation, LLM evaluation, human-computer interaction.
+\end{IEEEkeywords}
+
+\section{Introduction}
+Enterprise design systems such as IBM Carbon encode brand, accessibility, and interaction contracts as named tokens, component APIs, and usage rules~\cite{carbon}. In cognitive-science terms they are \emph{axiomatic} concepts: a value is either a legal token or it is not. Standard generative UI tools treat design as an \emph{exemplar} concept and reproduce a statistical average of buttons, producing ``vibe-coded'' layouts that look plausible and violate the contract~\cite{lindley2026,cha2026}.
+
+Recent work appears to close this gap. Cha and Jo report 95\% design-system compliance when agents assemble pre-built registry components~\cite{cha2026}. open-design-system-bench ships a harness that grades imports, props, hex values, and compile gates~\cite{odsb}. Industry pipelines (Figma Code Connect and MCP, v0 skills, shadcn registries) implement the same retrieval pattern. We argue the 95\% is the wrong number. Existing evals (i)~collapse six kinds of rule into one checklist, (ii)~run on toy systems of tens of components, and (iii)~never test whether agents respect a system's evolution. Carbon v10 names are in every model's pretraining; v11 renamed, split, and deprecated them~\cite{carbonv11}.
+
+This paper makes four contributions. (C1)~A rule taxonomy R1--R6 that operationalizes the practitioner decomposition of a design system into tokens, components, patterns, and intent. (C2)~GUIML-Bench, a public benchmark on Carbon v11 with hidden-ground-truth tasks, three scales, and lifecycle traps. (C3)~GUIML, a rule-typed graph IR with sub-graph retrieval, a deterministic linter, and a compiler to \texttt{@carbon/react}. (C4)~An empirical profile of where current strategies fail and where GUIML does and does not help.
+
+\section{Related Work}
+Design2Code~\cite{si2025}, DesignBench~\cite{designbench}, ArtifactsBench~\cite{artifactsbench}, and FigmaBench~\cite{figmabench} evaluate visual or framework fidelity, not token governance. A11yn~\cite{a11yn} treats accessibility as a verifiable reward; we adopt its severity-weighted score as class R4. Cha and Jo~\cite{cha2026} compare instruction, context, and registry grounding; their limitations (generator $=$ judge, confidential system, $n{=}6$ screens) are the starting point of our protocol. Trueman's essay and open-design-system-bench~\cite{odsb} establish intent-level prompts and mechanical/judgment checks; we reuse both and add a rule taxonomy, a scale axis, and behavioral lifecycle tests. Portal UX Agent~\cite{portal} and SpecifyUI~\cite{specifyui} already emit typed IRs; GUIML differs by typing nodes with rule classes and carrying lifecycle edges. Lost in the Middle~\cite{liu2024} and Du et al.~\cite{du2025} motivate retrieval over dumping. AGENTIF~\cite{agentif} shows instruction-following collapsing as constraint count grows, which is our scale hypothesis.
+
+\section{GUIML-Bench}
+\subsection{Taxonomy}
+R1 lexical/token; R2 structural/API; R3 semantic/usage; R4 accessibility; R5 lifecycle; R6 layout/responsive. Graders are deterministic for R1, R2, R5, runtime for R4 and R6, and an LLM judge $\neq$ the generator for R3, human-validated on a 20\% sample with Cohen's $\kappa$. Full definitions appear in \texttt{docs/taxonomy.md}.
+
+\subsection{Design system and scales}
+We extract Carbon v11 tokens, the \texttt{@carbon/react} public API via react-docgen-typescript, and the v10$\to$v11 migration table. Packs S ($\approx$50 tokens / 10 components), M ($\approx$275 / 76), L (414 / 220) satisfy $L \supseteq M \supseteq S$.
+
+\subsection{Tasks}
+80 intent-level prompts from a domain $\times$ pattern matrix. Prompts never name a catalog component. 20 trap tasks inject v10 names, invite hex colors, invite \texttt{Button} for status, or omit labels. Gold React exists for a 15-task subset used only to validate graders.
+
+\subsection{Governance Score}
+Weighted mean of per-class pass rates (R1 0.20, R2 0.20, R3 0.25, R4 0.15, R5 0.10, R6 0.10) with hard gates: compile failure or a hallucinated component zeroes the sample. Unweighted per-class rates are always reported beside the composite.
+
+\section{GUIML}
+A GUIML \emph{system} document is a JSON graph. Node kinds are token, component, prop, pattern, and rule; every node carries a rule class and a status. Edge kinds are \texttt{dependsOn}, \texttt{ref}, \texttt{replaces}, and \texttt{constrains}. A GUIML \emph{instance} is the tree an LLM emits for a task. The pipeline retrieves a budgeted sub-graph per rule class, constrains emission to the instance schema, lints R1/R2/R5, repairs at most twice via \texttt{replaces} rewrite, and compiles to \texttt{@carbon/react}. Ablations strip the linter, strip lifecycle nodes, or route by rule class (MoE).
+
+\section{Experimental Setup}
+Conditions: B0 none, B1 prose \texttt{design.md}, B2 JSON dump, B3 registry tool-calls, T GUIML, plus three ablations. Models: Mistral Large, one OpenAI, one Anthropic, Qwen2.5-Coder-32B via Hugging Face Inference. Temperature 0.2, three repetitions. Mixed-effects logistic regression with task and model as random effects.
+
+\section{Results}
+Results from the paid matrix will be inserted here. A mock-provider dress rehearsal of the \texttt{demo} profile is used to keep the analysis pipeline honest and is \emph{not} a scientific finding. Hypotheses: (H1)~B3 raises R1/R2 above 0.9 and leaves R3/R5 within 0.15 of B0; (H2)~GS decreases S$\to$L for B1/B2, flatter for T; (H3)~lifecycle traps fail $>$50\% without lifecycle metadata; (H4)~representation drives R3, enforcement drives R1/R5, MoE adds cost not accuracy; (H5)~signs stable across families.
+
+\section{Discussion and Limitations}
+If H1 holds, registries are the right tool for lexical and structural rules and the wrong tool for usage and evolution---which is exactly where a designer's judgment lives. Limitations: one design system; single-turn generation; R3 depends on a judge (mitigated by cross-provider judging and $\kappa$); Carbon v11 is pinned and must be versioned.
+
+\section{Conclusion}
+Governed generative UI is not one compliance percentage. It is six kinds of rule, a system that grows, and a history of names the model has already seen. GUIML-Bench measures that, and GUIML is a representation that can be served by the same registries the industry is already building.
+
+\bibliographystyle{IEEEtran}
+\begin{thebibliography}{20}
+\bibitem{si2025} C. Si et al., ``Design2Code,'' in \emph{NAACL}, 2025.
+\bibitem{cha2026} S. Cha and S. Jo, ``Design System-Compliant User Interface Generation with LLM Agents,'' in \emph{CHI EA}, 2026.
+\bibitem{a11yn} J. Yoon et al., ``A11yn,'' in \emph{COLM}, 2026.
+\bibitem{liu2024} N. F. Liu et al., ``Lost in the Middle,'' \emph{TACL}, 2024.
+\bibitem{du2025} Y. Du et al., ``Context Length Alone Hurts LLM Performance Despite Perfect Retrieval,'' 2025.
+\bibitem{lindley2026} S. Lindley et al., ``What does Generative UI mean for HCI Practice?,'' in \emph{CHI EA}, 2026.
+\bibitem{portal} ``Portal UX Agent,'' arXiv:2511.00843, 2025.
+\bibitem{specifyui} ``SpecifyUI,'' arXiv:2509.07334, 2025.
+\bibitem{designbench} ``DesignBench,'' arXiv:2506.06251, 2025.
+\bibitem{artifactsbench} ``ArtifactsBench,'' arXiv:2507.04952, 2025.
+\bibitem{figmabench} ``FigmaBench,'' ACL ARR, 2026.
+\bibitem{odsb} christophhdesign, ``open-design-system-bench,'' 2026.
+\bibitem{agentif} AGENTIF, 2025.
+\bibitem{carbon} IBM Carbon Design System.
+\bibitem{carbonv11} Carbon, ``docs/migration/v11.md.''
+\end{thebibliography}
+\end{document}

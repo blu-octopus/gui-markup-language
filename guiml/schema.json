@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://guiml.dev/schema/v0.1.json",
+  "title": "GUIML",
+  "description": "Rule-typed graph of a design system (kind=system) or a generated UI instance (kind=instance).",
+  "oneOf": [
+    { "$ref": "#/$defs/system" },
+    { "$ref": "#/$defs/instance" }
+  ],
+  "$defs": {
+    "ruleClass": { "type": "string", "enum": ["R1", "R2", "R3", "R4", "R5", "R6"] },
+    "status": { "type": "string", "enum": ["active", "deprecated", "renamed", "split", "removed", "new"] },
+    "nodeKind": { "type": "string", "enum": ["token", "component", "prop", "pattern", "rule"] },
+    "edgeKind": { "type": "string", "enum": ["dependsOn", "ref", "replaces", "constrains"] },
+    "system": {
+      "type": "object",
+      "required": ["kind", "nodes", "edges"],
+      "properties": {
+        "kind": { "const": "system" },
+        "id": { "type": "string" },
+        "source": { "type": "object" },
+        "nodes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "kind", "ruleClass", "status"],
+            "properties": {
+              "id": { "type": "string" },
+              "kind": { "$ref": "#/$defs/nodeKind" },
+              "name": { "type": "string" },
+              "ruleClass": { "$ref": "#/$defs/ruleClass" },
+              "status": { "$ref": "#/$defs/status" },
+              "role": { "type": "string" },
+              "text": { "type": "string" },
+              "props": { "type": "array" }
+            }
+          }
+        },
+        "edges": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["from", "to", "kind"],
+            "properties": {
+              "from": { "type": "string" },
+              "to": { "type": "string" },
+              "kind": { "$ref": "#/$defs/edgeKind" }
+            }
+          }
+        }
+      }
+    },
+    "tree": {
+      "type": "object",
+      "required": ["component"],
+      "properties": {
+        "component": { "type": "string" },
+        "props": { "type": "object" },
+        "tokens": { "type": "object", "additionalProperties": { "type": "string" } },
+        "text": { "type": "string" },
+        "children": {
+          "type": "array",
+          "items": {
+            "oneOf": [{ "$ref": "#/$defs/tree" }, { "type": "string" }]
+          }
+        }
+      }
+    },
+    "instance": {
+      "type": "object",
+      "required": ["kind", "root"],
+      "properties": {
+        "kind": { "const": "instance" },
+        "task": { "type": "string" },
+        "root": { "$ref": "#/$defs/tree" }
+      }
+    }
+  }
+}

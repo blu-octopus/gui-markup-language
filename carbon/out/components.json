@@ -1,0 +1,4865 @@
+{
+  "source": {
+    "@carbon/react": "1.119.0"
+  },
+  "extractedAt": "2026-10-28T07:55:12.469Z",
+  "count": 256,
+  "withProps": 86,
+  "missing": [],
+  "components": [
+    {
+      "name": "Accordion",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Accordion/Accordion.d.ts",
+      "file": "lib/components/Accordion/Accordion.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": []
+    },
+    {
+      "name": "AccordionItem",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Accordion/AccordionItem.d.ts",
+      "file": "lib/components/Accordion/AccordionItem.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": []
+    },
+    {
+      "name": "AccordionSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Accordion/Accordion.Skeleton.d.ts",
+      "file": "lib/components/Accordion/Accordion.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "align",
+          "type": "enum",
+          "required": false,
+          "description": "Specify the alignment of the accordion heading\ntitle and chevron.",
+          "values": [
+            "start",
+            "end"
+          ]
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Specify an optional className to add."
+        },
+        {
+          "name": "count",
+          "type": "number",
+          "required": false,
+          "description": "Set number of items to render."
+        },
+        {
+          "name": "isFlush",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify whether an individual AccordionItem should\nbe flush, default is false."
+        },
+        {
+          "name": "open",
+          "type": "boolean",
+          "required": false,
+          "description": "`false` to not display the first item opened."
+        },
+        {
+          "name": "ordered",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify if the Accordion should be an ordered list,\ndefault is `false`"
+        }
+      ]
+    },
+    {
+      "name": "ActionableNotification",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Notification/Notification.d.ts",
+      "file": "lib/components/Notification/Notification.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "actionButtonLabel",
+          "type": "string",
+          "required": false,
+          "description": "Pass in the action button label that will be rendered within the ActionableNotification."
+        },
+        {
+          "name": "aria-label",
+          "type": "string",
+          "required": false,
+          "description": "Specify a label to be read by screen readers on the container node\n'aria-label' of the NotificationButton component."
+        },
+        {
+          "name": "caption",
+          "type": "string",
+          "required": false,
+          "description": "Specify the caption"
+        },
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false,
+          "description": "Specify the content of the notification action button."
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Specify an optional className to be applied to the notification action button"
+        },
+        {
+          "name": "closeOnEscape",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify if pressing the escape key should close notifications"
+        },
+        {
+          "name": "hasFocus",
+          "type": "boolean",
+          "required": false,
+          "description": "@deprecated This prop will be removed in the next major version, v12.\nSpecify if focus should be moved to the component on render. To meet the spec for alertdialog, this must always be true. If you're setting this to false, explore using Callout instead. https://github.com/carbon-design-system/carbon/pull/15532"
+        },
+        {
+          "name": "hideCloseButton",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify the close button should be disabled, or not"
+        },
+        {
+          "name": "inline",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify if the visual treatment of the button should be for an inline notification"
+        },
+        {
+          "name": "kind",
+          "type": "enum",
+          "required": false,
+          "description": "Specify what state the notification represents",
+          "values": [
+            "error",
+            "info",
+            "info-square",
+            "success",
+            "warning",
+            "warning-alt"
+          ]
+        },
+        {
+          "name": "lowContrast",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify whether you are using the low contrast variant of the ToastNotification."
+        },
+        {
+          "name": "onActionButtonClick",
+          "type": "ComponentProps<typeof NotificationActionButton>",
+          "required": false,
+          "description": "Provide a function that is called when the action is clicked"
+        },
+        {
+          "name": "onClose",
+          "type": "NotificationCloseHandler",
+          "required": false,
+          "description": "Provide a function that is called when menu is closed"
+        },
+        {
+          "name": "onCloseButtonClick",
+          "type": "(event: MouseEvent) => void",
+          "required": false,
+          "description": "Provide a function that is called when the close button is clicked"
+        },
+        {
+          "name": "role",
+          "type": "enum",
+          "required": false,
+          "description": "By default, this value is \"status\". You can also provide an alternate\nrole if it makes sense from the accessibility-side",
+          "values": [
+            "alert",
+            "log",
+            "status"
+          ]
+        },
+        {
+          "name": "statusIconDescription",
+          "type": "string",
+          "required": false,
+          "description": "Provide a description for \"status\" icon that can be read by screen readers"
+        },
+        {
+          "name": "subtitle",
+          "type": "string",
+          "required": false,
+          "description": "Specify the subtitle"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "required": false,
+          "description": "Specify the title"
+        }
+      ]
+    },
+    {
+      "name": "AILabel",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/AILabel/index.d.ts",
+      "file": "lib/components/AILabel/index.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "AILabelActions",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/AILabel/index.d.ts",
+      "file": "lib/components/AILabel/index.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": []
+    },
+    {
+      "name": "AILabelContent",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/AILabel/index.d.ts",
+      "file": "lib/components/AILabel/index.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": []
+    },
+    {
+      "name": "AISkeletonIcon",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/AISkeleton/AISkeletonIcon.d.ts",
+      "file": "lib/components/AISkeleton/AISkeletonIcon.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "AISkeletonPlaceholder",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/AISkeleton/AISkeletonPlaceholder.d.ts",
+      "file": "lib/components/AISkeleton/AISkeletonPlaceholder.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "AISkeletonText",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/AISkeleton/AISkeletonText.d.ts",
+      "file": "lib/components/AISkeleton/AISkeletonText.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "AspectRatio",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/AspectRatio/AspectRatio.d.ts",
+      "file": "lib/components/AspectRatio/AspectRatio.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "Breadcrumb",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Breadcrumb/Breadcrumb.d.ts",
+      "file": "lib/components/Breadcrumb/Breadcrumb.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "BreadcrumbItem",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Breadcrumb/BreadcrumbItem.d.ts",
+      "file": "lib/components/Breadcrumb/BreadcrumbItem.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "BreadcrumbSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Breadcrumb/Breadcrumb.Skeleton.d.ts",
+      "file": "lib/components/Breadcrumb/Breadcrumb.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Specify an optional className to add."
+        },
+        {
+          "name": "items",
+          "type": "number",
+          "required": false,
+          "description": "Specify the number of items"
+        },
+        {
+          "name": "noTrailingSlash",
+          "type": "boolean",
+          "required": false,
+          "description": "Optional prop to omit the trailing slash for the breadcrumbs"
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "required": false,
+          "description": "Specify the size of the Breadcrumb. Currently\nsupports the following: `sm` & `md` (default: 'md')",
+          "values": [
+            "sm",
+            "md"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Button",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Button/Button.d.ts",
+      "file": "lib/components/Button/Button.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "ButtonSet",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/ButtonSet/ButtonSet.d.ts",
+      "file": "lib/components/ButtonSet/ButtonSet.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "ButtonSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Button/Button.Skeleton.d.ts",
+      "file": "lib/components/Button/Button.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "ButtonTooltipAlignments",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Button/Button.d.ts",
+      "file": "lib/components/Button/Button.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "ButtonTooltipPositions",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Button/Button.d.ts",
+      "file": "lib/components/Button/Button.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "Callout",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Notification/Notification.d.ts",
+      "file": "lib/components/Notification/Notification.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "actionButtonLabel",
+          "type": "string",
+          "required": false,
+          "description": "Pass in the action button label that will be rendered within the ActionableNotification."
+        },
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false,
+          "description": "Specify the content of the notification action button."
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Specify an optional className to be applied to the notification action button"
+        },
+        {
+          "name": "kind",
+          "type": "enum",
+          "required": false,
+          "description": "Specify what state the notification represents",
+          "values": [
+            "error",
+            "info",
+            "info-square",
+            "success",
+            "warning",
+            "warning-alt"
+          ]
+        },
+        {
+          "name": "lowContrast",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify whether you are using the low contrast variant of the ToastNotification."
+        },
+        {
+          "name": "onActionButtonClick",
+          "type": "ComponentProps<typeof NotificationActionButton>",
+          "required": false,
+          "description": "Provide a function that is called when the action is clicked"
+        },
+        {
+          "name": "statusIconDescription",
+          "type": "string",
+          "required": false,
+          "description": "Provide a description for \"status\" icon that can be read by screen readers"
+        },
+        {
+          "name": "subtitle",
+          "type": "string",
+          "required": false,
+          "description": "Specify the subtitle"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "required": false,
+          "description": "Specify the title"
+        },
+        {
+          "name": "titleId",
+          "type": "string",
+          "required": false,
+          "description": "Specify the id for the element containing the title"
+        }
+      ]
+    },
+    {
+      "name": "Checkbox",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Checkbox/Checkbox.d.ts",
+      "file": "lib/components/Checkbox/Checkbox.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "CheckboxGroup",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/CheckboxGroup/CheckboxGroup.d.ts",
+      "file": "lib/components/CheckboxGroup/CheckboxGroup.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "CheckboxSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Checkbox/Checkbox.Skeleton.d.ts",
+      "file": "lib/components/Checkbox/Checkbox.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "ClassPrefix",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/ClassPrefix/index.d.ts",
+      "file": "lib/components/ClassPrefix/index.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": []
+    },
+    {
+      "name": "ClickableTile",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Tile/Tile.d.ts",
+      "file": "lib/components/Tile/Tile.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "CodeSnippet",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/CodeSnippet/CodeSnippet.d.ts",
+      "file": "lib/components/CodeSnippet/CodeSnippet.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": []
+    },
+    {
+      "name": "CodeSnippetSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/CodeSnippet/CodeSnippet.Skeleton.d.ts",
+      "file": "lib/components/CodeSnippet/CodeSnippet.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "className",
+          "type": "any",
+          "required": true,
+          "description": ""
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "required": false,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Column",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Grid/Column.d.ts",
+      "file": "lib/components/Grid/Column.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "ColumnHang",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Grid/ColumnHang.d.ts",
+      "file": "lib/components/Grid/ColumnHang.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "ComboBox",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/ComboBox/ComboBox.d.ts",
+      "file": "lib/components/ComboBox/ComboBox.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "ComboButton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/ComboButton/index.d.ts",
+      "file": "lib/components/ComboButton/index.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "ComposedModal",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/ComposedModal/ComposedModal.d.ts",
+      "file": "lib/components/ComposedModal/ComposedModal.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "ComposedModalPresence",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/ComposedModal/ComposedModalPresence.d.ts",
+      "file": "lib/components/ComposedModal/ComposedModalPresence.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": []
+    },
+    {
+      "name": "ContainedList",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/ContainedList/ContainedList.d.ts",
+      "file": "lib/components/ContainedList/ContainedList.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "ContainedListItem",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/ContainedList/ContainedListItem/ContainedListItem.d.ts",
+      "file": "lib/components/ContainedList/ContainedListItem/ContainedListItem.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "Content",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UIShell/Content.d.ts",
+      "file": "lib/components/UIShell/Content.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "ContentSwitcher",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/ContentSwitcher/ContentSwitcher.d.ts",
+      "file": "lib/components/ContentSwitcher/ContentSwitcher.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "children",
+          "type": "any",
+          "required": false,
+          "description": "Pass in Switch components to be rendered in the ContentSwitcher"
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Specify an optional className to be added to the container node"
+        },
+        {
+          "name": "light",
+          "type": "boolean",
+          "required": false,
+          "description": "`true` to use the light version.\n@deprecated The `light` prop for `ContentSwitcher` has\nbeen deprecated in favor of the new `Layer` component. It will be removed in the next major release."
+        },
+        {
+          "name": "lowContrast",
+          "type": "boolean",
+          "required": false,
+          "description": "`true` to use the low contrast version."
+        },
+        {
+          "name": "onChange",
+          "type": "(params: SwitchEventHandlersParams) => void",
+          "required": true,
+          "description": "Specify an `onChange` handler that is called whenever the ContentSwitcher\nchanges which item is selected"
+        },
+        {
+          "name": "selectedIndex",
+          "type": "number",
+          "required": false,
+          "description": "Specify a selected index for the initially selected content"
+        },
+        {
+          "name": "selectionMode",
+          "type": "enum",
+          "required": false,
+          "description": "Choose whether or not to automatically change selection on focus when left/right arrow pressed. Defaults to 'automatic'",
+          "values": [
+            "automatic",
+            "manual"
+          ]
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "required": false,
+          "description": "Specify the size of the Content Switcher. Currently supports either `sm`, `md` (default) or `lg` as an option.",
+          "values": [
+            "sm",
+            "md",
+            "lg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ControlledPasswordInput",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/TextInput/ControlledPasswordInput.d.ts",
+      "file": "lib/components/TextInput/ControlledPasswordInput.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "Copy",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Copy/Copy.d.ts",
+      "file": "lib/components/Copy/Copy.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": []
+    },
+    {
+      "name": "CopyButton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/CopyButton/CopyButton.d.ts",
+      "file": "lib/components/CopyButton/CopyButton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "align",
+          "type": "enum",
+          "required": false,
+          "description": "Specify how the trigger should align with the tooltip",
+          "values": [
+            "top-left",
+            "top-right",
+            "bottom-left",
+            "bottom-right",
+            "left-bottom",
+            "left-top",
+            "right-bottom",
+            "right-top",
+            "top",
+            "bottom",
+            "left",
+            "right",
+            "top-start",
+            "top-end",
+            "bottom-start",
+            "bottom-end",
+            "left-end",
+            "left-start",
+            "right-end",
+            "right-start"
+          ]
+        },
+        {
+          "name": "autoAlign",
+          "type": "boolean",
+          "required": false,
+          "description": "**Experimental**: Will attempt to automatically align the tooltip. Requires React v17+\n@see https://github.com/carbon-design-system/carbon/issues/18714"
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Specify an optional className to be applied to the underlying `<button>`"
+        },
+        {
+          "name": "feedback",
+          "type": "string",
+          "required": false,
+          "description": "Specify the string that is displayed when the button is clicked and the\ncontent is copied"
+        },
+        {
+          "name": "feedbackTimeout",
+          "type": "number",
+          "required": false,
+          "description": "Specify the time it takes for the feedback message to timeout"
+        },
+        {
+          "name": "iconDescription",
+          "type": "string",
+          "required": false,
+          "description": "Provide a description for the icon representing the copy action that can\nbe read by screen readers"
+        },
+        {
+          "name": "onClick",
+          "type": "MouseEventHandler<HTMLButtonElement>",
+          "required": false,
+          "description": "Specify an optional `onClick` handler that is called when the underlying\n`<button>` is clicked"
+        }
+      ]
+    },
+    {
+      "name": "DangerButton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/DangerButton/DangerButton.d.ts",
+      "file": "lib/components/DangerButton/DangerButton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "DataTable",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/DataTable/DataTable.d.ts",
+      "file": "lib/components/DataTable/DataTable.d.ts",
+      "description": "DataTable components are used to represent a collection of resources,\ndisplaying a subset of their fields in columns, or headers. We prioritize\ndirect updates to the state of what we're rendering, so internally we\nnormalize the given data and then denormalize it at render time. Each part of\nthe DataTable is accessible through look-up by ID, and updating the state of\na single entity cascades updates to the consumer.",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "experimentalAutoAlign",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "filterRows",
+          "type": "(options: { cellsById: Record<string, DataTableCell<ColTypes>>; getCellId: (rowId: string, header: string) => string; headers: DataTableHeader[]; inputValue: string; rowIds: string[]; }) => string[]",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "headers",
+          "type": "DataTableHeader[]",
+          "required": true,
+          "description": ""
+        },
+        {
+          "name": "isSortable",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "locale",
+          "type": "string",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "overflowMenuOnHover",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "radio",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "render",
+          "type": "(renderProps: DataTableRenderProps<RowType, ColTypes>) => ReactElement",
+          "required": false,
+          "description": "@deprecated Use `children` instead. This prop will be removed in\nthe next major version.\n\nhttps://www.patterns.dev/react/render-props-pattern/#children-as-a-function"
+        },
+        {
+          "name": "rows",
+          "type": "Omit<DataTableRow<ColTypes>, \"cells\">[]",
+          "required": true,
+          "description": ""
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "required": false,
+          "description": "",
+          "values": [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl"
+          ]
+        },
+        {
+          "name": "sortRow",
+          "type": "SortRowFn",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "stickyHeader",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "useStaticWidth",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "useZebraStyles",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "translateWithId",
+          "type": "(messageId: \"carbon.table.row.expand\" | \"carbon.table.row.collapse\" | \"carbon.table.all.expand\" | \"carbon.table.all.collapse\" | \"carbon.table.all.select\" | \"carbon.table.all.unselect\" | \"carbon.table.row.select\" | \"carbon.table.row.unselect\", args?: Record<...>) => string",
+          "required": false,
+          "description": "Translates component strings using your i18n tool.\n@param messageId - The translation ID for the string to translate.\n@param args - Arguments for string interpolation.\n@returns The translated string."
+        }
+      ]
+    },
+    {
+      "name": "DataTableSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/DataTableSkeleton/DataTableSkeleton.d.ts",
+      "file": "lib/components/DataTableSkeleton/DataTableSkeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "DatePicker",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/DatePicker/DatePicker.d.ts",
+      "file": "lib/components/DatePicker/DatePicker.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "DatePickerInput",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/DatePickerInput/DatePickerInput.d.ts",
+      "file": "lib/components/DatePickerInput/DatePickerInput.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "DatePickerSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/DatePicker/DatePicker.Skeleton.d.ts",
+      "file": "lib/components/DatePicker/DatePicker.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "DefinitionTooltip",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Tooltip/DefinitionTooltip.d.ts",
+      "file": "lib/components/Tooltip/DefinitionTooltip.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "DismissibleTag",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Tag/DismissibleTag.d.ts",
+      "file": "lib/components/Tag/DismissibleTag.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "Dropdown",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Dropdown/Dropdown.d.ts",
+      "file": "lib/components/Dropdown/Dropdown.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "DropdownSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Dropdown/Dropdown.Skeleton.d.ts",
+      "file": "lib/components/Dropdown/Dropdown.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "ErrorBoundary",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/ErrorBoundary/ErrorBoundary.d.ts",
+      "file": "lib/components/ErrorBoundary/ErrorBoundary.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "ExpandableSearch",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/ExpandableSearch/ExpandableSearch.d.ts",
+      "file": "lib/components/ExpandableSearch/ExpandableSearch.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "ExpandableTile",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Tile/Tile.d.ts",
+      "file": "lib/components/Tile/Tile.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "FeatureFlags",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FeatureFlags/index.d.ts",
+      "file": "lib/components/FeatureFlags/index.d.ts",
+      "description": "Supports an object of feature flag values with the `flags` prop, merging them\nalong with the current `FeatureFlagContext` to provide consumers to check if\na feature flag is enabled or disabled in a given React tree",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "flags",
+          "type": "Record<string, boolean>",
+          "required": false,
+          "description": "Provide the feature flags to enable or disable in the current React tree.\n@deprecated Use the individual boolean props instead. Run the\n`featureflag-deprecate-flags-prop` codemod to migrate:\n`npx @carbon/upgrade migrate featureflag-deprecate-flags-prop --write`"
+        },
+        {
+          "name": "enableV12Release",
+          "type": "boolean",
+          "required": false,
+          "description": "Enable the features and functionality for the v12 Release.\n\nEnabling this turns on every `enableV12*` flag at once, as well as\n`enableFocusWrapWithoutSentinels`."
+        },
+        {
+          "name": "enableV12TileDefaultIcons",
+          "type": "boolean",
+          "required": false,
+          "description": "Enable rendering of default icons in the tile components.\n\nBecomes the default behavior in v12."
+        },
+        {
+          "name": "enableV12TileRadioIcons",
+          "type": "boolean",
+          "required": false,
+          "description": "Enable rendering of radio icons in the `RadioTile` component.\n\nBecomes the default behavior in v12."
+        },
+        {
+          "name": "enableV12Overflowmenu",
+          "type": "boolean",
+          "required": false,
+          "description": "Enable the use of the v12 `OverflowMenu` leveraging the `Menu`\nsubcomponents.\n\nBecomes the default behavior in v12."
+        },
+        {
+          "name": "enableTreeviewControllable",
+          "type": "boolean",
+          "required": false,
+          "description": "Enable the new `TreeView` controllable API."
+        },
+        {
+          "name": "enableExperimentalFocusWrapWithoutSentinels",
+          "type": "boolean",
+          "required": false,
+          "description": "Enable the new focus wrap behavior that doesn't use sentinel nodes.\n@deprecated Use `enableFocusWrapWithoutSentinels` instead."
+        },
+        {
+          "name": "enableFocusWrapWithoutSentinels",
+          "type": "boolean",
+          "required": false,
+          "description": "Enable the new focus wrap behavior that doesn't use sentinel nodes."
+        },
+        {
+          "name": "enableDialogElement",
+          "type": "boolean",
+          "required": false,
+          "description": "Enable components to utilize the native `dialog` element."
+        },
+        {
+          "name": "enableV12DynamicFloatingStyles",
+          "type": "boolean",
+          "required": false,
+          "description": "Enable dynamic setting of floating styles for components like `Popover`,\n`Tooltip`, etc.\n\nBecomes the default behavior in v12."
+        },
+        {
+          "name": "enableV12Autoalign",
+          "type": "boolean",
+          "required": false,
+          "description": "Enable `autoAlign` by default for components that support it, like\n`Popover`, `Tooltip`, `Toggletip`, `Dropdown`, etc. An explicit\n`autoAlign` prop always takes precedence.\n\nBecomes the default behavior in v12."
+        },
+        {
+          "name": "enableEnhancedFileUploader",
+          "type": "boolean",
+          "required": false,
+          "description": "Enable enhanced functionality for the `FileUploader` component, including\nricher callback data and expanded trigger events for `onChange` and\n`onDelete`."
+        },
+        {
+          "name": "enablePresence",
+          "type": "boolean",
+          "required": false,
+          "description": "Enable components to remain unmounted in closed state and mount in open\nstate."
+        }
+      ]
+    },
+    {
+      "name": "Filename",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FileUploader/Filename.d.ts",
+      "file": "lib/components/FileUploader/Filename.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "aria-describedby",
+          "type": "string",
+          "required": false,
+          "description": "Specify an id that describes the error to be read by screen readers when the filename is invalid"
+        },
+        {
+          "name": "iconDescription",
+          "type": "string",
+          "required": false,
+          "description": "Provide a description of the SVG icon to denote file upload status"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify whether the file uploader item is disabled"
+        },
+        {
+          "name": "invalid",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify if the file is invalid"
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "description": "Name of the uploaded file"
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": false,
+          "description": "Status of the file upload",
+          "values": [
+            "edit",
+            "complete",
+            "uploading"
+          ]
+        },
+        {
+          "name": "tabIndex",
+          "type": "number",
+          "required": false,
+          "description": "Provide a custom tabIndex value for the `<Filename>`"
+        }
+      ]
+    },
+    {
+      "name": "FileUploader",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FileUploader/FileUploader.d.ts",
+      "file": "lib/components/FileUploader/FileUploader.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "FileUploaderButton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FileUploader/FileUploaderButton.d.ts",
+      "file": "lib/components/FileUploader/FileUploaderButton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "accept",
+          "type": "string[]",
+          "required": false,
+          "description": "Specify the types of files that this input should be able to receive"
+        },
+        {
+          "name": "buttonKind",
+          "type": "enum",
+          "required": false,
+          "description": "Specify the type of underlying button",
+          "values": [
+            "primary",
+            "secondary",
+            "danger",
+            "ghost",
+            "danger--primary",
+            "danger--ghost",
+            "danger--tertiary",
+            "tertiary"
+          ]
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Provide a custom className to be applied to the container node"
+        },
+        {
+          "name": "disableLabelChanges",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify whether you want to disable any updates to the FileUploaderButton\nlabel"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify whether file input is disabled"
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "required": false,
+          "description": "Provide a unique id for the underlying `<input>` node"
+        },
+        {
+          "name": "labelText",
+          "type": "React.ReactNode",
+          "required": false,
+          "description": "Provide the label text to be read by screen readers when interacting with\nthis control"
+        },
+        {
+          "name": "multiple",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify if the component should accept multiple files to upload"
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "description": "Provide a name for the underlying `<input>` node"
+        },
+        {
+          "name": "onChange",
+          "type": "(event: React.ChangeEvent<HTMLInputElement>) => void",
+          "required": false,
+          "description": "Provide an optional `onChange` hook that is called each time the `<input>`\nvalue changes"
+        },
+        {
+          "name": "onClick",
+          "type": "(event: React.MouseEvent<HTMLButtonElement>) => void",
+          "required": false,
+          "description": "Provide an optional `onClick` hook that is called each time the button is\nclicked"
+        },
+        {
+          "name": "role",
+          "type": "string",
+          "required": false,
+          "description": "Provide an accessibility role for the `<FileUploaderButton>`"
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "required": false,
+          "description": "Specify the size of the FileUploaderButton, from a list of available\nsizes.",
+          "values": [
+            "sm",
+            "small",
+            "field",
+            "md",
+            "lg"
+          ]
+        },
+        {
+          "name": "tabIndex",
+          "type": "string | number",
+          "required": false,
+          "description": "@deprecated The `tabIndex` prop for `FileUploaderButton` has been deprecated since it now renders a button element by default."
+        },
+        {
+          "name": "innerRef",
+          "type": "React.RefObject<HTMLLabelElement>",
+          "required": false,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "FileUploaderDropContainer",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FileUploader/FileUploaderDropContainer.d.ts",
+      "file": "lib/components/FileUploader/FileUploaderDropContainer.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "accept",
+          "type": "string[]",
+          "required": false,
+          "description": "Specify the types of files that this input should be able to receive"
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Provide a custom className to be applied to the container node"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify whether file input is disabled"
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "required": false,
+          "description": "Provide a unique id for the underlying `<input>` node"
+        },
+        {
+          "name": "labelText",
+          "type": "string",
+          "required": false,
+          "description": "Provide the label text to be read by screen readers when interacting with\nthis control"
+        },
+        {
+          "name": "maxFileSize",
+          "type": "number",
+          "required": false,
+          "description": "Maximum file size allowed in bytes. Files larger than this will be marked invalid"
+        },
+        {
+          "name": "multiple",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify if the component should accept multiple files to upload"
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "description": "Provide a name for the underlying `<input>` node"
+        },
+        {
+          "name": "onAddFiles",
+          "type": "(event: React.SyntheticEvent<HTMLElement>, content: { addedFiles: AddedFile[]; }) => void",
+          "required": false,
+          "description": "Event handler that is called after files are added to the uploader"
+        },
+        {
+          "name": "onClick",
+          "type": "() => void",
+          "required": false,
+          "description": "Provide an optional function to be called when the button element\nis clicked"
+        },
+        {
+          "name": "pattern",
+          "type": "string",
+          "required": false,
+          "description": "Provide a custom regex pattern for the acceptedTypes"
+        },
+        {
+          "name": "required",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify if the file input is required"
+        },
+        {
+          "name": "innerRef",
+          "type": "React.Ref<HTMLButtonElement>",
+          "required": false,
+          "description": "Ref to pass to the inner button element"
+        },
+        {
+          "name": "role",
+          "type": "string",
+          "required": false,
+          "description": "@deprecated The `role` prop for `FileUploaderButton` has been deprecated since it now renders a button element by default, and has an implicit role of button."
+        },
+        {
+          "name": "tabIndex",
+          "type": "string | number",
+          "required": false,
+          "description": "@deprecated The `tabIndex` prop for `FileUploaderButton` has been deprecated since it now renders a button element by default."
+        }
+      ]
+    },
+    {
+      "name": "FileUploaderItem",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FileUploader/FileUploaderItem.d.ts",
+      "file": "lib/components/FileUploader/FileUploaderItem.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "disabled",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify whether file uploader item is disabled"
+        },
+        {
+          "name": "errorBody",
+          "type": "string",
+          "required": false,
+          "description": "Error message body for an invalid file upload"
+        },
+        {
+          "name": "errorSubject",
+          "type": "string",
+          "required": false,
+          "description": "Error message subject for an invalid file upload"
+        },
+        {
+          "name": "iconDescription",
+          "type": "string",
+          "required": false,
+          "description": "Description of status icon (displayed in native tooltip)"
+        },
+        {
+          "name": "invalid",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify if the currently uploaded file is invalid"
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "description": "Name of the uploaded file"
+        },
+        {
+          "name": "onAddFiles",
+          "type": "(event: React.ChangeEvent<HTMLInputElement>) => void",
+          "required": false,
+          "description": "Event handler that is called after files are added to the uploader"
+        },
+        {
+          "name": "onDelete",
+          "type": "(event: React.SyntheticEvent<HTMLElement>, opts: { uuid: string; }) => void",
+          "required": false,
+          "description": "Event handler that is called after removing a file from the file uploader\nThe event handler signature looks like `onDelete(evt, { uuid })`"
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "required": false,
+          "description": "Specify the size of the FileUploaderButton, from a list of available\nsizes.",
+          "values": [
+            "sm",
+            "md",
+            "lg"
+          ]
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": false,
+          "description": "Status of the file upload",
+          "values": [
+            "uploading",
+            "edit",
+            "complete"
+          ]
+        },
+        {
+          "name": "uuid",
+          "type": "string",
+          "required": false,
+          "description": "Unique identifier for the file object"
+        }
+      ]
+    },
+    {
+      "name": "FileUploaderSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FileUploader/FileUploader.Skeleton.d.ts",
+      "file": "lib/components/FileUploader/FileUploader.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Specify an optional className to add."
+        }
+      ]
+    },
+    {
+      "name": "FilterableMultiSelect",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/MultiSelect/FilterableMultiSelect.d.ts",
+      "file": "lib/components/MultiSelect/FilterableMultiSelect.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "aria-label",
+          "type": "string",
+          "required": false,
+          "description": "Specify a label to be read by screen readers on the container node\n@deprecated"
+        },
+        {
+          "name": "ariaLabel",
+          "type": "string",
+          "required": false,
+          "description": "@deprecated"
+        },
+        {
+          "name": "autoAlign",
+          "type": "boolean",
+          "required": false,
+          "description": "**Experimental**: Will attempt to automatically align the floating\nelement to avoid collisions with the viewport and being clipped by\nancestor elements. Requires React v17+\n@see https://github.com/carbon-design-system/carbon/issues/18714"
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "clearSelectionDescription",
+          "type": "string",
+          "required": false,
+          "description": "Specify the text that should be read for screen readers that describes total items selected"
+        },
+        {
+          "name": "clearSelectionText",
+          "type": "string",
+          "required": false,
+          "description": "Specify the text that should be read for screen readers to clear selection."
+        },
+        {
+          "name": "decorator",
+          "type": "ReactNode",
+          "required": false,
+          "description": "**Experimental**: Provide a `decorator` component to be rendered inside the `FilterableMultiSelect` component"
+        },
+        {
+          "name": "direction",
+          "type": "enum",
+          "required": false,
+          "description": "Specify the direction of the multiselect dropdown.",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        {
+          "name": "disabled",
+          "type": "boolean",
+          "required": false,
+          "description": "Disable the control"
+        },
+        {
+          "name": "downshiftProps",
+          "type": "UseMultipleSelectionProps<ItemType>",
+          "required": false,
+          "description": "Additional props passed to Downshift.\n\n**Use with caution:** anything you define here overrides the components'\ninternal handling of that prop. Downshift APIs and internals are subject to\nchange, and in some cases they can not be shimmed by Carbon to shield you\nfrom potentially breaking changes."
+        },
+        {
+          "name": "filterItems",
+          "type": "(items: readonly ItemType[], extra: { inputValue: string; itemToString: (item: ItemType) => string; }) => ItemType[]",
+          "required": false,
+          "description": "Provide a method that filters the dropdown options based on the current input. Overriding this\nprop means that you have to handle the filtering logic when the user types in the text input.\nOtherwise, a default built-in filtering function will be used."
+        },
+        {
+          "name": "hideLabel",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify whether the title text should be hidden or not"
+        },
+        {
+          "name": "helperText",
+          "type": "ReactNode",
+          "required": false,
+          "description": "Provide helper text that is used alongside\nthe control label for additional help"
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "required": true,
+          "description": "Specify a custom `id`"
+        },
+        {
+          "name": "initialSelectedItems",
+          "type": "ItemType[]",
+          "required": false,
+          "description": "Allow users to pass in arbitrary items from their collection that are\npre-selected"
+        },
+        {
+          "name": "invalid",
+          "type": "boolean",
+          "required": false,
+          "description": "Is the current selection invalid?"
+        },
+        {
+          "name": "invalidText",
+          "type": "ReactNode",
+          "required": false,
+          "description": "If invalid, what is the error?"
+        },
+        {
+          "name": "itemToElement",
+          "type": "(item: ItemType) => ReactNode",
+          "required": false,
+          "description": "Function to render items as custom components instead of strings.\nDefaults to null and is overridden by a getter"
+        },
+        {
+          "name": "itemToString",
+          "type": "(item: ItemType) => string",
+          "required": false,
+          "description": "Helper function passed to downshift that allows the library to render\na given item to a string label.\n\nBy default, it extracts the `label` field from a given item\nto serve as the item label in the list."
+        },
+        {
+          "name": "items",
+          "type": "ItemType[]",
+          "required": true,
+          "description": "We try to stay as generic as possible here to allow individuals to pass\nin a collection of whatever kind of data structure they prefer"
+        },
+        {
+          "name": "light",
+          "type": "boolean",
+          "required": false,
+          "description": "@deprecated `true` to use the light version."
+        },
+        {
+          "name": "locale",
+          "type": "string",
+          "required": false,
+          "description": "Specify the locale of the control.\nUsed for the default `compareItems`,\nwhich is used for sorting the list of items in the control."
+        },
+        {
+          "name": "onChange",
+          "type": "(changes: { selectedItems: ItemType[]; }) => void",
+          "required": false,
+          "description": "`onChange` is a utility for this controlled component to communicate to a\nconsuming component what kind of internal state changes are occurring."
+        },
+        {
+          "name": "onInputValueChange",
+          "type": "(changes: UseComboboxInputValueChange<ItemType>) => void",
+          "required": false,
+          "description": "Called whenever the input value changes."
+        },
+        {
+          "name": "onMenuChange",
+          "type": "(open: boolean) => void",
+          "required": false,
+          "description": "`onMenuChange` is a utility for this controlled component to communicate to a\nconsuming component that the menu was opened(`true`)/closed(`false`)."
+        },
+        {
+          "name": "open",
+          "type": "boolean",
+          "required": false,
+          "description": "Initialize the component with an open(`true`)/closed(`false`) menu."
+        },
+        {
+          "name": "placeholder",
+          "type": "string",
+          "required": false,
+          "description": "Generic `placeholder` that will be used as the textual representation of\nwhat this field is for"
+        },
+        {
+          "name": "readOnly",
+          "type": "boolean",
+          "required": false,
+          "description": "Whether or not the filterable multiselect is readonly"
+        },
+        {
+          "name": "selectionFeedback",
+          "type": "enum",
+          "required": false,
+          "description": "Specify feedback (mode) of the selection.\n`top`: selected item jumps to top\n`fixed`: selected item stays at its position\n`top-after-reopen`: selected item jump to top after reopen dropdown",
+          "values": [
+            "top",
+            "fixed",
+            "top-after-reopen"
+          ]
+        },
+        {
+          "name": "selectedItems",
+          "type": "ItemType[]",
+          "required": false,
+          "description": "For full control of the selected items"
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "required": false,
+          "description": "Specify the size of the ListBox.\nCurrently, supports either `sm`, `md` or `lg` as an option.",
+          "values": [
+            "xs",
+            "sm",
+            "md",
+            "lg"
+          ]
+        },
+        {
+          "name": "slug",
+          "type": "ReactNode",
+          "required": false,
+          "description": "@deprecated please use decorator instead.\n**Experimental**: Provide a `Slug` component to be rendered inside the `Checkbox` component"
+        },
+        {
+          "name": "titleText",
+          "type": "ReactNode",
+          "required": false,
+          "description": "Provide text to be used in a `<label>` element that is tied to the\ncombobox via ARIA attributes."
+        },
+        {
+          "name": "type",
+          "type": "enum",
+          "required": false,
+          "description": "",
+          "values": [
+            "default",
+            "inline"
+          ]
+        },
+        {
+          "name": "useTitleInItem",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify title to show title on hover"
+        },
+        {
+          "name": "warn",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify whether the control is currently in warning state"
+        },
+        {
+          "name": "warnText",
+          "type": "ReactNode",
+          "required": false,
+          "description": "Provide the text that is displayed when the control is in warning state"
+        },
+        {
+          "name": "inputProps",
+          "type": "React.InputHTMLAttributes<HTMLInputElement>",
+          "required": false,
+          "description": "Specify native input attributes to place on the `<input>`, like maxLength.\nThese are passed to downshift's getInputProps() and will override the\ninternal input props.\nhttps://github.com/downshift-js/downshift?tab=readme-ov-file#getinputprops"
+        },
+        {
+          "name": "compareItems",
+          "type": "CompareItems",
+          "required": false,
+          "description": "Provide a compare function that is used to determine the ordering of\noptions. See 'sortItems' for more control."
+        },
+        {
+          "name": "sortItems",
+          "type": "(items: readonly ItemType[], options: SortItemsOptions<ItemType>) => ItemType[]",
+          "required": false,
+          "description": "Provide a method that sorts all options in the control. Overriding this\nprop means that you also have to handle the sort logic for selected versus\nun-selected items. If you just want to control ordering, consider the\n`compareItems` prop instead.\n\nThe return value should be a number whose sign indicates the relative order\nof the two elements: negative if a is less than b, positive if a is greater\nthan b, and zero if they are equal."
+        },
+        {
+          "name": "translateWithId",
+          "type": "(messageId: any, args?: Record<string, unknown>) => string",
+          "required": false,
+          "description": "Translates component strings using your i18n tool.\n@param messageId - The translation ID for the string to translate.\n@param args - Arguments for string interpolation.\n@returns The translated string."
+        }
+      ]
+    },
+    {
+      "name": "FlexGrid",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Grid/FlexGrid.d.ts",
+      "file": "lib/components/Grid/FlexGrid.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "FluidComboBox",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FluidComboBox/FluidComboBox.d.ts",
+      "file": "lib/components/FluidComboBox/FluidComboBox.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "FluidComboBoxSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FluidComboBox/FluidComboBox.Skeleton.d.ts",
+      "file": "lib/components/FluidComboBox/FluidComboBox.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "FluidDatePicker",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FluidDatePicker/FluidDatePicker.d.ts",
+      "file": "lib/components/FluidDatePicker/FluidDatePicker.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "FluidDatePickerInput",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FluidDatePickerInput/FluidDatePickerInput.d.ts",
+      "file": "lib/components/FluidDatePickerInput/FluidDatePickerInput.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "FluidDatePickerSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FluidDatePicker/FluidDatePicker.Skeleton.d.ts",
+      "file": "lib/components/FluidDatePicker/FluidDatePicker.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "FluidDropdown",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FluidDropdown/FluidDropdown.d.ts",
+      "file": "lib/components/FluidDropdown/FluidDropdown.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "FluidDropdownSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FluidDropdown/FluidDropdown.Skeleton.d.ts",
+      "file": "lib/components/FluidDropdown/FluidDropdown.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "FluidForm",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FluidForm/FluidForm.d.ts",
+      "file": "lib/components/FluidForm/FluidForm.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "FluidMultiSelect",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FluidMultiSelect/FluidMultiSelect.d.ts",
+      "file": "lib/components/FluidMultiSelect/FluidMultiSelect.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "FluidMultiSelectSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FluidMultiSelect/FluidMultiSelect.Skeleton.d.ts",
+      "file": "lib/components/FluidMultiSelect/FluidMultiSelect.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "FluidNumberInput",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FluidNumberInput/FluidNumberInput.d.ts",
+      "file": "lib/components/FluidNumberInput/FluidNumberInput.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "FluidNumberInputSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FluidNumberInput/FluidNumberInput.Skeleton.d.ts",
+      "file": "lib/components/FluidNumberInput/FluidNumberInput.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "FluidPasswordInput",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FluidTextInput/FluidPasswordInput.d.ts",
+      "file": "lib/components/FluidTextInput/FluidPasswordInput.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "FluidSearch",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FluidSearch/FluidSearch.d.ts",
+      "file": "lib/components/FluidSearch/FluidSearch.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "FluidSearchSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FluidSearch/FluidSearch.Skeleton.d.ts",
+      "file": "lib/components/FluidSearch/FluidSearch.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "FluidSelect",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FluidSelect/FluidSelect.d.ts",
+      "file": "lib/components/FluidSelect/FluidSelect.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "FluidSelectSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FluidSelect/FluidSelect.Skeleton.d.ts",
+      "file": "lib/components/FluidSelect/FluidSelect.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "FluidTextArea",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FluidTextArea/FluidTextArea.d.ts",
+      "file": "lib/components/FluidTextArea/FluidTextArea.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "FluidTextAreaSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FluidTextArea/FluidTextArea.Skeleton.d.ts",
+      "file": "lib/components/FluidTextArea/FluidTextArea.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "FluidTextInput",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FluidTextInput/FluidTextInput.d.ts",
+      "file": "lib/components/FluidTextInput/FluidTextInput.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "FluidTextInputSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FluidTextInput/FluidTextInput.Skeleton.d.ts",
+      "file": "lib/components/FluidTextInput/FluidTextInput.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "FluidTimePicker",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FluidTimePicker/FluidTimePicker.d.ts",
+      "file": "lib/components/FluidTimePicker/FluidTimePicker.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "FluidTimePickerSelect",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FluidTimePickerSelect/FluidTimePickerSelect.d.ts",
+      "file": "lib/components/FluidTimePickerSelect/FluidTimePickerSelect.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "FluidTimePickerSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FluidTimePicker/FluidTimePicker.Skeleton.d.ts",
+      "file": "lib/components/FluidTimePicker/FluidTimePicker.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "Form",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Form/Form.d.ts",
+      "file": "lib/components/Form/Form.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": []
+    },
+    {
+      "name": "FormGroup",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FormGroup/FormGroup.d.ts",
+      "file": "lib/components/FormGroup/FormGroup.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "FormItem",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FormItem/FormItem.d.ts",
+      "file": "lib/components/FormItem/FormItem.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "children",
+          "type": "React.ReactNode",
+          "required": false,
+          "description": "Provide content to be rendered in the form item"
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Provide a custom className to be applied to the containing node"
+        }
+      ]
+    },
+    {
+      "name": "FormLabel",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/FormLabel/FormLabel.d.ts",
+      "file": "lib/components/FormLabel/FormLabel.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "children",
+          "type": "React.ReactNode",
+          "required": false,
+          "description": "Specify the content of the form label"
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Provide a custom className to be applied to the containing <label> node"
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "required": false,
+          "description": "Provide a unique id for the given `FormLabel`"
+        }
+      ]
+    },
+    {
+      "name": "GlobalTheme",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Theme/index.d.ts",
+      "file": "lib/components/Theme/index.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "Grid",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Grid/Grid.d.ts",
+      "file": "lib/components/Grid/Grid.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "GridSettings",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Grid/GridContext.d.ts",
+      "file": "lib/components/Grid/GridContext.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "children",
+          "type": "React.ReactNode",
+          "required": false,
+          "description": "Pass in components which will be rendered within the `GridSettings`\ncomponent"
+        },
+        {
+          "name": "mode",
+          "type": "enum",
+          "required": true,
+          "description": "Specify the gutter mode for the GridContext",
+          "values": [
+            "flexbox",
+            "css-grid"
+          ]
+        },
+        {
+          "name": "subgrid",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify whether subgrid should be enabled"
+        }
+      ]
+    },
+    {
+      "name": "Header",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UIShell/Header.d.ts",
+      "file": "lib/components/UIShell/Header.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "HeaderContainer",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UIShell/HeaderContainer.d.ts",
+      "file": "lib/components/UIShell/HeaderContainer.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "isSideNavExpanded",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "render",
+          "type": "React.ComponentType<P>",
+          "required": true,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "HeaderGlobalAction",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UIShell/HeaderGlobalAction.d.ts",
+      "file": "lib/components/UIShell/HeaderGlobalAction.d.ts",
+      "description": "HeaderGlobalAction is used as a part of the `HeaderGlobalBar`. It is\nessentially an Icon Button with an additional state to indicate whether it is\n\"active\". The active state comes from when a user clicks on the global action\nwhich should trigger a panel to appear.\n\nNote: children passed to this component should be an Icon.",
+      "status": "active",
+      "propsExtracted": true,
+      "props": []
+    },
+    {
+      "name": "HeaderGlobalBar",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UIShell/HeaderGlobalBar.d.ts",
+      "file": "lib/components/UIShell/HeaderGlobalBar.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "HeaderMenu",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UIShell/HeaderMenu.d.ts",
+      "file": "lib/components/UIShell/HeaderMenu.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "HeaderMenuButton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UIShell/HeaderMenuButton.d.ts",
+      "file": "lib/components/UIShell/HeaderMenuButton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "aria-label",
+          "type": "string",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "aria-labelledby",
+          "type": "string",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "renderMenuIcon",
+          "type": "JSX.Element",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "renderCloseIcon",
+          "type": "JSX.Element",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "isActive",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "isCollapsible",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "HeaderMenuItem",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UIShell/HeaderMenuItem.d.ts",
+      "file": "lib/components/UIShell/HeaderMenuItem.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "HeaderName",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UIShell/HeaderName.d.ts",
+      "file": "lib/components/UIShell/HeaderName.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "element",
+          "type": "any",
+          "required": false,
+          "description": "@deprecated Use `as` instead"
+        },
+        {
+          "name": "as",
+          "type": "any",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "isSideNavExpanded",
+          "type": "any",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "prefix",
+          "type": "string",
+          "required": false,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "HeaderNavigation",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UIShell/HeaderNavigation.d.ts",
+      "file": "lib/components/UIShell/HeaderNavigation.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": []
+    },
+    {
+      "name": "HeaderPanel",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UIShell/HeaderPanel.d.ts",
+      "file": "lib/components/UIShell/HeaderPanel.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "HeaderSideNavItems",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UIShell/HeaderSideNavItems.d.ts",
+      "file": "lib/components/UIShell/HeaderSideNavItems.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "hasDivider",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Heading",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Heading/index.d.ts",
+      "file": "lib/components/Heading/index.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "HStack",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Stack/HStack.d.ts",
+      "file": "lib/components/Stack/HStack.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "IconButton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/IconButton/index.d.ts",
+      "file": "lib/components/IconButton/index.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "IconSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Icon/Icon.Skeleton.d.ts",
+      "file": "lib/components/Icon/Icon.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "IconSwitch",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Switch/IconSwitch.d.ts",
+      "file": "lib/components/Switch/IconSwitch.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "IconTab",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Tabs/Tabs.d.ts",
+      "file": "lib/components/Tabs/Tabs.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "IdPrefix",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/IdPrefix/index.d.ts",
+      "file": "lib/components/IdPrefix/index.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": []
+    },
+    {
+      "name": "InlineCheckbox",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/InlineCheckbox/InlineCheckbox.d.ts",
+      "file": "lib/components/InlineCheckbox/InlineCheckbox.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "InlineLoading",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/InlineLoading/InlineLoading.d.ts",
+      "file": "lib/components/InlineLoading/InlineLoading.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "InlineNotification",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Notification/Notification.d.ts",
+      "file": "lib/components/Notification/Notification.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "aria-label",
+          "type": "string",
+          "required": false,
+          "description": "Specify a label to be read by screen readers on the container node\n'aria-label' of the NotificationButton component."
+        },
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false,
+          "description": "Specify the content of the notification action button."
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Specify an optional className to be applied to the notification action button"
+        },
+        {
+          "name": "hideCloseButton",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify the close button should be disabled, or not"
+        },
+        {
+          "name": "kind",
+          "type": "enum",
+          "required": false,
+          "description": "Specify what state the notification represents",
+          "values": [
+            "error",
+            "info",
+            "info-square",
+            "success",
+            "warning",
+            "warning-alt"
+          ]
+        },
+        {
+          "name": "lowContrast",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify whether you are using the low contrast variant of the ToastNotification."
+        },
+        {
+          "name": "onClose",
+          "type": "NotificationCloseHandler",
+          "required": false,
+          "description": "Provide a function that is called when menu is closed"
+        },
+        {
+          "name": "onCloseButtonClick",
+          "type": "(event: MouseEvent) => void",
+          "required": false,
+          "description": "Provide a function that is called when the close button is clicked"
+        },
+        {
+          "name": "role",
+          "type": "enum",
+          "required": false,
+          "description": "By default, this value is \"status\". You can also provide an alternate\nrole if it makes sense from the accessibility-side",
+          "values": [
+            "alert",
+            "log",
+            "status"
+          ]
+        },
+        {
+          "name": "statusIconDescription",
+          "type": "string",
+          "required": false,
+          "description": "Provide a description for \"status\" icon that can be read by screen readers"
+        },
+        {
+          "name": "subtitle",
+          "type": "string",
+          "required": false,
+          "description": "Specify the subtitle"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "required": false,
+          "description": "Specify the title"
+        }
+      ]
+    },
+    {
+      "name": "Layer",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Layer/index.d.ts",
+      "file": "lib/components/Layer/index.d.ts",
+      "description": "A custom hook that will return information about the current layer. A common\nfield to pull from this is the `level` for the layer that the component that\ncalls this hook is currently in",
+      "status": "active",
+      "propsExtracted": true,
+      "props": []
+    },
+    {
+      "name": "Link",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Link/Link.d.ts",
+      "file": "lib/components/Link/Link.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "ListItem",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/ListItem/ListItem.d.ts",
+      "file": "lib/components/ListItem/ListItem.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": []
+    },
+    {
+      "name": "Loading",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Loading/Loading.d.ts",
+      "file": "lib/components/Loading/Loading.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "active",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify whether you want the loading indicator to be spinning or not"
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Provide an optional className to be applied to the containing node"
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "required": false,
+          "description": "Specify a description that would be used to best describe the loading state"
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "required": false,
+          "description": "@deprecated The prop `id` is no longer needed"
+        },
+        {
+          "name": "small",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify whether you would like the small variant of <Loading>"
+        },
+        {
+          "name": "withOverlay",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify whether you want the loader to be applied with an overlay"
+        }
+      ]
+    },
+    {
+      "name": "Menu",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Menu/Menu.d.ts",
+      "file": "lib/components/Menu/Menu.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "MenuButton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/MenuButton/index.d.ts",
+      "file": "lib/components/MenuButton/index.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "MenuItem",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Menu/MenuItem.d.ts",
+      "file": "lib/components/Menu/MenuItem.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "MenuItemDivider",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Menu/MenuItem.d.ts",
+      "file": "lib/components/Menu/MenuItem.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "MenuItemGroup",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Menu/MenuItem.d.ts",
+      "file": "lib/components/Menu/MenuItem.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "MenuItemRadioGroup",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Menu/MenuItem.d.ts",
+      "file": "lib/components/Menu/MenuItem.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "MenuItemSelectable",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Menu/MenuItem.d.ts",
+      "file": "lib/components/Menu/MenuItem.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "Modal",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Modal/Modal.d.ts",
+      "file": "lib/components/Modal/Modal.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "ModalBody",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/ComposedModal/ComposedModal.d.ts",
+      "file": "lib/components/ComposedModal/ComposedModal.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "ModalFooter",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/ComposedModal/ModalFooter.d.ts",
+      "file": "lib/components/ComposedModal/ModalFooter.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "ModalHeader",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/ComposedModal/ModalHeader.d.ts",
+      "file": "lib/components/ComposedModal/ModalHeader.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "ModalPresence",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Modal/ModalPresence.d.ts",
+      "file": "lib/components/Modal/ModalPresence.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": []
+    },
+    {
+      "name": "ModalWrapper",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/ModalWrapper/ModalWrapper.d.ts",
+      "file": "lib/components/ModalWrapper/ModalWrapper.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "MultiSelect",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/MultiSelect/MultiSelect.d.ts",
+      "file": "lib/components/MultiSelect/MultiSelect.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": []
+    },
+    {
+      "name": "NotificationActionButton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Notification/Notification.d.ts",
+      "file": "lib/components/Notification/Notification.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false,
+          "description": "Specify the content of the notification action button."
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Specify an optional className to be applied to the notification action button"
+        },
+        {
+          "name": "inline",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify if the visual treatment of the button should be for an inline notification"
+        },
+        {
+          "name": "onClick",
+          "type": "ComponentProps<ButtonComponent>",
+          "required": false,
+          "description": "Optionally specify a click handler for the notification action button."
+        }
+      ]
+    },
+    {
+      "name": "NotificationButton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Notification/Notification.d.ts",
+      "file": "lib/components/Notification/Notification.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "aria-label",
+          "type": "string",
+          "required": false,
+          "description": "Specify a label to be read by screen readers on the container node\n'aria-label' of the NotificationButton component."
+        },
+        {
+          "name": "ariaLabel",
+          "type": "string",
+          "required": false,
+          "description": "@deprecated please use `aria-label` instead.\n'aria-label' of the NotificationButton component."
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "description": "Specify an optional icon for the Button through a string,\nif provided. However, regular \"close\" icon is preferred."
+        },
+        {
+          "name": "notificationType",
+          "type": "enum",
+          "required": false,
+          "description": "Specify the notification type",
+          "values": [
+            "toast",
+            "inline",
+            "actionable"
+          ]
+        },
+        {
+          "name": "renderIcon",
+          "type": "React.ElementType",
+          "required": false,
+          "description": "A component used to render an icon."
+        }
+      ]
+    },
+    {
+      "name": "NumberInput",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/NumberInput/NumberInput.d.ts",
+      "file": "lib/components/NumberInput/NumberInput.d.ts",
+      "description": "Converts a string with any Unicode numeral system to a JavaScript number.\nHandles all numeral systems supported by Intl.NumberFormat.",
+      "status": "active",
+      "propsExtracted": true,
+      "props": []
+    },
+    {
+      "name": "NumberInputSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/NumberInput/NumberInput.Skeleton.d.ts",
+      "file": "lib/components/NumberInput/NumberInput.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Specify an optional className to add to the form item wrapper."
+        },
+        {
+          "name": "hideLabel",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify whether the label should be hidden, or not"
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "required": false,
+          "description": "Specify the size of the Number Input.",
+          "values": [
+            "xs",
+            "sm",
+            "md",
+            "lg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OperationalTag",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Tag/OperationalTag.d.ts",
+      "file": "lib/components/Tag/OperationalTag.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "OrderedList",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/OrderedList/OrderedList.d.ts",
+      "file": "lib/components/OrderedList/OrderedList.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "nested",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "native",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "isExpressive",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "OverflowMenu",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/OverflowMenu/index.d.ts",
+      "file": "lib/components/OverflowMenu/index.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "OverflowMenuItem",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/OverflowMenuItem/OverflowMenuItem.d.ts",
+      "file": "lib/components/OverflowMenuItem/OverflowMenuItem.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "Pagination",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Pagination/Pagination.d.ts",
+      "file": "lib/components/Pagination/Pagination.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "PaginationNav",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/PaginationNav/PaginationNav.d.ts",
+      "file": "lib/components/PaginationNav/PaginationNav.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "PaginationSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Pagination/Pagination.Skeleton.d.ts",
+      "file": "lib/components/Pagination/Pagination.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Specify an optional className to add."
+        }
+      ]
+    },
+    {
+      "name": "PasswordInput",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/TextInput/PasswordInput.d.ts",
+      "file": "lib/components/TextInput/PasswordInput.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "Popover",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Popover/index.d.ts",
+      "file": "lib/components/Popover/index.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": []
+    },
+    {
+      "name": "PopoverContent",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Popover/index.d.ts",
+      "file": "lib/components/Popover/index.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": []
+    },
+    {
+      "name": "PrimaryButton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/PrimaryButton/PrimaryButton.d.ts",
+      "file": "lib/components/PrimaryButton/PrimaryButton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "ProgressBar",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/ProgressBar/ProgressBar.d.ts",
+      "file": "lib/components/ProgressBar/ProgressBar.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Additional CSS class names."
+        },
+        {
+          "name": "helperText",
+          "type": "string",
+          "required": false,
+          "description": "The current progress as a textual representation."
+        },
+        {
+          "name": "hideLabel",
+          "type": "boolean",
+          "required": false,
+          "description": "Whether the label should be visually hidden."
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "required": true,
+          "description": "A label describing the progress bar."
+        },
+        {
+          "name": "max",
+          "type": "number",
+          "required": false,
+          "description": "The maximum value."
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "required": false,
+          "description": "Specify the size of the progress bar.",
+          "values": [
+            "small",
+            "big"
+          ]
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": false,
+          "description": "Specify the status.",
+          "values": [
+            "active",
+            "finished",
+            "error"
+          ]
+        },
+        {
+          "name": "type",
+          "type": "enum",
+          "required": false,
+          "description": "Defines the alignment variant of the progress bar.",
+          "values": [
+            "default",
+            "inline",
+            "indented"
+          ]
+        },
+        {
+          "name": "value",
+          "type": "number",
+          "required": false,
+          "description": "The current value."
+        }
+      ]
+    },
+    {
+      "name": "ProgressIndicator",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/ProgressIndicator/ProgressIndicator.d.ts",
+      "file": "lib/components/ProgressIndicator/ProgressIndicator.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "children",
+          "type": "React.ReactNode",
+          "required": false,
+          "description": "Provide `<ProgressStep>` components to be rendered in the\n`<ProgressIndicator>`"
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Provide an optional className to be applied to the containing node"
+        },
+        {
+          "name": "currentIndex",
+          "type": "number",
+          "required": false,
+          "description": "Optionally specify the current step array index"
+        },
+        {
+          "name": "onChange",
+          "type": "(data: number) => void",
+          "required": false,
+          "description": "Optional callback called if a ProgressStep is clicked on. Returns the index of the step."
+        },
+        {
+          "name": "spaceEqually",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify whether the progress steps should be split equally in size in the div"
+        },
+        {
+          "name": "vertical",
+          "type": "boolean",
+          "required": false,
+          "description": "Determines whether or not the ProgressIndicator should be rendered vertically."
+        }
+      ]
+    },
+    {
+      "name": "ProgressIndicatorSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/ProgressIndicator/ProgressIndicator.Skeleton.d.ts",
+      "file": "lib/components/ProgressIndicator/ProgressIndicator.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Specify an optional className to add."
+        },
+        {
+          "name": "vertical",
+          "type": "boolean",
+          "required": false,
+          "description": "Determines whether or not the ProgressIndicator should be rendered vertically."
+        }
+      ]
+    },
+    {
+      "name": "ProgressStep",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/ProgressIndicator/ProgressIndicator.d.ts",
+      "file": "lib/components/ProgressIndicator/ProgressIndicator.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "children",
+          "type": "React.ReactNode",
+          "required": false,
+          "description": "Provide `<ProgressStep>` components to be rendered in the\n`<ProgressIndicator>`"
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Provide an optional className to be applied to the containing node"
+        },
+        {
+          "name": "currentIndex",
+          "type": "number",
+          "required": false,
+          "description": "Optionally specify the current step array index"
+        },
+        {
+          "name": "onChange",
+          "type": "(data: number) => void",
+          "required": false,
+          "description": "Optional callback called if a ProgressStep is clicked on. Returns the index of the step."
+        },
+        {
+          "name": "spaceEqually",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify whether the progress steps should be split equally in size in the div"
+        },
+        {
+          "name": "vertical",
+          "type": "boolean",
+          "required": false,
+          "description": "Determines whether or not the ProgressIndicator should be rendered vertically."
+        }
+      ]
+    },
+    {
+      "name": "RadioButton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/RadioButton/RadioButton.d.ts",
+      "file": "lib/components/RadioButton/RadioButton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "RadioButtonGroup",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/RadioButtonGroup/RadioButtonGroup.d.ts",
+      "file": "lib/components/RadioButtonGroup/RadioButtonGroup.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "RadioButtonSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/RadioButton/RadioButton.Skeleton.d.ts",
+      "file": "lib/components/RadioButton/RadioButton.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Specify an optional className to add."
+        }
+      ]
+    },
+    {
+      "name": "RadioTile",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/RadioTile/RadioTile.d.ts",
+      "file": "lib/components/RadioTile/RadioTile.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "Row",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Grid/Row.d.ts",
+      "file": "lib/components/Grid/Row.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "Search",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Search/Search.d.ts",
+      "file": "lib/components/Search/Search.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "SearchSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Search/Search.Skeleton.d.ts",
+      "file": "lib/components/Search/Search.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "SecondaryButton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/SecondaryButton/SecondaryButton.d.ts",
+      "file": "lib/components/SecondaryButton/SecondaryButton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "Section",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Heading/index.d.ts",
+      "file": "lib/components/Heading/index.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "Select",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Select/Select.d.ts",
+      "file": "lib/components/Select/Select.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "SelectableTag",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Tag/SelectableTag.d.ts",
+      "file": "lib/components/Tag/SelectableTag.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "SelectableTile",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Tile/Tile.d.ts",
+      "file": "lib/components/Tile/Tile.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "SelectItem",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/SelectItem/SelectItem.d.ts",
+      "file": "lib/components/SelectItem/SelectItem.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "SelectItemGroup",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/SelectItemGroup/SelectItemGroup.d.ts",
+      "file": "lib/components/SelectItemGroup/SelectItemGroup.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "SelectSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Select/Select.Skeleton.d.ts",
+      "file": "lib/components/Select/Select.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "SideNav",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UIShell/SideNav.d.ts",
+      "file": "lib/components/UIShell/SideNav.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "SideNavDetails",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UIShell/SideNavDetails.d.ts",
+      "file": "lib/components/UIShell/SideNavDetails.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "SideNavDivider",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UIShell/SideNavDivider.d.ts",
+      "file": "lib/components/UIShell/SideNavDivider.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "SideNavFooter",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UIShell/SideNavFooter.d.ts",
+      "file": "lib/components/UIShell/SideNavFooter.d.ts",
+      "description": "SideNavFooter is used for rendering the button at the bottom of the side\nnavigation that is a part of the UI Shell. It is responsible for handling the\nuser interaction to expand or collapse the side navigation.",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "assistiveText",
+          "type": "string",
+          "required": true,
+          "description": "Provide text to be read to screen readers and shown as a tooltip when\ninteracting with the toggle button in the footer"
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "expanded",
+          "type": "boolean",
+          "required": true,
+          "description": "Specify whether the side navigation is expanded or collapsed"
+        },
+        {
+          "name": "onToggle",
+          "type": "(event: React.MouseEvent<HTMLButtonElement>) => void",
+          "required": true,
+          "description": "Provide a function that is called when the toggle button is interacted\nwith. Useful for controlling the expansion state of the side navigation."
+        }
+      ]
+    },
+    {
+      "name": "SideNavHeader",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UIShell/SideNavHeader.d.ts",
+      "file": "lib/components/UIShell/SideNavHeader.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "SideNavIcon",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UIShell/SideNavIcon.d.ts",
+      "file": "lib/components/UIShell/SideNavIcon.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "SideNavItem",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UIShell/SideNavItem.d.ts",
+      "file": "lib/components/UIShell/SideNavItem.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "SideNavItems",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UIShell/SideNavItems.d.ts",
+      "file": "lib/components/UIShell/SideNavItems.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "SideNavLink",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UIShell/SideNavLink.d.ts",
+      "file": "lib/components/UIShell/SideNavLink.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": []
+    },
+    {
+      "name": "SideNavLinkText",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UIShell/SideNavLinkText.d.ts",
+      "file": "lib/components/UIShell/SideNavLinkText.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "SideNavMenu",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UIShell/SideNavMenu.d.ts",
+      "file": "lib/components/UIShell/SideNavMenu.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "SideNavMenuItem",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UIShell/SideNavMenuItem.d.ts",
+      "file": "lib/components/UIShell/SideNavMenuItem.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "SideNavSwitcher",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UIShell/SideNavSwitcher.d.ts",
+      "file": "lib/components/UIShell/SideNavSwitcher.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "SkeletonIcon",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/SkeletonIcon/SkeletonIcon.d.ts",
+      "file": "lib/components/SkeletonIcon/SkeletonIcon.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "SkeletonPlaceholder",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/SkeletonPlaceholder/SkeletonPlaceholder.d.ts",
+      "file": "lib/components/SkeletonPlaceholder/SkeletonPlaceholder.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "SkeletonText",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/SkeletonText/SkeletonText.d.ts",
+      "file": "lib/components/SkeletonText/SkeletonText.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "SkipToContent",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UIShell/SkipToContent.d.ts",
+      "file": "lib/components/UIShell/SkipToContent.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": []
+    },
+    {
+      "name": "Slider",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Slider/Slider.d.ts",
+      "file": "lib/components/Slider/Slider.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "SliderSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Slider/Slider.Skeleton.d.ts",
+      "file": "lib/components/Slider/Slider.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "Stack",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Stack/Stack.d.ts",
+      "file": "lib/components/Stack/Stack.d.ts",
+      "description": "The Stack component is a useful layout utility in a component-based model.\nThis allows components to not use margin and instead delegate the\nresponsibility of positioning and layout to parent components.\n\nIn the case of the Stack component, it uses the spacing scale from the\nDesign Language in order to determine how much space there should be between\nitems rendered by the Stack component. It also supports a custom `gap` prop\nwhich will allow a user to provide a custom value for the gap of the layout.\n\nThis component supports both horizontal and vertical orientations.\n\nInspiration for this component:\n\n- https://paste.twilio.design/layout/stack/\n- https://github.com/Workday/canvas-kit/blob/f2f599654876700f483a1d8c5de82a41315c76f1/modules/labs-react/layout/lib/Stack.tsx",
+      "status": "active",
+      "propsExtracted": true,
+      "props": []
+    },
+    {
+      "name": "StaticNotification",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Notification/Notification.d.ts",
+      "file": "lib/components/Notification/Notification.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "actionButtonLabel",
+          "type": "string",
+          "required": false,
+          "description": "Pass in the action button label that will be rendered within the ActionableNotification."
+        },
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false,
+          "description": "Specify the content of the notification action button."
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Specify an optional className to be applied to the notification action button"
+        },
+        {
+          "name": "kind",
+          "type": "enum",
+          "required": false,
+          "description": "Specify what state the notification represents",
+          "values": [
+            "error",
+            "info",
+            "info-square",
+            "success",
+            "warning",
+            "warning-alt"
+          ]
+        },
+        {
+          "name": "lowContrast",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify whether you are using the low contrast variant of the ToastNotification."
+        },
+        {
+          "name": "onActionButtonClick",
+          "type": "ComponentProps<typeof NotificationActionButton>",
+          "required": false,
+          "description": "Provide a function that is called when the action is clicked"
+        },
+        {
+          "name": "statusIconDescription",
+          "type": "string",
+          "required": false,
+          "description": "Provide a description for \"status\" icon that can be read by screen readers"
+        },
+        {
+          "name": "subtitle",
+          "type": "string",
+          "required": false,
+          "description": "Specify the subtitle"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "required": false,
+          "description": "Specify the title"
+        },
+        {
+          "name": "titleId",
+          "type": "string",
+          "required": false,
+          "description": "Specify the id for the element containing the title"
+        }
+      ]
+    },
+    {
+      "name": "StructuredListBody",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/StructuredList/StructuredList.d.ts",
+      "file": "lib/components/StructuredList/StructuredList.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false,
+          "description": "Provide the contents of your StructuredListWrapper"
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Specify an optional className to be applied to the container node"
+        },
+        {
+          "name": "head",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "onKeyDown",
+          "type": "(event: KeyboardEvent) => void",
+          "required": false,
+          "description": "Provide a handler that is invoked on the key down event for the control"
+        }
+      ]
+    },
+    {
+      "name": "StructuredListCell",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/StructuredList/StructuredList.d.ts",
+      "file": "lib/components/StructuredList/StructuredList.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false,
+          "description": "Provide the contents of your StructuredListWrapper"
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Specify an optional className to be applied to the container node"
+        },
+        {
+          "name": "head",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "noWrap",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify whether your StructuredListCell should have text wrapping"
+        }
+      ]
+    },
+    {
+      "name": "StructuredListHead",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/StructuredList/StructuredList.d.ts",
+      "file": "lib/components/StructuredList/StructuredList.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": []
+    },
+    {
+      "name": "StructuredListInput",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/StructuredList/StructuredList.d.ts",
+      "file": "lib/components/StructuredList/StructuredList.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Specify an optional className to be applied to the container node"
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "required": false,
+          "description": "Specify row id so that it can be used for initial selection"
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "description": "Provide a `name` for the input"
+        },
+        {
+          "name": "onChange",
+          "type": "(event: ChangeEvent<HTMLInputElement>) => void",
+          "required": false,
+          "description": "Provide an optional hook that is called each time the input is updated"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "required": false,
+          "description": "Provide a `title` for the input"
+        }
+      ]
+    },
+    {
+      "name": "StructuredListRow",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/StructuredList/StructuredList.d.ts",
+      "file": "lib/components/StructuredList/StructuredList.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false,
+          "description": "Provide the contents of your StructuredListWrapper"
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Specify an optional className to be applied to the container node"
+        },
+        {
+          "name": "head",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "onClick",
+          "type": "(event: MouseEvent) => void",
+          "required": false,
+          "description": "Provide a handler that is invoked on the click"
+        },
+        {
+          "name": "onKeyDown",
+          "type": "(event: KeyboardEvent) => void",
+          "required": false,
+          "description": "Provide a handler that is invoked on the key down event for the control"
+        },
+        {
+          "name": "selection",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify whether your StructuredListWrapper should have selections"
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "required": false,
+          "description": "Specify row id so that it can be used for initial selection"
+        }
+      ]
+    },
+    {
+      "name": "StructuredListSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/StructuredList/StructuredList.Skeleton.d.ts",
+      "file": "lib/components/StructuredList/StructuredList.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Specify an optional className to add."
+        },
+        {
+          "name": "rowCount",
+          "type": "number",
+          "required": false,
+          "description": "number of table rows"
+        }
+      ]
+    },
+    {
+      "name": "StructuredListWrapper",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/StructuredList/StructuredList.d.ts",
+      "file": "lib/components/StructuredList/StructuredList.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "aria-label",
+          "type": "string",
+          "required": false,
+          "description": "Specify a label to be read by screen readers on the container node"
+        },
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false,
+          "description": "Provide the contents of your StructuredListWrapper"
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Specify an optional className to be applied to the container node"
+        },
+        {
+          "name": "isCondensed",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify if structured list is condensed, default is false"
+        },
+        {
+          "name": "isFlush",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify if structured list is flush, default is false"
+        },
+        {
+          "name": "selection",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify whether your StructuredListWrapper should have selections"
+        },
+        {
+          "name": "selectedInitialRow",
+          "type": "string",
+          "required": false,
+          "description": "Specify which row will be selected initially"
+        }
+      ]
+    },
+    {
+      "name": "Switch",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Switch/Switch.d.ts",
+      "file": "lib/components/Switch/Switch.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "Switcher",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UIShell/Switcher.d.ts",
+      "file": "lib/components/UIShell/Switcher.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "SwitcherDivider",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UIShell/SwitcherDivider.d.ts",
+      "file": "lib/components/UIShell/SwitcherDivider.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "SwitcherItem",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UIShell/SwitcherItem.d.ts",
+      "file": "lib/components/UIShell/SwitcherItem.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "Tab",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Tabs/Tabs.d.ts",
+      "file": "lib/components/Tabs/Tabs.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TabContent",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/TabContent/TabContent.d.ts",
+      "file": "lib/components/TabContent/TabContent.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": []
+    },
+    {
+      "name": "Table",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/DataTable/Table.d.ts",
+      "file": "lib/components/DataTable/Table.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": []
+    },
+    {
+      "name": "TableActionList",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/DataTable/TableActionList.d.ts",
+      "file": "lib/components/DataTable/TableActionList.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TableBatchAction",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/DataTable/TableBatchAction.d.ts",
+      "file": "lib/components/DataTable/TableBatchAction.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TableBatchActions",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/DataTable/TableBatchActions.d.ts",
+      "file": "lib/components/DataTable/TableBatchActions.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TableBody",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/DataTable/TableBody.d.ts",
+      "file": "lib/components/DataTable/TableBody.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TableCell",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/DataTable/TableCell.d.ts",
+      "file": "lib/components/DataTable/TableCell.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TableContainer",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/DataTable/TableContainer.d.ts",
+      "file": "lib/components/DataTable/TableContainer.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TableDecoratorRow",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/DataTable/TableDecoratorRow.d.ts",
+      "file": "lib/components/DataTable/TableDecoratorRow.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TableExpandedRow",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/DataTable/TableExpandedRow.d.ts",
+      "file": "lib/components/DataTable/TableExpandedRow.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TableExpandHeader",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/DataTable/TableExpandHeader.d.ts",
+      "file": "lib/components/DataTable/TableExpandHeader.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TableExpandRow",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/DataTable/TableExpandRow.d.ts",
+      "file": "lib/components/DataTable/TableExpandRow.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TableHead",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/DataTable/TableHead.d.ts",
+      "file": "lib/components/DataTable/TableHead.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TableHeader",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/DataTable/TableHeader.d.ts",
+      "file": "lib/components/DataTable/TableHeader.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TableRow",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/DataTable/TableRow.d.ts",
+      "file": "lib/components/DataTable/TableRow.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TableSelectAll",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/DataTable/TableSelectAll.d.ts",
+      "file": "lib/components/DataTable/TableSelectAll.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TableSelectRow",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/DataTable/TableSelectRow.d.ts",
+      "file": "lib/components/DataTable/TableSelectRow.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TableSlugRow",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/DataTable/TableSlugRow.d.ts",
+      "file": "lib/components/DataTable/TableSlugRow.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TableToolbar",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/DataTable/TableToolbar.d.ts",
+      "file": "lib/components/DataTable/TableToolbar.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TableToolbarAction",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/DataTable/TableToolbarAction.d.ts",
+      "file": "lib/components/DataTable/TableToolbarAction.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TableToolbarContent",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/DataTable/TableToolbarContent.d.ts",
+      "file": "lib/components/DataTable/TableToolbarContent.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TableToolbarMenu",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/DataTable/TableToolbarMenu.d.ts",
+      "file": "lib/components/DataTable/TableToolbarMenu.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TableToolbarSearch",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/DataTable/TableToolbarSearch.d.ts",
+      "file": "lib/components/DataTable/TableToolbarSearch.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TabList",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Tabs/Tabs.d.ts",
+      "file": "lib/components/Tabs/Tabs.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "activation",
+          "type": "enum",
+          "required": false,
+          "description": "Specify whether the content tab should be activated automatically or\nmanually",
+          "values": [
+            "automatic",
+            "manual"
+          ]
+        },
+        {
+          "name": "aria-label",
+          "type": "string",
+          "required": false,
+          "description": "Provide an accessible label to be read when a user interacts with this\ncomponent"
+        },
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false,
+          "description": "Provide child elements to be rendered inside the `Tabs`.\nThese elements should render either `TabsList` or `TabsPanels`"
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Specify an optional className to be added to the container node"
+        },
+        {
+          "name": "contained",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify whether component is contained type"
+        },
+        {
+          "name": "fullWidth",
+          "type": "boolean",
+          "required": false,
+          "description": "Used for tabs within a grid, this makes it so tabs span the full container width and have the same width. Only available on contained tabs with <9 children"
+        },
+        {
+          "name": "iconSize",
+          "type": "enum",
+          "required": false,
+          "description": "If using `IconTab`, specify the size of the icon being used.",
+          "values": [
+            "default",
+            "lg"
+          ]
+        },
+        {
+          "name": "leftOverflowButtonProps",
+          "type": "HTMLAttributes<HTMLButtonElement>",
+          "required": false,
+          "description": "Provide the props that describe the left overflow button"
+        },
+        {
+          "name": "light",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify whether to use the light component variant"
+        },
+        {
+          "name": "rightOverflowButtonProps",
+          "type": "HTMLAttributes<HTMLButtonElement>",
+          "required": false,
+          "description": "Provide the props that describe the right overflow button"
+        },
+        {
+          "name": "scrollDebounceWait",
+          "type": "number",
+          "required": false,
+          "description": "Optionally provide a delay (in milliseconds) passed to the lodash\ndebounce of the onScroll handler. This will impact the responsiveness\nof scroll arrow buttons rendering when scrolling to the first or last tab."
+        },
+        {
+          "name": "scrollIntoView",
+          "type": "boolean",
+          "required": false,
+          "description": "Choose whether to automatically scroll to newly selected tabs\non component rerender"
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "required": false,
+          "description": "Specify the size of the tabs.\n\nSupports `sm` and `md` for line tabs.\nSupports `sm`, `md`, and `lg` for contained tabs.",
+          "values": [
+            "lg",
+            "sm",
+            "md"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TabListVertical",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Tabs/Tabs.d.ts",
+      "file": "lib/components/Tabs/Tabs.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "activation",
+          "type": "enum",
+          "required": false,
+          "description": "Specify whether the content tab should be activated automatically or\nmanually",
+          "values": [
+            "automatic",
+            "manual"
+          ]
+        },
+        {
+          "name": "aria-label",
+          "type": "string",
+          "required": false,
+          "description": "Provide an accessible label to be read when a user interacts with this\ncomponent"
+        },
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false,
+          "description": "Provide child elements to be rendered inside the `Tabs`.\nThese elements should render either `TabsList` or `TabsPanels`"
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Specify an optional className to be added to the container node"
+        },
+        {
+          "name": "scrollIntoView",
+          "type": "boolean",
+          "required": false,
+          "description": "Choose whether to automatically scroll to newly selected tabs\non component rerender"
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "required": false,
+          "description": "Specify the size of the tabs.\n\nSupports `sm` and `md` for line tabs.\nSupports `sm`, `md`, and `lg` for contained tabs.",
+          "values": [
+            "lg",
+            "sm",
+            "md"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TabPanel",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Tabs/Tabs.d.ts",
+      "file": "lib/components/Tabs/Tabs.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TabPanels",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Tabs/Tabs.d.ts",
+      "file": "lib/components/Tabs/Tabs.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false,
+          "description": "Provide child elements to be rendered inside the `Tabs`.\nThese elements should render either `TabsList` or `TabsPanels`"
+        }
+      ]
+    },
+    {
+      "name": "Tabs",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Tabs/Tabs.d.ts",
+      "file": "lib/components/Tabs/Tabs.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false,
+          "description": "Provide child elements to be rendered inside the `Tabs`.\nThese elements should render either `TabsList` or `TabsPanels`"
+        },
+        {
+          "name": "defaultSelectedIndex",
+          "type": "number",
+          "required": false,
+          "description": "Specify which content tab should be initially selected when the component\nis first rendered"
+        },
+        {
+          "name": "dismissable",
+          "type": "boolean",
+          "required": false,
+          "description": "Whether the rendered Tab children should be dismissable."
+        },
+        {
+          "name": "onChange",
+          "type": "(state: { selectedIndex: number; }) => void",
+          "required": false,
+          "description": "Provide an optional function which is called\nwhenever the state of the `Tabs` changes"
+        },
+        {
+          "name": "onTabCloseRequest",
+          "type": "(tabIndex: number) => void",
+          "required": false,
+          "description": "If specifying the `onTabCloseRequest` prop, provide a callback function\nresponsible for removing the tab when close button is pressed on one of the Tab elements"
+        },
+        {
+          "name": "selectedIndex",
+          "type": "number",
+          "required": false,
+          "description": "Control which content panel is currently selected. This puts the component\nin a controlled mode and should be used along with `onChange`"
+        }
+      ]
+    },
+    {
+      "name": "TabsSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Tabs/Tabs.Skeleton.d.ts",
+      "file": "lib/components/Tabs/Tabs.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Specify an optional className to add."
+        },
+        {
+          "name": "contained",
+          "type": "boolean",
+          "required": false,
+          "description": "Provide the type of Tab"
+        }
+      ]
+    },
+    {
+      "name": "TabsVertical",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Tabs/Tabs.d.ts",
+      "file": "lib/components/Tabs/Tabs.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false,
+          "description": "Provide child elements to be rendered inside the `Tabs`.\nThese elements should render either `TabsList` or `TabsPanels`"
+        },
+        {
+          "name": "defaultSelectedIndex",
+          "type": "number",
+          "required": false,
+          "description": "Specify which content tab should be initially selected when the component\nis first rendered"
+        },
+        {
+          "name": "height",
+          "type": "string",
+          "required": false,
+          "description": "Option to set a height style only if using vertical variation"
+        },
+        {
+          "name": "onChange",
+          "type": "(state: { selectedIndex: number; }) => void",
+          "required": false,
+          "description": "Provide an optional function which is called\nwhenever the state of the `Tabs` changes"
+        },
+        {
+          "name": "selectedIndex",
+          "type": "number",
+          "required": false,
+          "description": "Control which content panel is currently selected. This puts the component\nin a controlled mode and should be used along with `onChange`"
+        }
+      ]
+    },
+    {
+      "name": "Tag",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Tag/Tag.d.ts",
+      "file": "lib/components/Tag/Tag.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TagSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Tag/Tag.Skeleton.d.ts",
+      "file": "lib/components/Tag/Tag.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Specify an optional className to add."
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "required": false,
+          "description": "Specify the size of the Tag.",
+          "values": [
+            "sm",
+            "md",
+            "lg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TextArea",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/TextArea/TextArea.d.ts",
+      "file": "lib/components/TextArea/TextArea.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TextAreaSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/TextArea/TextArea.Skeleton.d.ts",
+      "file": "lib/components/TextArea/TextArea.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TextInput",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/TextInput/TextInput.d.ts",
+      "file": "lib/components/TextInput/TextInput.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TextInputSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/TextInput/TextInput.Skeleton.d.ts",
+      "file": "lib/components/TextInput/TextInput.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "Theme",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Theme/index.d.ts",
+      "file": "lib/components/Theme/index.d.ts",
+      "description": "Specify the theme to be applied to a page, or a region in a page",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "theme",
+          "type": "any",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "as",
+          "type": "ElementType",
+          "required": false,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Tile",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Tile/Tile.d.ts",
+      "file": "lib/components/Tile/Tile.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TileAboveTheFoldContent",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Tile/Tile.d.ts",
+      "file": "lib/components/Tile/Tile.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TileBelowTheFoldContent",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Tile/Tile.d.ts",
+      "file": "lib/components/Tile/Tile.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TileGroup",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/TileGroup/TileGroup.d.ts",
+      "file": "lib/components/TileGroup/TileGroup.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false,
+          "description": "Provide a collection of <RadioTile> components to render in the group"
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Provide an optional className to be applied to the container node"
+        },
+        {
+          "name": "defaultSelected",
+          "type": "string | number",
+          "required": false,
+          "description": "Specify the the value of <RadioTile> to be selected by default"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify whether the group is disabled"
+        },
+        {
+          "name": "legend",
+          "type": "string",
+          "required": false,
+          "description": "Provide an optional legend for this group"
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": true,
+          "description": "Specify the name of the underlying `<input>` nodes"
+        },
+        {
+          "name": "onChange",
+          "type": "(selection: T, name: string, evt: unknown) => void",
+          "required": false,
+          "description": "Provide an optional `onChange` hook that is called whenever the value of the group changes"
+        },
+        {
+          "name": "valueSelected",
+          "type": "string | number",
+          "required": false,
+          "description": "Specify the value that is currently selected in the group"
+        },
+        {
+          "name": "required",
+          "type": "boolean",
+          "required": false,
+          "description": "`true` to specify if input selection in group is required."
+        }
+      ]
+    },
+    {
+      "name": "TimePicker",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/TimePicker/TimePicker.d.ts",
+      "file": "lib/components/TimePicker/TimePicker.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TimePickerSelect",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/TimePickerSelect/TimePickerSelect.d.ts",
+      "file": "lib/components/TimePickerSelect/TimePickerSelect.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "ToastNotification",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Notification/Notification.d.ts",
+      "file": "lib/components/Notification/Notification.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "aria-label",
+          "type": "string",
+          "required": false,
+          "description": "Specify a label to be read by screen readers on the container node\n'aria-label' of the NotificationButton component."
+        },
+        {
+          "name": "caption",
+          "type": "string",
+          "required": false,
+          "description": "Specify the caption"
+        },
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false,
+          "description": "Specify the content of the notification action button."
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Specify an optional className to be applied to the notification action button"
+        },
+        {
+          "name": "hideCloseButton",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify the close button should be disabled, or not"
+        },
+        {
+          "name": "kind",
+          "type": "enum",
+          "required": false,
+          "description": "Specify what state the notification represents",
+          "values": [
+            "error",
+            "info",
+            "info-square",
+            "success",
+            "warning",
+            "warning-alt"
+          ]
+        },
+        {
+          "name": "lowContrast",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify whether you are using the low contrast variant of the ToastNotification."
+        },
+        {
+          "name": "onClose",
+          "type": "NotificationCloseHandler",
+          "required": false,
+          "description": "Provide a function that is called when menu is closed"
+        },
+        {
+          "name": "onCloseButtonClick",
+          "type": "(event: MouseEvent) => void",
+          "required": false,
+          "description": "Provide a function that is called when the close button is clicked"
+        },
+        {
+          "name": "role",
+          "type": "enum",
+          "required": false,
+          "description": "By default, this value is \"status\". You can also provide an alternate\nrole if it makes sense from the accessibility-side",
+          "values": [
+            "alert",
+            "log",
+            "status"
+          ]
+        },
+        {
+          "name": "statusIconDescription",
+          "type": "string",
+          "required": false,
+          "description": "Provide a description for \"status\" icon that can be read by screen readers"
+        },
+        {
+          "name": "subtitle",
+          "type": "string",
+          "required": false,
+          "description": "Specify the subtitle"
+        },
+        {
+          "name": "timeout",
+          "type": "number",
+          "required": false,
+          "description": "Specify an optional duration the notification should be closed in"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "required": false,
+          "description": "Specify the title"
+        }
+      ]
+    },
+    {
+      "name": "Toggle",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Toggle/Toggle.d.ts",
+      "file": "lib/components/Toggle/Toggle.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "aria-labelledby",
+          "type": "string",
+          "required": false,
+          "description": "Specify another element's id to be used as the label for this toggle"
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "required": true,
+          "description": "Provide an id that unique represents the underlying `<button>`"
+        },
+        {
+          "name": "labelA",
+          "type": "string",
+          "required": false,
+          "description": "Specify the label for the \"off\" position"
+        },
+        {
+          "name": "labelB",
+          "type": "string",
+          "required": false,
+          "description": "Specify the label for the \"on\" position"
+        },
+        {
+          "name": "labelText",
+          "type": "string",
+          "required": false,
+          "description": "Provide the text that will be read by a screen reader when visiting this\ncontrol. This should be provided unless 'aria-labelledby' is set instead\nor you use an external <label> element with its \"for\" attribute set to the\ntoggle's id."
+        },
+        {
+          "name": "hideLabel",
+          "type": "boolean",
+          "required": false,
+          "description": "If true, the side labels (props.labelA and props.labelB) will be replaced by\nprops.labelText (if passed), so that the toggle doesn't render a top label."
+        },
+        {
+          "name": "onClick",
+          "type": "any",
+          "required": false,
+          "description": "Provide an event listener that is called when the control is toggled"
+        },
+        {
+          "name": "onToggle",
+          "type": "(checked: boolean) => void",
+          "required": false,
+          "description": "Provide an event listener that is called when the control is toggled"
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "required": false,
+          "description": "Specify the size of the Toggle. Currently only supports 'sm' or 'md' (default)",
+          "values": [
+            "sm",
+            "md"
+          ]
+        },
+        {
+          "name": "readOnly",
+          "type": "boolean",
+          "required": false,
+          "description": "Whether the toggle should be read-only"
+        },
+        {
+          "name": "defaultToggled",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify whether the toggle should be on by default"
+        },
+        {
+          "name": "toggled",
+          "type": "boolean",
+          "required": false,
+          "description": "Specify whether the control is toggled"
+        }
+      ]
+    },
+    {
+      "name": "ToggleSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Toggle/Toggle.Skeleton.d.ts",
+      "file": "lib/components/Toggle/Toggle.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "ToggleSmallSkeleton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/ToggleSmall/ToggleSmall.Skeleton.d.ts",
+      "file": "lib/components/ToggleSmall/ToggleSmall.Skeleton.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "aria-label",
+          "type": "string",
+          "required": true,
+          "description": ""
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": "Specify an optional className to add to the form item wrapper."
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "required": false,
+          "description": "Provide an id that unique represents the underlying `<input>`"
+        },
+        {
+          "name": "labelText",
+          "type": "string",
+          "required": false,
+          "description": "Provide the text that will be read by a screen reader when visiting this\ncontrol. `aria-label` is always required but will be `null` if `labelText`\nis also provided."
+        }
+      ]
+    },
+    {
+      "name": "Toggletip",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Toggletip/index.d.ts",
+      "file": "lib/components/Toggletip/index.d.ts",
+      "description": "Used as a container for the button and content of a toggletip. This component\nis responsible for coordinating between interactions with the button and the\nvisibility of the content",
+      "status": "active",
+      "propsExtracted": true,
+      "props": []
+    },
+    {
+      "name": "ToggletipActions",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Toggletip/index.d.ts",
+      "file": "lib/components/Toggletip/index.d.ts",
+      "description": "`ToggletipActions` is a container for one or two actions present at the base\nof a toggletip. It is used for layout of these items.",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "ToggletipButton",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Toggletip/index.d.ts",
+      "file": "lib/components/Toggletip/index.d.ts",
+      "description": "`ToggletipButton` controls the visibility of the Toggletip through mouse\nclicks and keyboard interactions.",
+      "status": "active",
+      "propsExtracted": true,
+      "props": []
+    },
+    {
+      "name": "ToggletipContent",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Toggletip/index.d.ts",
+      "file": "lib/components/Toggletip/index.d.ts",
+      "description": "`ToggletipContent` is a wrapper around `PopoverContent`. It places the\n`children` passed in as a prop inside of `PopoverContent` so that they will\nbe rendered inside of the popover for this component.",
+      "status": "active",
+      "propsExtracted": true,
+      "props": []
+    },
+    {
+      "name": "ToggletipLabel",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Toggletip/index.d.ts",
+      "file": "lib/components/Toggletip/index.d.ts",
+      "description": "Used to render the label for a Toggletip",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "as",
+          "type": "ElementType",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Tooltip",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Tooltip/Tooltip.d.ts",
+      "file": "lib/components/Tooltip/Tooltip.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TreeNode",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/TreeView/TreeNode.d.ts",
+      "file": "lib/components/TreeView/TreeNode.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "TreeView",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/TreeView/TreeView.d.ts",
+      "file": "lib/components/TreeView/TreeView.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    },
+    {
+      "name": "UnorderedList",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/UnorderedList/UnorderedList.d.ts",
+      "file": "lib/components/UnorderedList/UnorderedList.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": true,
+      "props": [
+        {
+          "name": "nested",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        },
+        {
+          "name": "isExpressive",
+          "type": "boolean",
+          "required": false,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "VStack",
+      "module": "/Users/daphne/Desktop/gui-markup-language/carbon/node_modules/@carbon/react/lib/components/Stack/VStack.d.ts",
+      "file": "lib/components/Stack/VStack.d.ts",
+      "description": "",
+      "status": "active",
+      "propsExtracted": false,
+      "props": []
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "guiml-carbon-extract",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Extract IBM Carbon v11 tokens, component catalog, and lifecycle table for GUIML-Bench",
+  "scripts": {
+    "extract": "node extract_tokens.mjs && node extract_components.mjs && node extract_lifecycle.mjs && node build_packs.mjs"
+  },
+  "dependencies": {
+    "@carbon/react": "^1.80.0",
+    "@carbon/themes": "^11.50.0",
+    "@carbon/layout": "^11.30.0",
+    "@carbon/type": "^11.35.0",
+    "@carbon/colors": "^11.30.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-docgen-typescript": "^2.2.2",
+    "typescript": "^5.6.0"
+  }
+}

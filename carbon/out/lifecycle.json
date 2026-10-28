@@ -1,0 +1,2505 @@
+{
+  "source": {
+    "file": "carbon/sources/v11-migration.md",
+    "upstream": "https://github.com/carbon-design-system/carbon/blob/main/docs/migration/v11.md",
+    "note": "v10 packages reached end of support 2024-09-30"
+  },
+  "extractedAt": "2026-10-28T08:01:57.785Z",
+  "tokens": [
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "active-danger",
+      "v11": "button-danger-active",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "active-light-ui",
+      "v11": "layer-active-02",
+      "contextual": "layer-active",
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "active-primary",
+      "v11": "button-primary-active",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "active-secondary",
+      "v11": "button-secondary-active",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "active-tertiary",
+      "v11": "button-tertiary-active",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "active-ui",
+      "v11": "layer-active-01",
+      "contextual": "layer-active",
+      "status": "split"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "active-ui",
+      "v11": "background-active",
+      "contextual": null,
+      "status": "split"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "active-ui",
+      "v11": "layer-accent-active-01",
+      "contextual": "layer-accent-active",
+      "status": "split"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "active-ui",
+      "v11": "border-subtle-selected-01",
+      "contextual": "border-subtle-selected",
+      "status": "split"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "button-separator",
+      "v11": "button-separator",
+      "contextual": null,
+      "status": "no-change"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "danger",
+      "v11": "button-danger-primary",
+      "contextual": null,
+      "status": "deprecated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "danger-01",
+      "v11": "button-danger-primary",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "danger-02",
+      "v11": "button-danger-secondary",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "decorative-01",
+      "v11": "border-subtle-02",
+      "contextual": "border-subtle",
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "disabled-01",
+      "v11": null,
+      "contextual": null,
+      "status": "deprecated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "disabled-02",
+      "v11": "text-disabled",
+      "contextual": null,
+      "status": "split"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "disabled-02",
+      "v11": "icon-disabled",
+      "contextual": null,
+      "status": "split"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "disabled-02",
+      "v11": "button-disabled",
+      "contextual": null,
+      "status": "split"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "disabled-02",
+      "v11": "border-disabled",
+      "contextual": "border-disabled",
+      "status": "split"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "disabled-03",
+      "v11": "icon-on-color-disabled",
+      "contextual": null,
+      "status": "split"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "disabled-03",
+      "v11": "layer-selected-disabled",
+      "contextual": null,
+      "status": "split"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "disabled-03",
+      "v11": "text-on-color-disabled",
+      "contextual": null,
+      "status": "split"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "field-01",
+      "v11": "field-01",
+      "contextual": "field",
+      "status": "no-change"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "field-02",
+      "v11": "field-02",
+      "contextual": "field",
+      "status": "no-change"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "focus",
+      "v11": "focus",
+      "contextual": null,
+      "status": "no-change"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "highlight",
+      "v11": "highlight",
+      "contextual": null,
+      "status": "no-change"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "hover-danger",
+      "v11": "button-danger-hover",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "hover-light-ui",
+      "v11": "layer-hover-02",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "hover-primary",
+      "v11": "button-primary-hover",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "hover-primary-text",
+      "v11": "link-primary-hover",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "hover-secondary",
+      "v11": "button-secondary-hover",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "hover-selected-ui",
+      "v11": "background-selected-hover",
+      "contextual": null,
+      "status": "split"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "hover-selected-ui",
+      "v11": "layer-accent-hover-01",
+      "contextual": "layer-accent-hover",
+      "status": "split"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "hover-selected-ui",
+      "v11": "layer-selected-hover-01",
+      "contextual": "layer-selected-hover",
+      "status": "split"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "hover-tertiary",
+      "v11": "button-tertiary-hover",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "hover-ui",
+      "v11": "background-hover",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "hover-ui",
+      "v11": "layer-hover-01",
+      "contextual": "layer-hover",
+      "status": "split"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "hover-ui",
+      "v11": "field-hover-01",
+      "contextual": "field-hover",
+      "status": "split"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "hover-ui",
+      "v11": "field-hover-02",
+      "contextual": "field-hover",
+      "status": "split"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "icon-01",
+      "v11": "icon-primary",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "icon-02",
+      "v11": "icon-secondary",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "icon-03",
+      "v11": "icon-on-color",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "interactive-01",
+      "v11": "button-primary",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "interactive-01",
+      "v11": "background-brand",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "interactive-02",
+      "v11": "button-secondary",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "interactive-03",
+      "v11": "button-tertiary",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "interactive-04",
+      "v11": "border-interactive",
+      "contextual": null,
+      "status": "split"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "interactive-04",
+      "v11": "interactive",
+      "contextual": null,
+      "status": "split"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "inverse-01",
+      "v11": "icon-inverse",
+      "contextual": null,
+      "status": "split"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "inverse-01",
+      "v11": "focus-inset",
+      "contextual": null,
+      "status": "split"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "inverse-01",
+      "v11": "text-inverse",
+      "contextual": null,
+      "status": "split"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "inverse-02",
+      "v11": "background-inverse",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "inverse-focus-ui",
+      "v11": "focus-inverse",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "inverse-hover-ui",
+      "v11": "background-inverse-hover",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "inverse-link",
+      "v11": "link-inverse",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "inverse-support-01",
+      "v11": "support-error-inverse",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "inverse-support-02",
+      "v11": "support-success-inverse",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "inverse-support-03",
+      "v11": "support-warning-inverse",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "inverse-support-04",
+      "v11": "support-info-inverse",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "link-01",
+      "v11": "link-primary",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "link-02",
+      "v11": "link-secondary",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "overlay-01",
+      "v11": "overlay",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "selected-light-ui",
+      "v11": "layer-selected-02",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "selected-ui",
+      "v11": "layer-selected-01",
+      "contextual": "layer-selected",
+      "status": "split"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "selected-ui",
+      "v11": "background-selected",
+      "contextual": null,
+      "status": "split"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "skeleton-01",
+      "v11": "skeleton-background",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "skeleton-02",
+      "v11": "skeleton-element",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "support-01",
+      "v11": "support-error",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "support-02",
+      "v11": "support-success",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "support-03",
+      "v11": "support-warning",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "support-04",
+      "v11": "support-info",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "text-01",
+      "v11": "text-primary",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "text-02",
+      "v11": "text-secondary",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "text-03",
+      "v11": "text-placeholder",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "text-04",
+      "v11": "text-on-color",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "text-05",
+      "v11": "text-helper",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "text-error",
+      "v11": "text-error",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "hover-row",
+      "v11": "layer-hover-01",
+      "contextual": "layer-hover",
+      "status": "deprecated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "ui-01",
+      "v11": "layer-01",
+      "contextual": "layer",
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "ui-02",
+      "v11": "layer-02",
+      "contextual": "layer",
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "ui-03",
+      "v11": "layer-accent-01",
+      "contextual": "layer-accent",
+      "status": "split"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "ui-03",
+      "v11": "border-subtle-01",
+      "contextual": "border-subtle",
+      "status": "split"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "ui-04",
+      "v11": "toggle-off",
+      "contextual": null,
+      "status": "split"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "ui-04",
+      "v11": "border-strong-01",
+      "contextual": "border-strong",
+      "status": "split"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "ui-05",
+      "v11": "border-inverse",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "ui-05",
+      "v11": "layer-selected-inverse",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "ui-background",
+      "v11": "background",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "visited-link",
+      "v11": "link-visited",
+      "contextual": null,
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "brand-01",
+      "v11": null,
+      "contextual": null,
+      "status": "deprecated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "brand-02",
+      "v11": null,
+      "contextual": null,
+      "status": "deprecated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": "brand-03",
+      "v11": null,
+      "contextual": null,
+      "status": "deprecated"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": null,
+      "v11": "border-strong-02",
+      "contextual": "border-strong",
+      "status": "new"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": null,
+      "v11": "border-strong-03",
+      "contextual": "border-strong",
+      "status": "new"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": null,
+      "v11": "border-subtle-00",
+      "contextual": "border-subtle",
+      "status": "new"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": null,
+      "v11": "border-subtle-03",
+      "contextual": "border-subtle",
+      "status": "new"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": null,
+      "v11": "border-subtle-selected-02",
+      "contextual": "border-subtle-selected",
+      "status": "new"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": null,
+      "v11": "border-subtle-selected-03",
+      "contextual": "border-subtle-selected",
+      "status": "new"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": null,
+      "v11": "field-03",
+      "contextual": "field",
+      "status": "new"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": null,
+      "v11": "field-hover-03",
+      "contextual": "field-hover",
+      "status": "new"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": null,
+      "v11": "layer-03",
+      "contextual": "layer",
+      "status": "new"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": null,
+      "v11": "layer-active-03",
+      "contextual": "layer-active",
+      "status": "new"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": null,
+      "v11": "layer-hover-03",
+      "contextual": "layer-hover",
+      "status": "new"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": null,
+      "v11": "layer-selected-03",
+      "contextual": "layer-selected",
+      "status": "new"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": null,
+      "v11": "layer-selected-hover-02",
+      "contextual": "layer-selected-hover",
+      "status": "new"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": null,
+      "v11": "layer-selected-hover-03",
+      "contextual": "layer-selected-hover",
+      "status": "new"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": null,
+      "v11": "layer-accent-02",
+      "contextual": "layer-accent",
+      "status": "new"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": null,
+      "v11": "layer-accent-03",
+      "contextual": "layer-accent",
+      "status": "new"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": null,
+      "v11": "layer-accent-active-02",
+      "contextual": "layer-accent-active",
+      "status": "new"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": null,
+      "v11": "layer-accent-active-03",
+      "contextual": "layer-accent-active",
+      "status": "new"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": null,
+      "v11": "layer-accent-hover-02",
+      "contextual": "layer-accent-hover",
+      "status": "new"
+    },
+    {
+      "kind": "token",
+      "category": "color",
+      "v10": null,
+      "v11": "layer-accent-hover-03",
+      "contextual": "layer-accent-hover",
+      "status": "new"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Utility styles",
+      "v10": "code-01",
+      "v11": "code-01",
+      "status": "no-change"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Utility styles",
+      "v10": "code-02",
+      "v11": "code-02",
+      "status": "no-change"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Utility styles",
+      "v10": "label-01",
+      "v11": "label-01",
+      "status": "no-change"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Utility styles",
+      "v10": "label-02",
+      "v11": "label-02",
+      "status": "no-change"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Utility styles",
+      "v10": "helper-text-01",
+      "v11": "helper-text-01",
+      "status": "no-change"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Utility styles",
+      "v10": "helper-text-02",
+      "v11": "helper-text-02",
+      "status": "no-change"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Utility styles",
+      "v10": null,
+      "v11": "legal-01",
+      "status": "new"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Utility styles",
+      "v10": null,
+      "v11": "legal-02",
+      "status": "new"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Utility styles",
+      "v10": "caption-01",
+      "v11": null,
+      "status": "removed"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Utility styles",
+      "v10": "caption-02",
+      "v11": null,
+      "status": "removed"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Body styles",
+      "v10": "body-short-01",
+      "v11": "body-compact-01",
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Body styles",
+      "v10": "body-short-02",
+      "v11": "body-compact-02",
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Body styles",
+      "v10": "body-long-01",
+      "v11": "body-01",
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Body styles",
+      "v10": "body-long-02",
+      "v11": "body-02",
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Fixed heading styles",
+      "v10": "productive-heading-01",
+      "v11": "heading-compact-01",
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Fixed heading styles",
+      "v10": "productive-heading-02",
+      "v11": "heading-compact-02",
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Fixed heading styles",
+      "v10": "expressive-heading-01",
+      "v11": "heading-01",
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Fixed heading styles",
+      "v10": "expressive-heading-02",
+      "v11": "heading-02",
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Fixed heading styles",
+      "v10": "productive-heading-03",
+      "v11": "heading-03",
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Fixed heading styles",
+      "v10": "productive-heading-04",
+      "v11": "heading-04",
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Fixed heading styles",
+      "v10": "productive-heading-05",
+      "v11": "heading-05",
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Fixed heading styles",
+      "v10": "productive-heading-06",
+      "v11": "heading-06",
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Fixed heading styles",
+      "v10": "productive-heading-07",
+      "v11": "heading-07",
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Fluid heading styles",
+      "v10": "expressive-heading-03",
+      "v11": "fluid-heading-03",
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Fluid heading styles",
+      "v10": "expressive-heading-04",
+      "v11": "fluid-heading-04",
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Fluid heading styles",
+      "v10": "expressive-heading-05",
+      "v11": "fluid-heading-05",
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Fluid heading styles",
+      "v10": "expressive-heading-06",
+      "v11": "fluid-heading-06",
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Fluid display styles",
+      "v10": "expressive-paragraph-01",
+      "v11": "fluid-paragraph-01",
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Fluid display styles",
+      "v10": "quotation-01",
+      "v11": "fluid-quotation-01",
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Fluid display styles",
+      "v10": "quotation-02",
+      "v11": "fluid-quotation-02",
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Fluid display styles",
+      "v10": "display-01",
+      "v11": "fluid-display-01",
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Fluid display styles",
+      "v10": "display-02",
+      "v11": "fluid-display-02",
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Fluid display styles",
+      "v10": "display-03",
+      "v11": "fluid-display-03",
+      "status": "updated"
+    },
+    {
+      "kind": "token",
+      "category": "type",
+      "group": "Fluid display styles",
+      "v10": "display-04",
+      "v11": "fluid-display-04",
+      "status": "updated"
+    }
+  ],
+  "components": [
+    {
+      "kind": "component",
+      "name": ":-------------------------",
+      "status": "updated",
+      "notes": ":-------------------------------------------------------------------------------------------------------------------------------------------------------",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "Accordion",
+      "status": "updated",
+      "notes": "The size prop has been updated and no longer includes xl",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "AccordionItem",
+      "status": "updated",
+      "notes": "View changes [here](#accordionitem)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "AccordionSkeleton",
+      "status": "updated",
+      "notes": "The deprecated prop uid is no longer needed and has been removed",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "ActionableNotification",
+      "status": "updated",
+      "notes": "View changes [here](#notifications)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "Button",
+      "status": "updated",
+      "notes": "View changes [here](#button)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "ButtonSkeleton",
+      "status": "updated",
+      "notes": "View changes [here](#buttonskeleton)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "Checkbox",
+      "status": "updated",
+      "notes": "View changes [here](#checkbox)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "ClickableTile",
+      "status": "updated",
+      "notes": "View changes [here](#clickabletile)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "Column",
+      "status": "updated",
+      "notes": "View changes [here](#grid)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "ComboBox",
+      "status": "updated",
+      "notes": "The className prop is now applied to the outermost element of ComboBox",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "ComposedModal",
+      "status": "updated",
+      "notes": "Updated from a class to functional component",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "ContentSwitcher",
+      "status": "updated",
+      "notes": "Updated from a class to functional component",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "ControlledPasswordInput",
+      "status": "updated",
+      "notes": "The size prop has been updated to match PasswordInput",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "DatePicker",
+      "status": "updated",
+      "notes": "View changes [here](#datepicker)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "DatePickerInput",
+      "status": "updated",
+      "notes": "View changes [here](#datepickerinput)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "Dropdown",
+      "status": "updated",
+      "notes": "View changes [here](#dropdown)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "DropdownSkeleton",
+      "status": "updated",
+      "notes": "The deprecated prop inline has been removed",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "ExpandableTile",
+      "status": "updated",
+      "notes": "View changes [here](#expandabletile)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "FileUploader",
+      "status": "updated",
+      "notes": "View changes [here](#fileuploader)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "FileUploaderButton",
+      "status": "updated",
+      "notes": "View changes [here](#fileuploaderbutton)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "FileUploaderItem",
+      "status": "updated",
+      "notes": "The size prop has been updated to: PropTypes.oneOf(['sm', 'md', 'lg']). Previous values such as default, field, or small are no longer supported",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "FilterableMultiSelect",
+      "status": "updated",
+      "notes": "View changes [here](#filterablemultiselect)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "FluidForm",
+      "status": "updated",
+      "notes": "Vertical margin for form items and fieldsets is no longer included by default, use   for vertical spacing",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "Form",
+      "status": "updated",
+      "notes": "Vertical margin for form items and fieldsets is no longer included by default, use   for vertical spacing",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "FormGroup",
+      "status": "updated",
+      "notes": "View changes [here](#formgroup)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "FormLabel",
+      "status": "updated",
+      "notes": "The FormLabel component no longer applies margin",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "Grid",
+      "status": "updated",
+      "notes": "View changes [here](#grid)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "HeaderMenu",
+      "status": "updated",
+      "notes": "Updated from a class to functional component",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "HeaderNavigation",
+      "status": "updated",
+      "notes": "Updated from a class to functional component",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "Icon",
+      "status": "removed",
+      "notes": "Removed",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "InlineLoading",
+      "status": "updated",
+      "notes": "The deprecated success prop has been deprecated. Please use status=\"finished\" instead",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "InlineNotification",
+      "status": "updated",
+      "notes": "View changes [here](#notifications)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "Modal",
+      "status": "updated",
+      "notes": "View changes [here](#modal)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "ModalFooter",
+      "status": "updated",
+      "notes": "Updated from a class to functional component",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "ModalHeader",
+      "status": "updated",
+      "notes": "Updated from a class to functional component",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "ModalWrapper",
+      "status": "removed",
+      "notes": "Removed",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "MultiSelect",
+      "status": "updated",
+      "notes": "The className prop is now applied to the outermost element of MultiSelect",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "NotificationActionButton",
+      "status": "updated",
+      "notes": "View changes [here](#notifications)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "NotificationButton",
+      "status": "updated",
+      "notes": "View changes [here](#notifications)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "NotificationTextDetails",
+      "status": "updated",
+      "notes": "View changes [here](#notifications)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "NumberInput",
+      "status": "updated",
+      "notes": "View changes [here](#numberinput)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "OverflowMenu",
+      "status": "updated",
+      "notes": "View changes [here](#overflowmenu)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "OverflowMenuItem",
+      "status": "updated",
+      "notes": "View changes [here](#overflowmenuitem)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "Pagination",
+      "status": "updated",
+      "notes": "Updated from a class to functional component",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "PasswordInput",
+      "status": "updated",
+      "notes": "The size prop has been updated to: PropTypes.oneOf(['sm', 'md', 'lg'])",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "ProgressIndicator",
+      "status": "updated",
+      "notes": "Updated from a class to functional component",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "RadioButton",
+      "status": "updated",
+      "notes": "Updated from a class to functional component",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "RadioButtonGroup",
+      "status": "updated",
+      "notes": "View changes [here](#radiobuttongroup)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "RadioTile",
+      "status": "updated",
+      "notes": "View changes [here](#radiotile)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "Row",
+      "status": "updated",
+      "notes": "View changes [here](#grid)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "Search",
+      "status": "updated",
+      "notes": "View changes [here](#search)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "SearchFilterButton",
+      "status": "removed",
+      "notes": "Removed",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "SearchLayoutButton",
+      "status": "removed",
+      "notes": "Removed",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "Select",
+      "status": "updated",
+      "notes": "View changes [here](#select)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "SelectableTile",
+      "status": "updated",
+      "notes": "View changes [here](#selectabletile)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "SideNavMenu",
+      "status": "updated",
+      "notes": "Updated from a class to functional component",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "Slider",
+      "status": "updated",
+      "notes": "View changes [here](#slider)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "StructuredListBody",
+      "status": "updated",
+      "notes": "Vertical margin for form items and fieldsets is no longer included by default, use   for vertical spacing",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "StructuredListInput",
+      "status": "updated",
+      "notes": "View changes [here](#structuredlistinput)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "StructuredListRow",
+      "status": "updated",
+      "notes": "The label prop is no longer needed and has been deprecated",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "StructuredListWrapper",
+      "status": "updated",
+      "notes": "The deprecated prop border has been removed",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "Table",
+      "status": "updated",
+      "notes": "View changes [here](#table)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "TableToolbar",
+      "status": "updated",
+      "notes": "The size prop has been updated to: PropTypes.oneOf(['sm', 'lg']). Previous values such as small or normal are no longer supported",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "TableToolbarSearch",
+      "status": "updated",
+      "notes": "View changes [here](#tabletoolbarsearch)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "Tabs",
+      "status": "updated",
+      "notes": "View changes [here](#tabs)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "Tab",
+      "status": "updated",
+      "notes": "View changes [here](#tabs)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "TabContent",
+      "status": "updated",
+      "notes": "View changes [here](#tabs)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "TabsSkeleton",
+      "status": "updated",
+      "notes": "View changes [here](#tabs)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "TextArea",
+      "status": "updated",
+      "notes": "The className prop is now applied to the outermost element of TextArea",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "TextInput",
+      "status": "updated",
+      "notes": "View changes [here](#textinput)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "Tile",
+      "status": "updated",
+      "notes": "View changes [here](#tile)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "TileAboveTheFoldContent",
+      "status": "updated",
+      "notes": "Updated from a class to functional component",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "TileBelowTheFoldContent",
+      "status": "updated",
+      "notes": "Updated from a class to functional component",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "TileGroup",
+      "status": "updated",
+      "notes": "Updated from a class to functional component",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "TimePicker",
+      "status": "updated",
+      "notes": "View changes [here](#timepicker)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "TimePickerSelect",
+      "status": "updated",
+      "notes": "View changes [here](#timepickerselect)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "ToastNotification",
+      "status": "updated",
+      "notes": "View changes [here](#notifications)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "Toggle",
+      "status": "updated",
+      "notes": "View changes [here](#toggle)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "ToggleSkeleton",
+      "status": "removed",
+      "notes": "Removed",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "ToggleSmall",
+      "status": "updated",
+      "notes": "This component has been removed. Please use   instead",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "ToggleSmallSkeleton",
+      "status": "removed",
+      "notes": "Removed",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "Toolbar",
+      "status": "removed",
+      "notes": "Removed",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "ToolbarDivider",
+      "status": "removed",
+      "notes": "Removed",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "ToolbarItem",
+      "status": "removed",
+      "notes": "Removed",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "ToolbarOption",
+      "status": "removed",
+      "notes": "Removed",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "ToolbarSearch",
+      "status": "removed",
+      "notes": "Removed",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "ToolbarTitle",
+      "status": "removed",
+      "notes": "Removed",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "Tooltip",
+      "status": "updated",
+      "notes": "View changes [here](#tooltips)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "TooltipDefinition",
+      "status": "updated",
+      "notes": "View changes [here](#tooltips)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    },
+    {
+      "kind": "component",
+      "name": "TooltipIcon",
+      "status": "updated",
+      "notes": "View changes [here](#tooltips)",
+      "package": {
+        "v10": "carbon-components-react",
+        "v11": "@carbon/react"
+      }
+    }
+  ],
+  "forbiddenV10Names": [
+    "active-danger",
+    "active-light-ui",
+    "active-primary",
+    "active-secondary",
+    "active-tertiary",
+    "active-ui",
+    "danger",
+    "danger-01",
+    "danger-02",
+    "decorative-01",
+    "disabled-01",
+    "disabled-02",
+    "disabled-03",
+    "hover-danger",
+    "hover-light-ui",
+    "hover-primary",
+    "hover-primary-text",
+    "hover-secondary",
+    "hover-selected-ui",
+    "hover-tertiary",
+    "hover-ui",
+    "icon-01",
+    "icon-02",
+    "icon-03",
+    "interactive-01",
+    "interactive-02",
+    "interactive-03",
+    "interactive-04",
+    "inverse-01",
+    "inverse-02",
+    "inverse-focus-ui",
+    "inverse-hover-ui",
+    "inverse-link",
+    "inverse-support-01",
+    "inverse-support-02",
+    "inverse-support-03",
+    "inverse-support-04",
+    "link-01",
+    "link-02",
+    "overlay-01",
+    "selected-light-ui",
+    "selected-ui",
+    "skeleton-01",
+    "skeleton-02",
+    "support-01",
+    "support-02",
+    "support-03",
+    "support-04",
+    "text-01",
+    "text-02",
+    "text-03",
+    "text-04",
+    "text-05",
+    "hover-row",
+    "ui-01",
+    "ui-02",
+    "ui-03",
+    "ui-04",
+    "ui-05",
+    "ui-background",
+    "visited-link",
+    "brand-01",
+    "brand-02",
+    "brand-03",
+    "caption-01",
+    "caption-02",
+    "body-short-01",
+    "body-short-02",
+    "body-long-01",
+    "body-long-02",
+    "productive-heading-01",
+    "productive-heading-02",
+    "expressive-heading-01",
+    "expressive-heading-02",
+    "productive-heading-03",
+    "productive-heading-04",
+    "productive-heading-05",
+    "productive-heading-06",
+    "productive-heading-07",
+    "expressive-heading-03",
+    "expressive-heading-04",
+    "expressive-heading-05",
+    "expressive-heading-06",
+    "expressive-paragraph-01",
+    "quotation-01",
+    "quotation-02",
+    "display-01",
+    "display-02",
+    "display-03",
+    "display-04"
+  ],
+  "renameMap": {
+    "active-danger": [
+      "button-danger-active"
+    ],
+    "active-light-ui": [
+      "layer-active-02"
+    ],
+    "active-primary": [
+      "button-primary-active"
+    ],
+    "active-secondary": [
+      "button-secondary-active"
+    ],
+    "active-tertiary": [
+      "button-tertiary-active"
+    ],
+    "active-ui": [
+      "layer-active-01",
+      "background-active",
+      "layer-accent-active-01",
+      "border-subtle-selected-01"
+    ],
+    "button-separator": [
+      "button-separator"
+    ],
+    "danger": [
+      "button-danger-primary"
+    ],
+    "danger-01": [
+      "button-danger-primary"
+    ],
+    "danger-02": [
+      "button-danger-secondary"
+    ],
+    "decorative-01": [
+      "border-subtle-02"
+    ],
+    "disabled-02": [
+      "text-disabled",
+      "icon-disabled",
+      "button-disabled",
+      "border-disabled"
+    ],
+    "disabled-03": [
+      "icon-on-color-disabled",
+      "layer-selected-disabled",
+      "text-on-color-disabled"
+    ],
+    "field-01": [
+      "field-01"
+    ],
+    "field-02": [
+      "field-02"
+    ],
+    "focus": [
+      "focus"
+    ],
+    "highlight": [
+      "highlight"
+    ],
+    "hover-danger": [
+      "button-danger-hover"
+    ],
+    "hover-light-ui": [
+      "layer-hover-02"
+    ],
+    "hover-primary": [
+      "button-primary-hover"
+    ],
+    "hover-primary-text": [
+      "link-primary-hover"
+    ],
+    "hover-secondary": [
+      "button-secondary-hover"
+    ],
+    "hover-selected-ui": [
+      "background-selected-hover",
+      "layer-accent-hover-01",
+      "layer-selected-hover-01"
+    ],
+    "hover-tertiary": [
+      "button-tertiary-hover"
+    ],
+    "hover-ui": [
+      "background-hover",
+      "layer-hover-01",
+      "field-hover-01",
+      "field-hover-02"
+    ],
+    "icon-01": [
+      "icon-primary"
+    ],
+    "icon-02": [
+      "icon-secondary"
+    ],
+    "icon-03": [
+      "icon-on-color"
+    ],
+    "interactive-01": [
+      "button-primary",
+      "background-brand"
+    ],
+    "interactive-02": [
+      "button-secondary"
+    ],
+    "interactive-03": [
+      "button-tertiary"
+    ],
+    "interactive-04": [
+      "border-interactive",
+      "interactive"
+    ],
+    "inverse-01": [
+      "icon-inverse",
+      "focus-inset",
+      "text-inverse"
+    ],
+    "inverse-02": [
+      "background-inverse"
+    ],
+    "inverse-focus-ui": [
+      "focus-inverse"
+    ],
+    "inverse-hover-ui": [
+      "background-inverse-hover"
+    ],
+    "inverse-link": [
+      "link-inverse"
+    ],
+    "inverse-support-01": [
+      "support-error-inverse"
+    ],
+    "inverse-support-02": [
+      "support-success-inverse"
+    ],
+    "inverse-support-03": [
+      "support-warning-inverse"
+    ],
+    "inverse-support-04": [
+      "support-info-inverse"
+    ],
+    "link-01": [
+      "link-primary"
+    ],
+    "link-02": [
+      "link-secondary"
+    ],
+    "overlay-01": [
+      "overlay"
+    ],
+    "selected-light-ui": [
+      "layer-selected-02"
+    ],
+    "selected-ui": [
+      "layer-selected-01",
+      "background-selected"
+    ],
+    "skeleton-01": [
+      "skeleton-background"
+    ],
+    "skeleton-02": [
+      "skeleton-element"
+    ],
+    "support-01": [
+      "support-error"
+    ],
+    "support-02": [
+      "support-success"
+    ],
+    "support-03": [
+      "support-warning"
+    ],
+    "support-04": [
+      "support-info"
+    ],
+    "text-01": [
+      "text-primary"
+    ],
+    "text-02": [
+      "text-secondary"
+    ],
+    "text-03": [
+      "text-placeholder"
+    ],
+    "text-04": [
+      "text-on-color"
+    ],
+    "text-05": [
+      "text-helper"
+    ],
+    "text-error": [
+      "text-error"
+    ],
+    "hover-row": [
+      "layer-hover-01"
+    ],
+    "ui-01": [
+      "layer-01"
+    ],
+    "ui-02": [
+      "layer-02"
+    ],
+    "ui-03": [
+      "layer-accent-01",
+      "border-subtle-01"
+    ],
+    "ui-04": [
+      "toggle-off",
+      "border-strong-01"
+    ],
+    "ui-05": [
+      "border-inverse",
+      "layer-selected-inverse"
+    ],
+    "ui-background": [
+      "background"
+    ],
+    "visited-link": [
+      "link-visited"
+    ],
+    "code-01": [
+      "code-01"
+    ],
+    "code-02": [
+      "code-02"
+    ],
+    "label-01": [
+      "label-01"
+    ],
+    "label-02": [
+      "label-02"
+    ],
+    "helper-text-01": [
+      "helper-text-01"
+    ],
+    "helper-text-02": [
+      "helper-text-02"
+    ],
+    "body-short-01": [
+      "body-compact-01"
+    ],
+    "body-short-02": [
+      "body-compact-02"
+    ],
+    "body-long-01": [
+      "body-01"
+    ],
+    "body-long-02": [
+      "body-02"
+    ],
+    "productive-heading-01": [
+      "heading-compact-01"
+    ],
+    "productive-heading-02": [
+      "heading-compact-02"
+    ],
+    "expressive-heading-01": [
+      "heading-01"
+    ],
+    "expressive-heading-02": [
+      "heading-02"
+    ],
+    "productive-heading-03": [
+      "heading-03"
+    ],
+    "productive-heading-04": [
+      "heading-04"
+    ],
+    "productive-heading-05": [
+      "heading-05"
+    ],
+    "productive-heading-06": [
+      "heading-06"
+    ],
+    "productive-heading-07": [
+      "heading-07"
+    ],
+    "expressive-heading-03": [
+      "fluid-heading-03"
+    ],
+    "expressive-heading-04": [
+      "fluid-heading-04"
+    ],
+    "expressive-heading-05": [
+      "fluid-heading-05"
+    ],
+    "expressive-heading-06": [
+      "fluid-heading-06"
+    ],
+    "expressive-paragraph-01": [
+      "fluid-paragraph-01"
+    ],
+    "quotation-01": [
+      "fluid-quotation-01"
+    ],
+    "quotation-02": [
+      "fluid-quotation-02"
+    ],
+    "display-01": [
+      "fluid-display-01"
+    ],
+    "display-02": [
+      "fluid-display-02"
+    ],
+    "display-03": [
+      "fluid-display-03"
+    ],
+    "display-04": [
+      "fluid-display-04"
+    ]
+  },
+  "removedComponents": [
+    "Icon",
+    "ModalWrapper",
+    "SearchFilterButton",
+    "SearchLayoutButton",
+    "ToggleSkeleton",
+    "ToggleSmallSkeleton",
+    "Toolbar",
+    "ToolbarDivider",
+    "ToolbarItem",
+    "ToolbarOption",
+    "ToolbarSearch",
+    "ToolbarTitle"
+  ],
+  "counts": {
+    "tokenRows": 145,
+    "componentRows": 91,
+    "forbiddenV10Names": 90,
+    "removedComponents": 12
+  }
+}

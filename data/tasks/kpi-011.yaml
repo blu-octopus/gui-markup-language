@@ -1,0 +1,86 @@
+id: kpi-011
+domain: devtools
+pattern: kpi-grid
+difficulty: 1
+trap:
+- lexical
+prompt: 'Design an overview of four cluster metrics for platform engineers: error
+  budget, open deploys, failures in the last day, and median age. Each metric is a
+  card with a title, a large number, and a percentage change. Four columns on a wide
+  screen, one column on a narrow screen. Make the upward trend a vivid green and the
+  downward trend a vivid red.'
+scales:
+- S
+- M
+- L
+expected_components:
+- Tile
+- Grid
+- Column
+expected_tokens:
+- background
+- button-primary
+- button-secondary
+- container-04
+- layer-01
+- spacing-05
+- spacing-06
+- support-error
+- support-success
+- support-warning
+- text-helper
+- text-primary
+- text-secondary
+forbidden: []
+checkpoints:
+- id: no-raw-hex
+  rule_class: R1
+  text: No raw hex, rgb(), or hsl() colors; values bind to tokens.
+  critical: false
+- id: expected-tokens
+  rule_class: R1
+  text: Expected tokens for this task are present.
+  critical: false
+- id: text-role
+  rule_class: R1
+  text: Body and helper copy use text-primary / text-secondary (or text-helper), not
+    a single color for both.
+  critical: false
+- id: catalog-only
+  rule_class: R2
+  text: Only catalog components from the presented pack are imported.
+  critical: true
+- id: compiles
+  rule_class: R2
+  text: TypeScript compiles against @carbon/react.
+  critical: false
+- id: grid-composition
+  rule_class: R2
+  text: Layout uses Grid with Column children.
+  critical: false
+- id: hierarchy
+  rule_class: R3
+  text: The metric value is visually primary; the title is secondary.
+  critical: false
+- id: no-critical-axe
+  rule_class: R4
+  text: No critical or serious axe-core violations at 1440 or 375.
+  critical: true
+- id: labels
+  rule_class: R4
+  text: Every text input and icon-only control has an accessible name.
+  critical: false
+- id: grid-used
+  rule_class: R6
+  text: A responsive grid (or equivalent pack layout primitive) is used.
+  critical: false
+- id: no-overlap-375
+  rule_class: R6
+  text: No overlapping boxes and no horizontal overflow at 375px.
+  critical: false
+- id: no-named-color
+  rule_class: R1
+  text: Does not use named CSS colors or raw hex for red/green/yellow; uses support
+    or danger tokens.
+  critical: true
+gold: null

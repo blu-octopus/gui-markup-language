@@ -1,0 +1,2230 @@
+{
+  "kind": "system",
+  "id": "carbon-v11-S",
+  "source": {
+    "tokens": {
+      "@carbon/themes": "11.84.0",
+      "@carbon/layout": "11.62.0",
+      "@carbon/type": "11.70.0"
+    },
+    "components": {
+      "@carbon/react": "1.119.0"
+    },
+    "lifecycle": {
+      "file": "carbon/sources/v11-migration.md",
+      "upstream": "https://github.com/carbon-design-system/carbon/blob/main/docs/migration/v11.md",
+      "note": "v10 packages reached end of support 2024-09-30"
+    }
+  },
+  "scale": "S",
+  "nodes": [
+    {
+      "id": "token:background",
+      "kind": "token",
+      "name": "background",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "background",
+      "css": "--cds-background",
+      "scss": "$background"
+    },
+    {
+      "id": "token:layer-01",
+      "kind": "token",
+      "name": "layer-01",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "layer",
+      "css": "--cds-layer-01",
+      "scss": "$layer-01"
+    },
+    {
+      "id": "token:layer-02",
+      "kind": "token",
+      "name": "layer-02",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "layer",
+      "css": "--cds-layer-02",
+      "scss": "$layer-02"
+    },
+    {
+      "id": "token:field-01",
+      "kind": "token",
+      "name": "field-01",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "field",
+      "css": "--cds-field-01",
+      "scss": "$field-01"
+    },
+    {
+      "id": "token:text-primary",
+      "kind": "token",
+      "name": "text-primary",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "text",
+      "css": "--cds-text-primary",
+      "scss": "$text-primary"
+    },
+    {
+      "id": "token:text-secondary",
+      "kind": "token",
+      "name": "text-secondary",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "text",
+      "css": "--cds-text-secondary",
+      "scss": "$text-secondary"
+    },
+    {
+      "id": "token:text-on-color",
+      "kind": "token",
+      "name": "text-on-color",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "text-on-color",
+      "css": "--cds-text-on-color",
+      "scss": "$text-on-color"
+    },
+    {
+      "id": "token:text-helper",
+      "kind": "token",
+      "name": "text-helper",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "text",
+      "css": "--cds-text-helper",
+      "scss": "$text-helper"
+    },
+    {
+      "id": "token:text-error",
+      "kind": "token",
+      "name": "text-error",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "text",
+      "css": "--cds-text-error",
+      "scss": "$text-error"
+    },
+    {
+      "id": "token:text-disabled",
+      "kind": "token",
+      "name": "text-disabled",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "text",
+      "css": "--cds-text-disabled",
+      "scss": "$text-disabled"
+    },
+    {
+      "id": "token:icon-primary",
+      "kind": "token",
+      "name": "icon-primary",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "icon",
+      "css": "--cds-icon-primary",
+      "scss": "$icon-primary"
+    },
+    {
+      "id": "token:icon-secondary",
+      "kind": "token",
+      "name": "icon-secondary",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "icon",
+      "css": "--cds-icon-secondary",
+      "scss": "$icon-secondary"
+    },
+    {
+      "id": "token:link-primary",
+      "kind": "token",
+      "name": "link-primary",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "link",
+      "css": "--cds-link-primary",
+      "scss": "$link-primary"
+    },
+    {
+      "id": "token:border-subtle-01",
+      "kind": "token",
+      "name": "border-subtle-01",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "border-subtle",
+      "css": "--cds-border-subtle-01",
+      "scss": "$border-subtle-01"
+    },
+    {
+      "id": "token:border-strong-01",
+      "kind": "token",
+      "name": "border-strong-01",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "border-strong",
+      "css": "--cds-border-strong-01",
+      "scss": "$border-strong-01"
+    },
+    {
+      "id": "token:focus",
+      "kind": "token",
+      "name": "focus",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "focus",
+      "css": "--cds-focus",
+      "scss": "$focus"
+    },
+    {
+      "id": "token:interactive",
+      "kind": "token",
+      "name": "interactive",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "interactive",
+      "css": "--cds-interactive",
+      "scss": "$interactive"
+    },
+    {
+      "id": "token:support-error",
+      "kind": "token",
+      "name": "support-error",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "support",
+      "css": "--cds-support-error",
+      "scss": "$support-error"
+    },
+    {
+      "id": "token:support-success",
+      "kind": "token",
+      "name": "support-success",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "support",
+      "css": "--cds-support-success",
+      "scss": "$support-success"
+    },
+    {
+      "id": "token:support-warning",
+      "kind": "token",
+      "name": "support-warning",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "support",
+      "css": "--cds-support-warning",
+      "scss": "$support-warning"
+    },
+    {
+      "id": "token:support-info",
+      "kind": "token",
+      "name": "support-info",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "support",
+      "css": "--cds-support-info",
+      "scss": "$support-info"
+    },
+    {
+      "id": "token:button-primary",
+      "kind": "token",
+      "name": "button-primary",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "button-primary",
+      "css": "--cds-button-primary",
+      "scss": "$button-primary"
+    },
+    {
+      "id": "token:button-secondary",
+      "kind": "token",
+      "name": "button-secondary",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "button-secondary",
+      "css": "--cds-button-secondary",
+      "scss": "$button-secondary"
+    },
+    {
+      "id": "token:button-danger-primary",
+      "kind": "token",
+      "name": "button-danger-primary",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "button-danger",
+      "css": "--cds-button-danger-primary",
+      "scss": "$button-danger-primary"
+    },
+    {
+      "id": "token:button-disabled",
+      "kind": "token",
+      "name": "button-disabled",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "button",
+      "css": "--cds-button-disabled",
+      "scss": "$button-disabled"
+    },
+    {
+      "id": "token:overlay",
+      "kind": "token",
+      "name": "overlay",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "overlay",
+      "css": "--cds-overlay",
+      "scss": "$overlay"
+    },
+    {
+      "id": "token:background-hover",
+      "kind": "token",
+      "name": "background-hover",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "background",
+      "css": "--cds-background-hover",
+      "scss": "$background-hover"
+    },
+    {
+      "id": "token:layer-hover-01",
+      "kind": "token",
+      "name": "layer-hover-01",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "layer",
+      "css": "--cds-layer-hover-01",
+      "scss": "$layer-hover-01"
+    },
+    {
+      "id": "token:highlight",
+      "kind": "token",
+      "name": "highlight",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "highlight",
+      "css": "--cds-highlight",
+      "scss": "$highlight"
+    },
+    {
+      "id": "token:spacing-03",
+      "kind": "token",
+      "name": "spacing-03",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "spacing",
+      "css": "--cds-spacing-03",
+      "scss": "$spacing-03"
+    },
+    {
+      "id": "token:spacing-04",
+      "kind": "token",
+      "name": "spacing-04",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "spacing",
+      "css": "--cds-spacing-04",
+      "scss": "$spacing-04"
+    },
+    {
+      "id": "token:spacing-05",
+      "kind": "token",
+      "name": "spacing-05",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "spacing",
+      "css": "--cds-spacing-05",
+      "scss": "$spacing-05"
+    },
+    {
+      "id": "token:spacing-06",
+      "kind": "token",
+      "name": "spacing-06",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "spacing",
+      "css": "--cds-spacing-06",
+      "scss": "$spacing-06"
+    },
+    {
+      "id": "token:spacing-07",
+      "kind": "token",
+      "name": "spacing-07",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "spacing",
+      "css": "--cds-spacing-07",
+      "scss": "$spacing-07"
+    },
+    {
+      "id": "token:spacing-08",
+      "kind": "token",
+      "name": "spacing-08",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "spacing",
+      "css": "--cds-spacing-08",
+      "scss": "$spacing-08"
+    },
+    {
+      "id": "token:spacing-09",
+      "kind": "token",
+      "name": "spacing-09",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "spacing",
+      "css": "--cds-spacing-09",
+      "scss": "$spacing-09"
+    },
+    {
+      "id": "token:container-01",
+      "kind": "token",
+      "name": "container-01",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "container",
+      "css": "--cds-container-01",
+      "scss": "$container-01"
+    },
+    {
+      "id": "token:container-02",
+      "kind": "token",
+      "name": "container-02",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "container",
+      "css": "--cds-container-02",
+      "scss": "$container-02"
+    },
+    {
+      "id": "token:container-04",
+      "kind": "token",
+      "name": "container-04",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "container",
+      "css": "--cds-container-04",
+      "scss": "$container-04"
+    },
+    {
+      "id": "token:container-05",
+      "kind": "token",
+      "name": "container-05",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "container",
+      "css": "--cds-container-05",
+      "scss": "$container-05"
+    },
+    {
+      "id": "token:breakpoint-sm",
+      "kind": "token",
+      "name": "breakpoint-sm",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "breakpoint",
+      "css": null,
+      "scss": "$sm"
+    },
+    {
+      "id": "token:breakpoint-md",
+      "kind": "token",
+      "name": "breakpoint-md",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "breakpoint",
+      "css": null,
+      "scss": "$md"
+    },
+    {
+      "id": "token:breakpoint-lg",
+      "kind": "token",
+      "name": "breakpoint-lg",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "breakpoint",
+      "css": null,
+      "scss": "$lg"
+    },
+    {
+      "id": "token:body-compact-01",
+      "kind": "token",
+      "name": "body-compact-01",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "type",
+      "css": "--cds-body-compact-01",
+      "scss": "$body-compact-01"
+    },
+    {
+      "id": "token:body-01",
+      "kind": "token",
+      "name": "body-01",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "type",
+      "css": "--cds-body-01",
+      "scss": "$body-01"
+    },
+    {
+      "id": "token:heading-compact-01",
+      "kind": "token",
+      "name": "heading-compact-01",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "type",
+      "css": "--cds-heading-compact-01",
+      "scss": "$heading-compact-01"
+    },
+    {
+      "id": "token:heading-01",
+      "kind": "token",
+      "name": "heading-01",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "type",
+      "css": "--cds-heading-01",
+      "scss": "$heading-01"
+    },
+    {
+      "id": "token:heading-03",
+      "kind": "token",
+      "name": "heading-03",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "type",
+      "css": "--cds-heading-03",
+      "scss": "$heading-03"
+    },
+    {
+      "id": "token:label-01",
+      "kind": "token",
+      "name": "label-01",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "type",
+      "css": "--cds-label-01",
+      "scss": "$label-01"
+    },
+    {
+      "id": "token:helper-text-01",
+      "kind": "token",
+      "name": "helper-text-01",
+      "ruleClass": "R1",
+      "status": "active",
+      "role": "type",
+      "css": "--cds-helper-text-01",
+      "scss": "$helper-text-01"
+    },
+    {
+      "id": "token:active-danger",
+      "kind": "token",
+      "name": "active-danger",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:active-light-ui",
+      "kind": "token",
+      "name": "active-light-ui",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:active-primary",
+      "kind": "token",
+      "name": "active-primary",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:active-secondary",
+      "kind": "token",
+      "name": "active-secondary",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:active-tertiary",
+      "kind": "token",
+      "name": "active-tertiary",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:active-ui",
+      "kind": "token",
+      "name": "active-ui",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:button-separator",
+      "kind": "token",
+      "name": "button-separator",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:danger",
+      "kind": "token",
+      "name": "danger",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:danger-01",
+      "kind": "token",
+      "name": "danger-01",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:danger-02",
+      "kind": "token",
+      "name": "danger-02",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:decorative-01",
+      "kind": "token",
+      "name": "decorative-01",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:disabled-02",
+      "kind": "token",
+      "name": "disabled-02",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:disabled-03",
+      "kind": "token",
+      "name": "disabled-03",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:field-02",
+      "kind": "token",
+      "name": "field-02",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:hover-danger",
+      "kind": "token",
+      "name": "hover-danger",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:hover-light-ui",
+      "kind": "token",
+      "name": "hover-light-ui",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:hover-primary",
+      "kind": "token",
+      "name": "hover-primary",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:hover-primary-text",
+      "kind": "token",
+      "name": "hover-primary-text",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:hover-secondary",
+      "kind": "token",
+      "name": "hover-secondary",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:hover-selected-ui",
+      "kind": "token",
+      "name": "hover-selected-ui",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:hover-tertiary",
+      "kind": "token",
+      "name": "hover-tertiary",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:hover-ui",
+      "kind": "token",
+      "name": "hover-ui",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:icon-01",
+      "kind": "token",
+      "name": "icon-01",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:icon-02",
+      "kind": "token",
+      "name": "icon-02",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:icon-03",
+      "kind": "token",
+      "name": "icon-03",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:interactive-01",
+      "kind": "token",
+      "name": "interactive-01",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:interactive-02",
+      "kind": "token",
+      "name": "interactive-02",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:interactive-03",
+      "kind": "token",
+      "name": "interactive-03",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:interactive-04",
+      "kind": "token",
+      "name": "interactive-04",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:inverse-01",
+      "kind": "token",
+      "name": "inverse-01",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:inverse-02",
+      "kind": "token",
+      "name": "inverse-02",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:inverse-focus-ui",
+      "kind": "token",
+      "name": "inverse-focus-ui",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:inverse-hover-ui",
+      "kind": "token",
+      "name": "inverse-hover-ui",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:inverse-link",
+      "kind": "token",
+      "name": "inverse-link",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:inverse-support-01",
+      "kind": "token",
+      "name": "inverse-support-01",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:inverse-support-02",
+      "kind": "token",
+      "name": "inverse-support-02",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:inverse-support-03",
+      "kind": "token",
+      "name": "inverse-support-03",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:inverse-support-04",
+      "kind": "token",
+      "name": "inverse-support-04",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:link-01",
+      "kind": "token",
+      "name": "link-01",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:link-02",
+      "kind": "token",
+      "name": "link-02",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:overlay-01",
+      "kind": "token",
+      "name": "overlay-01",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:selected-light-ui",
+      "kind": "token",
+      "name": "selected-light-ui",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:selected-ui",
+      "kind": "token",
+      "name": "selected-ui",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:skeleton-01",
+      "kind": "token",
+      "name": "skeleton-01",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:skeleton-02",
+      "kind": "token",
+      "name": "skeleton-02",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:support-01",
+      "kind": "token",
+      "name": "support-01",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:support-02",
+      "kind": "token",
+      "name": "support-02",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:support-03",
+      "kind": "token",
+      "name": "support-03",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:support-04",
+      "kind": "token",
+      "name": "support-04",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:text-01",
+      "kind": "token",
+      "name": "text-01",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:text-02",
+      "kind": "token",
+      "name": "text-02",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:text-03",
+      "kind": "token",
+      "name": "text-03",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:text-04",
+      "kind": "token",
+      "name": "text-04",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:text-05",
+      "kind": "token",
+      "name": "text-05",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:hover-row",
+      "kind": "token",
+      "name": "hover-row",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:ui-01",
+      "kind": "token",
+      "name": "ui-01",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:ui-02",
+      "kind": "token",
+      "name": "ui-02",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:ui-03",
+      "kind": "token",
+      "name": "ui-03",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:ui-04",
+      "kind": "token",
+      "name": "ui-04",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:ui-05",
+      "kind": "token",
+      "name": "ui-05",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:ui-background",
+      "kind": "token",
+      "name": "ui-background",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:visited-link",
+      "kind": "token",
+      "name": "visited-link",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:code-01",
+      "kind": "token",
+      "name": "code-01",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:code-02",
+      "kind": "token",
+      "name": "code-02",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:label-02",
+      "kind": "token",
+      "name": "label-02",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:helper-text-02",
+      "kind": "token",
+      "name": "helper-text-02",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:body-short-01",
+      "kind": "token",
+      "name": "body-short-01",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:body-short-02",
+      "kind": "token",
+      "name": "body-short-02",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:body-long-01",
+      "kind": "token",
+      "name": "body-long-01",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:body-long-02",
+      "kind": "token",
+      "name": "body-long-02",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:productive-heading-01",
+      "kind": "token",
+      "name": "productive-heading-01",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:productive-heading-02",
+      "kind": "token",
+      "name": "productive-heading-02",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:expressive-heading-01",
+      "kind": "token",
+      "name": "expressive-heading-01",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:expressive-heading-02",
+      "kind": "token",
+      "name": "expressive-heading-02",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:productive-heading-03",
+      "kind": "token",
+      "name": "productive-heading-03",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:productive-heading-04",
+      "kind": "token",
+      "name": "productive-heading-04",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:productive-heading-05",
+      "kind": "token",
+      "name": "productive-heading-05",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:productive-heading-06",
+      "kind": "token",
+      "name": "productive-heading-06",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:productive-heading-07",
+      "kind": "token",
+      "name": "productive-heading-07",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:expressive-heading-03",
+      "kind": "token",
+      "name": "expressive-heading-03",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:expressive-heading-04",
+      "kind": "token",
+      "name": "expressive-heading-04",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:expressive-heading-05",
+      "kind": "token",
+      "name": "expressive-heading-05",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:expressive-heading-06",
+      "kind": "token",
+      "name": "expressive-heading-06",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:expressive-paragraph-01",
+      "kind": "token",
+      "name": "expressive-paragraph-01",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:quotation-01",
+      "kind": "token",
+      "name": "quotation-01",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:quotation-02",
+      "kind": "token",
+      "name": "quotation-02",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:display-01",
+      "kind": "token",
+      "name": "display-01",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:display-02",
+      "kind": "token",
+      "name": "display-02",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:display-03",
+      "kind": "token",
+      "name": "display-03",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "token:display-04",
+      "kind": "token",
+      "name": "display-04",
+      "ruleClass": "R5",
+      "status": "renamed"
+    },
+    {
+      "id": "component:Button",
+      "kind": "component",
+      "name": "Button",
+      "ruleClass": "R2",
+      "status": "active",
+      "props": []
+    },
+    {
+      "id": "component:TextInput",
+      "kind": "component",
+      "name": "TextInput",
+      "ruleClass": "R2",
+      "status": "active",
+      "props": []
+    },
+    {
+      "id": "component:Form",
+      "kind": "component",
+      "name": "Form",
+      "ruleClass": "R2",
+      "status": "active",
+      "props": []
+    },
+    {
+      "id": "component:Tag",
+      "kind": "component",
+      "name": "Tag",
+      "ruleClass": "R2",
+      "status": "active",
+      "props": []
+    },
+    {
+      "id": "component:Grid",
+      "kind": "component",
+      "name": "Grid",
+      "ruleClass": "R2",
+      "status": "active",
+      "props": []
+    },
+    {
+      "id": "component:Column",
+      "kind": "component",
+      "name": "Column",
+      "ruleClass": "R2",
+      "status": "active",
+      "props": []
+    },
+    {
+      "id": "component:Modal",
+      "kind": "component",
+      "name": "Modal",
+      "ruleClass": "R2",
+      "status": "active",
+      "props": []
+    },
+    {
+      "id": "component:DataTable",
+      "kind": "component",
+      "name": "DataTable",
+      "ruleClass": "R2",
+      "status": "active",
+      "props": [
+        {
+          "name": "experimentalAutoAlign",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "filterRows",
+          "type": "(options: { cellsById: Record<string, DataTableCell<ColTypes>>; getCellId: (rowId: string, header: string) => string; headers: DataTableHeader[]; inputValue: string; rowIds: string[]; }) => string[]",
+          "required": false
+        },
+        {
+          "name": "headers",
+          "type": "DataTableHeader[]",
+          "required": true
+        },
+        {
+          "name": "isSortable",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "locale",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "overflowMenuOnHover",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "radio",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "render",
+          "type": "(renderProps: DataTableRenderProps<RowType, ColTypes>) => ReactElement",
+          "required": false
+        },
+        {
+          "name": "rows",
+          "type": "Omit<DataTableRow<ColTypes>, \"cells\">[]",
+          "required": true
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl"
+          ]
+        },
+        {
+          "name": "sortRow",
+          "type": "SortRowFn",
+          "required": false
+        },
+        {
+          "name": "stickyHeader",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "useStaticWidth",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "useZebraStyles",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "translateWithId",
+          "type": "(messageId: \"carbon.table.row.expand\" | \"carbon.table.row.collapse\" | \"carbon.table.all.expand\" | \"carbon.table.all.collapse\" | \"carbon.table.all.select\" | \"carbon.table.all.unselect\" | \"carbon.table.row.select\" | \"carbon.table.row.unselect\", args?: Record<...>) => string",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "component:InlineNotification",
+      "kind": "component",
+      "name": "InlineNotification",
+      "ruleClass": "R2",
+      "status": "active",
+      "props": [
+        {
+          "name": "aria-label",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "hideCloseButton",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "kind",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "error",
+            "info",
+            "info-square",
+            "success",
+            "warning",
+            "warning-alt"
+          ]
+        },
+        {
+          "name": "lowContrast",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "name": "onClose",
+          "type": "NotificationCloseHandler",
+          "required": false
+        },
+        {
+          "name": "onCloseButtonClick",
+          "type": "(event: MouseEvent) => void",
+          "required": false
+        },
+        {
+          "name": "role",
+          "type": "enum",
+          "required": false,
+          "values": [
+            "alert",
+            "log",
+            "status"
+          ]
+        },
+        {
+          "name": "statusIconDescription",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "subtitle",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "component:Header",
+      "kind": "component",
+      "name": "Header",
+      "ruleClass": "R2",
+      "status": "active",
+      "props": []
+    },
+    {
+      "id": "component:Icon",
+      "kind": "component",
+      "name": "Icon",
+      "ruleClass": "R5",
+      "status": "removed"
+    },
+    {
+      "id": "component:ModalWrapper",
+      "kind": "component",
+      "name": "ModalWrapper",
+      "ruleClass": "R5",
+      "status": "removed"
+    },
+    {
+      "id": "component:SearchFilterButton",
+      "kind": "component",
+      "name": "SearchFilterButton",
+      "ruleClass": "R5",
+      "status": "removed"
+    },
+    {
+      "id": "component:SearchLayoutButton",
+      "kind": "component",
+      "name": "SearchLayoutButton",
+      "ruleClass": "R5",
+      "status": "removed"
+    },
+    {
+      "id": "component:ToggleSkeleton",
+      "kind": "component",
+      "name": "ToggleSkeleton",
+      "ruleClass": "R5",
+      "status": "removed"
+    },
+    {
+      "id": "component:ToggleSmallSkeleton",
+      "kind": "component",
+      "name": "ToggleSmallSkeleton",
+      "ruleClass": "R5",
+      "status": "removed"
+    },
+    {
+      "id": "component:Toolbar",
+      "kind": "component",
+      "name": "Toolbar",
+      "ruleClass": "R5",
+      "status": "removed"
+    },
+    {
+      "id": "component:ToolbarDivider",
+      "kind": "component",
+      "name": "ToolbarDivider",
+      "ruleClass": "R5",
+      "status": "removed"
+    },
+    {
+      "id": "component:ToolbarItem",
+      "kind": "component",
+      "name": "ToolbarItem",
+      "ruleClass": "R5",
+      "status": "removed"
+    },
+    {
+      "id": "component:ToolbarOption",
+      "kind": "component",
+      "name": "ToolbarOption",
+      "ruleClass": "R5",
+      "status": "removed"
+    },
+    {
+      "id": "component:ToolbarSearch",
+      "kind": "component",
+      "name": "ToolbarSearch",
+      "ruleClass": "R5",
+      "status": "removed"
+    },
+    {
+      "id": "component:ToolbarTitle",
+      "kind": "component",
+      "name": "ToolbarTitle",
+      "ruleClass": "R5",
+      "status": "removed"
+    },
+    {
+      "id": "rule:danger-kind-irreversible",
+      "kind": "rule",
+      "name": "danger-kind-irreversible",
+      "ruleClass": "R3",
+      "status": "active",
+      "text": "Button kind='danger' (and Modal danger) is only for irreversible destructive actions."
+    },
+    {
+      "id": "rule:one-primary-action",
+      "kind": "rule",
+      "name": "one-primary-action",
+      "ruleClass": "R3",
+      "status": "active",
+      "text": "A view exposes at most one primary Button."
+    },
+    {
+      "id": "rule:status-as-tag",
+      "kind": "rule",
+      "name": "status-as-tag",
+      "ruleClass": "R3",
+      "status": "active",
+      "text": "Status is rendered with Tag, not Button or unstyled text."
+    },
+    {
+      "id": "rule:nonblocking-notification",
+      "kind": "rule",
+      "name": "nonblocking-notification",
+      "ruleClass": "R3",
+      "status": "active",
+      "text": "Non-blocking feedback uses InlineNotification or ToastNotification, not Modal."
+    },
+    {
+      "id": "rule:icon-only-labelled",
+      "kind": "rule",
+      "name": "icon-only-labelled",
+      "ruleClass": "R4",
+      "status": "active",
+      "text": "Icon-only buttons set iconDescription or aria-label."
+    }
+  ],
+  "edges": [
+    {
+      "from": "token:active-danger",
+      "to": "token:button-danger-active",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:active-light-ui",
+      "to": "token:layer-active-02",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:active-primary",
+      "to": "token:button-primary-active",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:active-secondary",
+      "to": "token:button-secondary-active",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:active-tertiary",
+      "to": "token:button-tertiary-active",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:active-ui",
+      "to": "token:layer-active-01",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:active-ui",
+      "to": "token:background-active",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:active-ui",
+      "to": "token:layer-accent-active-01",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:active-ui",
+      "to": "token:border-subtle-selected-01",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:button-separator",
+      "to": "token:button-separator",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:danger",
+      "to": "token:button-danger-primary",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:danger-01",
+      "to": "token:button-danger-primary",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:danger-02",
+      "to": "token:button-danger-secondary",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:decorative-01",
+      "to": "token:border-subtle-02",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:disabled-02",
+      "to": "token:text-disabled",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:disabled-02",
+      "to": "token:icon-disabled",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:disabled-02",
+      "to": "token:button-disabled",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:disabled-02",
+      "to": "token:border-disabled",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:disabled-03",
+      "to": "token:icon-on-color-disabled",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:disabled-03",
+      "to": "token:layer-selected-disabled",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:disabled-03",
+      "to": "token:text-on-color-disabled",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:field-01",
+      "to": "token:field-01",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:field-02",
+      "to": "token:field-02",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:focus",
+      "to": "token:focus",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:highlight",
+      "to": "token:highlight",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:hover-danger",
+      "to": "token:button-danger-hover",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:hover-light-ui",
+      "to": "token:layer-hover-02",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:hover-primary",
+      "to": "token:button-primary-hover",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:hover-primary-text",
+      "to": "token:link-primary-hover",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:hover-secondary",
+      "to": "token:button-secondary-hover",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:hover-selected-ui",
+      "to": "token:background-selected-hover",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:hover-selected-ui",
+      "to": "token:layer-accent-hover-01",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:hover-selected-ui",
+      "to": "token:layer-selected-hover-01",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:hover-tertiary",
+      "to": "token:button-tertiary-hover",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:hover-ui",
+      "to": "token:background-hover",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:hover-ui",
+      "to": "token:layer-hover-01",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:hover-ui",
+      "to": "token:field-hover-01",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:hover-ui",
+      "to": "token:field-hover-02",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:icon-01",
+      "to": "token:icon-primary",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:icon-02",
+      "to": "token:icon-secondary",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:icon-03",
+      "to": "token:icon-on-color",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:interactive-01",
+      "to": "token:button-primary",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:interactive-01",
+      "to": "token:background-brand",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:interactive-02",
+      "to": "token:button-secondary",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:interactive-03",
+      "to": "token:button-tertiary",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:interactive-04",
+      "to": "token:border-interactive",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:interactive-04",
+      "to": "token:interactive",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:inverse-01",
+      "to": "token:icon-inverse",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:inverse-01",
+      "to": "token:focus-inset",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:inverse-01",
+      "to": "token:text-inverse",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:inverse-02",
+      "to": "token:background-inverse",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:inverse-focus-ui",
+      "to": "token:focus-inverse",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:inverse-hover-ui",
+      "to": "token:background-inverse-hover",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:inverse-link",
+      "to": "token:link-inverse",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:inverse-support-01",
+      "to": "token:support-error-inverse",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:inverse-support-02",
+      "to": "token:support-success-inverse",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:inverse-support-03",
+      "to": "token:support-warning-inverse",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:inverse-support-04",
+      "to": "token:support-info-inverse",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:link-01",
+      "to": "token:link-primary",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:link-02",
+      "to": "token:link-secondary",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:overlay-01",
+      "to": "token:overlay",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:selected-light-ui",
+      "to": "token:layer-selected-02",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:selected-ui",
+      "to": "token:layer-selected-01",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:selected-ui",
+      "to": "token:background-selected",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:skeleton-01",
+      "to": "token:skeleton-background",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:skeleton-02",
+      "to": "token:skeleton-element",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:support-01",
+      "to": "token:support-error",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:support-02",
+      "to": "token:support-success",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:support-03",
+      "to": "token:support-warning",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:support-04",
+      "to": "token:support-info",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:text-01",
+      "to": "token:text-primary",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:text-02",
+      "to": "token:text-secondary",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:text-03",
+      "to": "token:text-placeholder",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:text-04",
+      "to": "token:text-on-color",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:text-05",
+      "to": "token:text-helper",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:text-error",
+      "to": "token:text-error",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:hover-row",
+      "to": "token:layer-hover-01",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:ui-01",
+      "to": "token:layer-01",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:ui-02",
+      "to": "token:layer-02",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:ui-03",
+      "to": "token:layer-accent-01",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:ui-03",
+      "to": "token:border-subtle-01",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:ui-04",
+      "to": "token:toggle-off",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:ui-04",
+      "to": "token:border-strong-01",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:ui-05",
+      "to": "token:border-inverse",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:ui-05",
+      "to": "token:layer-selected-inverse",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:ui-background",
+      "to": "token:background",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:visited-link",
+      "to": "token:link-visited",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:code-01",
+      "to": "token:code-01",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:code-02",
+      "to": "token:code-02",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:label-01",
+      "to": "token:label-01",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:label-02",
+      "to": "token:label-02",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:helper-text-01",
+      "to": "token:helper-text-01",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:helper-text-02",
+      "to": "token:helper-text-02",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:body-short-01",
+      "to": "token:body-compact-01",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:body-short-02",
+      "to": "token:body-compact-02",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:body-long-01",
+      "to": "token:body-01",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:body-long-02",
+      "to": "token:body-02",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:productive-heading-01",
+      "to": "token:heading-compact-01",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:productive-heading-02",
+      "to": "token:heading-compact-02",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:expressive-heading-01",
+      "to": "token:heading-01",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:expressive-heading-02",
+      "to": "token:heading-02",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:productive-heading-03",
+      "to": "token:heading-03",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:productive-heading-04",
+      "to": "token:heading-04",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:productive-heading-05",
+      "to": "token:heading-05",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:productive-heading-06",
+      "to": "token:heading-06",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:productive-heading-07",
+      "to": "token:heading-07",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:expressive-heading-03",
+      "to": "token:fluid-heading-03",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:expressive-heading-04",
+      "to": "token:fluid-heading-04",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:expressive-heading-05",
+      "to": "token:fluid-heading-05",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:expressive-heading-06",
+      "to": "token:fluid-heading-06",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:expressive-paragraph-01",
+      "to": "token:fluid-paragraph-01",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:quotation-01",
+      "to": "token:fluid-quotation-01",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:quotation-02",
+      "to": "token:fluid-quotation-02",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:display-01",
+      "to": "token:fluid-display-01",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:display-02",
+      "to": "token:fluid-display-02",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:display-03",
+      "to": "token:fluid-display-03",
+      "kind": "replaces"
+    },
+    {
+      "from": "token:display-04",
+      "to": "token:fluid-display-04",
+      "kind": "replaces"
+    },
+    {
+      "from": "component:Grid",
+      "to": "component:Column",
+      "kind": "dependsOn"
+    },
+    {
+      "from": "component:Modal",
+      "to": "component:ModalHeader",
+      "kind": "dependsOn"
+    },
+    {
+      "from": "component:Modal",
+      "to": "component:ModalBody",
+      "kind": "dependsOn"
+    },
+    {
+      "from": "component:Modal",
+      "to": "component:ModalFooter",
+      "kind": "dependsOn"
+    },
+    {
+      "from": "component:DataTable",
+      "to": "component:Table",
+      "kind": "dependsOn"
+    },
+    {
+      "from": "component:Header",
+      "to": "component:HeaderName",
+      "kind": "dependsOn"
+    },
+    {
+      "from": "rule:danger-kind-irreversible",
+      "to": "component:Button",
+      "kind": "constrains"
+    },
+    {
+      "from": "rule:danger-kind-irreversible",
+      "to": "component:Tag",
+      "kind": "constrains"
+    },
+    {
+      "from": "rule:danger-kind-irreversible",
+      "to": "component:Modal",
+      "kind": "constrains"
+    },
+    {
+      "from": "rule:danger-kind-irreversible",
+      "to": "component:InlineNotification",
+      "kind": "constrains"
+    },
+    {
+      "from": "rule:one-primary-action",
+      "to": "component:Button",
+      "kind": "constrains"
+    },
+    {
+      "from": "rule:one-primary-action",
+      "to": "component:Tag",
+      "kind": "constrains"
+    },
+    {
+      "from": "rule:one-primary-action",
+      "to": "component:Modal",
+      "kind": "constrains"
+    },
+    {
+      "from": "rule:one-primary-action",
+      "to": "component:InlineNotification",
+      "kind": "constrains"
+    },
+    {
+      "from": "rule:status-as-tag",
+      "to": "component:Button",
+      "kind": "constrains"
+    },
+    {
+      "from": "rule:status-as-tag",
+      "to": "component:Tag",
+      "kind": "constrains"
+    },
+    {
+      "from": "rule:status-as-tag",
+      "to": "component:Modal",
+      "kind": "constrains"
+    },
+    {
+      "from": "rule:status-as-tag",
+      "to": "component:InlineNotification",
+      "kind": "constrains"
+    },
+    {
+      "from": "rule:nonblocking-notification",
+      "to": "component:Button",
+      "kind": "constrains"
+    },
+    {
+      "from": "rule:nonblocking-notification",
+      "to": "component:Tag",
+      "kind": "constrains"
+    },
+    {
+      "from": "rule:nonblocking-notification",
+      "to": "component:Modal",
+      "kind": "constrains"
+    },
+    {
+      "from": "rule:nonblocking-notification",
+      "to": "component:InlineNotification",
+      "kind": "constrains"
+    },
+    {
+      "from": "rule:icon-only-labelled",
+      "to": "component:Button",
+      "kind": "constrains"
+    },
+    {
+      "from": "rule:icon-only-labelled",
+      "to": "component:Tag",
+      "kind": "constrains"
+    },
+    {
+      "from": "rule:icon-only-labelled",
+      "to": "component:Modal",
+      "kind": "constrains"
+    },
+    {
+      "from": "rule:icon-only-labelled",
+      "to": "component:InlineNotification",
+      "kind": "constrains"
+    }
+  ]
+}

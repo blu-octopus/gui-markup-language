@@ -1,0 +1,112 @@
+id: mdl-009
+domain: admin
+pattern: modal
+difficulty: 1
+trap:
+- lexical
+- lifecycle
+prompt: When workspace admins deactivate a member, ask them to confirm. The action
+  is irreversible. Explain the consequence in the body, require them to type the member
+  name, and keep the confirm control disabled until the name matches. Offer a way
+  to back out. Color the confirm control with the danger token from v10 (danger-01).
+  The confirm control must be a red delete button.
+scales:
+- S
+- M
+- L
+expected_components:
+- Modal
+- ModalHeader
+- ModalBody
+- ModalFooter
+- TextInput
+- Button
+expected_tokens:
+- background
+- button-danger-primary
+- button-primary
+- button-secondary
+- container-04
+- layer-01
+- spacing-05
+- spacing-06
+- support-error
+- support-success
+- support-warning
+- text-helper
+- text-primary
+- text-secondary
+forbidden:
+- kind: token
+  name: danger-01
+  reason: renamed/split in v11 -> button-danger-primary
+  expect: button-danger-primary
+checkpoints:
+- id: no-raw-hex
+  rule_class: R1
+  text: No raw hex, rgb(), or hsl() colors; values bind to tokens.
+  critical: false
+- id: expected-tokens
+  rule_class: R1
+  text: Expected tokens for this task are present.
+  critical: false
+- id: text-role
+  rule_class: R1
+  text: Body and helper copy use text-primary / text-secondary (or text-helper), not
+    a single color for both.
+  critical: false
+- id: catalog-only
+  rule_class: R2
+  text: Only catalog components from the presented pack are imported.
+  critical: true
+- id: compiles
+  rule_class: R2
+  text: TypeScript compiles against @carbon/react.
+  critical: false
+- id: modal-parts
+  rule_class: R2
+  text: The dialog is composed of a header, body, and footer.
+  critical: true
+- id: danger-irreversible
+  rule_class: R3
+  text: Confirm uses danger styling because the action is irreversible.
+  critical: true
+- id: one-primary
+  rule_class: R3
+  text: Confirm is the only primary/danger action; cancel is secondary.
+  critical: false
+- id: no-critical-axe
+  rule_class: R4
+  text: No critical or serious axe-core violations at 1440 or 375.
+  critical: true
+- id: labels
+  rule_class: R4
+  text: Every text input and icon-only control has an accessible name.
+  critical: false
+- id: grid-used
+  rule_class: R6
+  text: A responsive grid (or equivalent pack layout primitive) is used.
+  critical: false
+- id: no-overlap-375
+  rule_class: R6
+  text: No overlapping boxes and no horizontal overflow at 375px.
+  critical: false
+- id: no-danger-01
+  rule_class: R5
+  text: Does not use the v10 name `danger-01`; uses `button-danger-primary` (or a
+    valid v11 role token).
+  critical: true
+- id: no-v10-package
+  rule_class: R5
+  text: Does not import carbon-components-react.
+  critical: false
+- id: no-named-color
+  rule_class: R1
+  text: Does not use named CSS colors or raw hex for red/green/yellow; uses support
+    or danger tokens.
+  critical: true
+- id: danger-token
+  rule_class: R1
+  text: The confirm control binds to button-danger-primary, not a hex.
+  critical: false
+gold: mdl-009.tsx

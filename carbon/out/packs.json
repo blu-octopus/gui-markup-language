@@ -1,0 +1,18 @@
+{
+  "invariant": "L ⊇ M ⊇ S",
+  "packs": {
+    "S": {
+      "tokens": 50,
+      "components": 10
+    },
+    "M": {
+      "tokens": 275,
+      "components": 76
+    },
+    "L": {
+      "tokens": 414,
+      "components": 220
+    }
+  },
+  "extractedAt": "2026-10-28T08:01:57.827Z"
+}

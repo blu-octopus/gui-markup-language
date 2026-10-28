@@ -1,0 +1,96 @@
+{
+  "description": "Required composition and usage constraints that react-docgen cannot extract. Used by R2 graders and the GUIML linter.",
+  "requiredChildren": {
+    "Modal": ["ModalHeader", "ModalBody", "ModalFooter"],
+    "ComposedModal": ["ModalHeader", "ModalBody", "ModalFooter"],
+    "Form": [],
+    "DataTable": ["Table"],
+    "Table": ["TableHead", "TableBody"],
+    "TableHead": ["TableRow"],
+    "TableBody": ["TableRow"],
+    "TableRow": ["TableCell|TableHeader|TableSelectRow|TableSelectAll"],
+    "Grid": ["Column"],
+    "ProgressIndicator": ["ProgressStep"],
+    "Breadcrumb": ["BreadcrumbItem"],
+    "Accordion": ["AccordionItem"],
+    "Tabs": ["TabList"],
+    "TabList": ["Tab"],
+    "RadioButtonGroup": ["RadioButton"],
+    "ButtonSet": ["Button"],
+    "Header": ["HeaderName"],
+    "SideNav": ["SideNavItems"],
+    "SideNavItems": ["SideNavLink|SideNavMenu"]
+  },
+  "knownProps": {
+    "Button": {
+      "kind": ["primary", "secondary", "tertiary", "ghost", "danger", "danger--tertiary", "danger--ghost"],
+      "size": ["sm", "md", "lg", "xl", "2xl"],
+      "disabled": "boolean",
+      "type": ["button", "submit", "reset"],
+      "hasIconOnly": "boolean",
+      "iconDescription": "string",
+      "renderIcon": "component"
+    },
+    "Tag": {
+      "type": ["red", "magenta", "purple", "blue", "cyan", "teal", "green", "gray", "cool-gray", "warm-gray", "high-contrast", "outline"],
+      "size": ["sm", "md"],
+      "filter": "boolean"
+    },
+    "TextInput": {
+      "id": "string",
+      "labelText": "string",
+      "helperText": "string",
+      "invalid": "boolean",
+      "invalidText": "string",
+      "warn": "boolean",
+      "warnText": "string",
+      "disabled": "boolean",
+      "type": "string"
+    },
+    "InlineNotification": {
+      "kind": ["error", "info", "info-square", "success", "warning", "warning-alt"],
+      "title": "string",
+      "subtitle": "string",
+      "hideCloseButton": "boolean",
+      "lowContrast": "boolean"
+    },
+    "Modal": {
+      "open": "boolean",
+      "danger": "boolean",
+      "modalHeading": "string",
+      "primaryButtonText": "string",
+      "secondaryButtonText": "string",
+      "onRequestClose": "fn",
+      "onRequestSubmit": "fn",
+      "primaryButtonDisabled": "boolean",
+      "size": ["xs", "sm", "md", "lg"]
+    }
+  },
+  "semanticRules": [
+    {
+      "id": "danger-kind-irreversible",
+      "ruleClass": "R3",
+      "text": "Button kind='danger' (and Modal danger) is only for irreversible destructive actions."
+    },
+    {
+      "id": "one-primary-action",
+      "ruleClass": "R3",
+      "text": "A view exposes at most one primary Button."
+    },
+    {
+      "id": "status-as-tag",
+      "ruleClass": "R3",
+      "text": "Status is rendered with Tag, not Button or unstyled text."
+    },
+    {
+      "id": "nonblocking-notification",
+      "ruleClass": "R3",
+      "text": "Non-blocking feedback uses InlineNotification or ToastNotification, not Modal."
+    },
+    {
+      "id": "icon-only-labelled",
+      "ruleClass": "R4",
+      "text": "Icon-only buttons set iconDescription or aria-label."
+    }
+  ]
+}
