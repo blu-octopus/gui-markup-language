@@ -1,0 +1,169 @@
+{
+  "note": "Mock-provider dress rehearsal. Not a scientific finding. Paid matrix is in RUN.md.",
+  "profile": "demo",
+  "provider": "mock",
+  "cells": 224,
+  "tasks": 8,
+  "conditions": [
+    "B0",
+    "B1",
+    "B2",
+    "B3",
+    "T",
+    "T-lint",
+    "T-life"
+  ],
+  "scales": [
+    "S",
+    "L"
+  ],
+  "reps": 2,
+  "governance_score": {
+    "B0": 0.5,
+    "B1": 0.45,
+    "B2": 0.7,
+    "B3": 0.8,
+    "T": 0.8,
+    "T-lint": 0.8,
+    "T-life": 0.8
+  },
+  "pass_rate": {
+    "B0": {
+      "R1": 0.0,
+      "R2": 0.0,
+      "R3": 1.0,
+      "R4": 1.0,
+      "R5": 1.0,
+      "R6": 0.0
+    },
+    "B1": {
+      "R1": 0.0,
+      "R2": 1.0,
+      "R3": 0.0,
+      "R4": 1.0,
+      "R5": 1.0,
+      "R6": 0.0
+    },
+    "B2": {
+      "R1": 0.0,
+      "R2": 1.0,
+      "R3": 1.0,
+      "R4": 1.0,
+      "R5": 0.0,
+      "R6": 1.0
+    },
+    "B3": {
+      "R1": 0.0,
+      "R2": 1.0,
+      "R3": 1.0,
+      "R4": 1.0,
+      "R5": 1.0,
+      "R6": 1.0
+    },
+    "T": {
+      "R1": 0.0,
+      "R2": 1.0,
+      "R3": 1.0,
+      "R4": 1.0,
+      "R5": 1.0,
+      "R6": 1.0
+    },
+    "T-lint": {
+      "R1": 0.0,
+      "R2": 1.0,
+      "R3": 1.0,
+      "R4": 1.0,
+      "R5": 1.0,
+      "R6": 1.0
+    },
+    "T-life": {
+      "R1": 0.0,
+      "R2": 1.0,
+      "R3": 1.0,
+      "R4": 1.0,
+      "R5": 1.0,
+      "R6": 1.0
+    }
+  },
+  "mean_prompt_tokens": {
+    "B0": 111.0,
+    "B1": 7455.2,
+    "B2": 7317.0,
+    "B3": 269.9,
+    "T": 2909.1,
+    "T-lint": 2910.2,
+    "T-life": 1201.4
+  },
+  "carbon": {
+    "packs": {
+      "S": {
+        "tokens": 50,
+        "components": 10
+      },
+      "M": {
+        "tokens": 275,
+        "components": 76
+      },
+      "L": {
+        "tokens": 414,
+        "components": 220
+      }
+    },
+    "lifecycle": {
+      "tokenRows": 145,
+      "componentRows": 91,
+      "forbiddenV10Names": 90,
+      "removedComponents": 12
+    },
+    "graphs": {
+      "S": {
+        "nodes": 167,
+        "edges": 143,
+        "nodes_by_kind": {
+          "token": 140,
+          "component": 22,
+          "rule": 5
+        },
+        "edges_by_kind": {
+          "replaces": 117,
+          "dependsOn": 6,
+          "constrains": 20
+        }
+      },
+      "M": {
+        "nodes": 428,
+        "edges": 169,
+        "nodes_by_kind": {
+          "token": 335,
+          "component": 88,
+          "rule": 5
+        },
+        "edges_by_kind": {
+          "replaces": 117,
+          "dependsOn": 27,
+          "constrains": 25
+        }
+      },
+      "L": {
+        "nodes": 710,
+        "edges": 169,
+        "nodes_by_kind": {
+          "token": 474,
+          "component": 231,
+          "rule": 5
+        },
+        "edges_by_kind": {
+          "replaces": 117,
+          "dependsOn": 27,
+          "constrains": 25
+        }
+      }
+    },
+    "tasks": 80,
+    "gold": 15,
+    "source": {
+      "themes": "@carbon/themes 11.84",
+      "react": "@carbon/react 1.119"
+    }
+  }
+}
